@@ -1,0 +1,11 @@
+{
+  "id": "10",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-M",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 10 \n \n \n \n \n \n \n \nMCQ (2M) \n \n \n \n \n \n \n \nQuestion ID : 823251567 \n \nConsider the following ANSI  C program.\n \n \n \n#include <stdio.h>\n \n \n \nint main()\n \n \n \n{\n \n \n \n \nint i , j,count;\n\nGATE 2021\n [Forenoon Session]\nComputer Science Engineering\nPAGE\n11\n\ncount=0;\n \n \n \n \ni=0;\n \n \n \n \nfor(j=-3;j<=3;j++) \n \n \n \n{ \n \n \n \n \n \nif(j >= 0)&&(i++))\n \n \n \n \n \ncount=count+j;\n \n \n \n \n}\n \n \n \n \ncount=count+i;\n \n \n \n \nprintf(\"%d\",count);\n \n \n \n \nreturn 0;\n \n \n \n} \n \nWhich one of the following options is correct?\n \n \n(A) The program will compile successfully and output 8 when executed. \n \n(B) The program will not compile successfully.\n \n \n(C) The program will compile successfully and output 10 when executed. \n \n(D) The program will compile successfully and output 13 when executed. \nAns.  C \nSol. \nFor \n3 to \n1\nj\nj\n= \u2212\n= \u2212\nIf \n((\n00) & &(\n))\nj\ni\n>\n+ +\n will result in false\nHence neither \nI\n nor count null change, count = 0, \n0\ni\n =\nFor \n0\nj\n\u2212=\n \n(\n0)\nj\n >=\n result in TRUE hence \ni\n + +\n  will execute\n1\nj\n =\n  \n(\n0) & &(\n)\nj\ni\n>=\n+ + =\n TRUE\nHence, count\n0 1 1\n=\n+ =\n  and \ni\n + +\n2\nj\n =\n \n(\n0) & &(\n)\nj\ni\n>=\n+ + =\n TRUE\nHence count\n1 2\n3\n= +\n=\n and \ni\n + +\n3\nj\n =\n \n(\n0) & &(\n)\nj\ni\n\u2265=\n+ + =\n TRUE\nHence, count\n3 3\n6\n= + =\n and \ni\n + +\nAfter exiting loop\nCount \n=\n count\n i\n+\n6\n4\n10\n=\n+\n=",
+  "answer_text": "",
+  "explanation_text": ""
+}

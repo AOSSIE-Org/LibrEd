@@ -1,280 +1,97 @@
-<!-- Don't delete it -->
-<div name="readme-top"></div>
 
-<!-- Organization Logo -->
-<div align="center" style="display: flex; align-items: center; justify-content: center; gap: 16px;">
-  <img alt="AOSSIE" src="public/aossie-logo.svg" width="175">
-  <img src="public/todo-project-logo.svg" width="175" />
-</div>
+> Readme is needed to be updated
 
-&nbsp;
+# Dont Compete
 
-<!-- Organization Name -->
-<div align="center">
+**Dont Compete** is a purely local, containerized, and agent-driven platform for GATE (Graduate Aptitude Test in Engineering) preparation. It combines a modern React frontend with an autonomous backend pipeline that scrapes, classifies, and generates study materials from raw syllabus PDFs and local LLMs.
 
-[![Static Badge](https://img.shields.io/badge/aossie.org/TODO-228B22?style=for-the-badge&labelColor=FFC517)](https://TODO.aossie.org/)
+## Core Philosophy & Features
 
-<!-- Correct deployed url to be added -->
+*   **100% Local & Private**: All data processing and AI generation happens on your machine using Ollama. No external APIs, no cloud dependencies.
+*   **Container-First Architecture**: The entire system runs via Docker Compose. No local Python or Node.js environment setup required.
+*   **Functional Asset Generator**:
+    *   **Sequential Pipeline**: 8-stage functional sequence (Download -> OCR -> DB Sync -> Classification -> Theory -> Manifest).
+    *   **Deterministic**: Heuristic Parsing ensures high-fidelity image extraction for questions and explanations.
+    *   **Idempotent**: Re-runs extend existing datasets instead of reclaiming them.
+*   **Modern Modular Interface**:
+    *   **Modular Shell**: Minimal root layout delegating logic to specialized, reusable components.
+    *   **Adaptive Assessment**: Handles MCQ, MSQ, and Numeric inputs with real-time validation.
+    *   **Dynamic Navigation**: URI-based breadcrumbs and stateful dashboard expansion.
 
-</div>
+## Technical Architecture
 
-<!-- Organization/Project Social Handles -->
-<p align="center">
-<!-- Telegram -->
-<a href="https://t.me/StabilityNexus">
-<img src="https://img.shields.io/badge/Telegram-black?style=flat&logo=telegram&logoColor=white&logoSize=auto&color=24A1DE" alt="Telegram Badge"/></a>
-&nbsp;&nbsp;
-<!-- X (formerly Twitter) -->
-<a href="https://x.com/aossie_org">
-<img src="https://img.shields.io/twitter/follow/aossie_org" alt="X (formerly Twitter) Badge"/></a>
-&nbsp;&nbsp;
-<!-- Discord -->
-<a href="https://discord.gg/hjUhu33uAn">
-<img src="https://img.shields.io/discord/1022871757289422898?style=flat&logo=discord&logoColor=white&logoSize=auto&label=Discord&labelColor=5865F2&color=57F287" alt="Discord Badge"/></a>
-&nbsp;&nbsp;
-<!-- Medium -->
-<a href="https://news.stability.nexus/">
-  <img src="https://img.shields.io/badge/Medium-black?style=flat&logo=medium&logoColor=black&logoSize=auto&color=white" alt="Medium Badge"></a>
-&nbsp;&nbsp;
-<!-- LinkedIn -->
-<a href="https://www.linkedin.com/company/aossie/">
-  <img src="https://img.shields.io/badge/LinkedIn-black?style=flat&logo=LinkedIn&logoColor=white&logoSize=auto&color=0A66C2" alt="LinkedIn Badge"></a>
-&nbsp;&nbsp;
-<!-- Youtube -->
-<a href="https://www.youtube.com/@StabilityNexus">
-  <img src="https://img.shields.io/youtube/channel/subscribers/UCZOG4YhFQdlGaLugr_e5BKw?style=flat&logo=youtube&logoColor=white&logoSize=auto&labelColor=FF0000&color=FF0000" alt="Youtube Badge"></a>
-</p>
+The system is split into two autonomous components that communicate via shared file-system artifacts:
 
----
+1.  **Asset Generator (`/generator`)**: A functional Python pipeline using DuckDB, PyMuPDF, `tenacity` (retries), and Ollama.
+2.  **Frontend (`/frontend`)**: A high-performance React application (Vite, TanStack Router) that **dynamically discovers** generated static assets via filesystem structure (Zero-Config discovery).
 
-<div align="center">
-<h1>TODO: Project Name</h1>
-</div>
+*For a detailed deep-dive into the system design, components, and data flow, please refer to [`arch.md`](./arch.md).*
 
-[TODO](https://TODO.stability.nexus/) is a ... TODO: Project Description.
-
----
-
-## 🚀 Features
-
-TODO: List your main features here:
-
-- **Feature 1**: Description
-- **Feature 2**: Description
-- **Feature 3**: Description
-- **Feature 4**: Description
-
----
-
-## 💻 Tech Stack
-
-TODO: Update based on your project
-
-### Frontend
-- React / Next.js / Flutter / React Native
-- TypeScript
-- TailwindCSS
-
-### Backend
-- Flask / FastAPI / Node.js / Supabase
-- Database: PostgreSQL / SQLite / MongoDB
-
-### AI/ML (if applicable)
-- LangChain / LangGraph / LlamaIndex
-- Google Gemini / OpenAI / Anthropic Claude
-- Vector Database: Weaviate / Pinecone / Chroma
-- RAG / Prompt Engineering / Agent Frameworks
-
-### Blockchain (if applicable)
-- Solidity / solana / cardano / ergo Smart Contracts
-- Hardhat / Truffle / foundry
-- Web3.js / Ethers.js / Wagmi
-- OpenZeppelin / alchemy / Infura
-
----
-
-## ✅ Project Checklist
-
-TODO: Complete applicable items based on your project type
-
-- [ ] **The protocol** (if applicable):
-   - [ ] has been described and formally specified in a paper.
-   - [ ] has had its main properties mathematically proven.
-   - [ ] has been formally verified.
-- [ ] **The smart contracts** (if applicable):
-   - [ ] were thoroughly reviewed by at least two knights of The Stable Order.
-   - [ ] were deployed to: [Add deployment details]
-- [ ] **The mobile app** (if applicable):
-   - [ ] has an _About_ page containing the Stability Nexus's logo and pointing to the social media accounts of the Stability Nexus.
-   - [ ] is available for download as a release in this repo.
-   - [ ] is available in the relevant app stores.
-- [ ] **The AI/ML components** (if applicable):
-   - [ ] LLM/model selection and configuration are documented.
-   - [ ] Prompts and system instructions are version-controlled.
-   - [ ] Content safety and moderation mechanisms are implemented.
-   - [ ] API keys and rate limits are properly managed.
-
----
-
-## 🔗 Repository Links
-
-TODO: Update with your repository structure
-
-1. [Main Repository](https://github.com/AOSSIE-Org/TODO)
-2. [Frontend](https://github.com/AOSSIE-Org/TODO/tree/main/frontend) (if separate)
-3. [Backend](https://github.com/AOSSIE-Org/TODO/tree/main/backend) (if separate)
-
----
-
-## 🏗️ Architecture Diagram
-
-TODO: Add your system architecture diagram here
-
-```
-[Architecture Diagram Placeholder]
-```
-
-You can create architecture diagrams using:
-- [Draw.io](https://draw.io)
-- [Excalidraw](https://excalidraw.com)
-- [Lucidchart](https://lucidchart.com)
-- [Mermaid](https://mermaid.js.org) (for code-based diagrams)
-
-Example structure to include:
-- Frontend components
-- Backend services
-- Database architecture
-- External APIs/services
-- Data flow between components
-
----
-
-## 🔄 User Flow
-
-TODO: Add user flow diagrams showing how users interact with your application
-
-```
-[User Flow Diagram Placeholder]
-```
-
-### Key User Journeys
-
-TODO: Document main user flows:
-
-1. **User Journey 1**: Description
-   - Step 1
-   - Step 2
-   - Step 3
-
-2. **User Journey 2**: Description
-   - Step 1
-   - Step 2
-   - Step 3
-
-3. **User Journey 3**: Description
-   - Step 1
-   - Step 2
-   - Step 3
-
----
-
-## �🍀 Getting Started
+## Getting Started
 
 ### Prerequisites
+*   [Docker Desktop](https://docs.docker.com/get-docker/) or Docker Engine + Compose.
+*   [Git](https://git-scm.com/).
+<!-- *   [Git LFS](https://git-lfs.github.com/). -->
 
-TODO: List what developers need installed
+### Quick Start
+1.  **Clone the repository**:
+    ```bash
+    git clone https://github.com/imxade/dont-compete.git
+    cd dont-compete
+    ```
 
-- Node.js 18+ / Python 3.9+ / Flutter SDK
-- npm / yarn / pnpm
-- [Any specific tools or accounts needed]
+2.  **Launch the System**:
+    ```bash
+    docker compose up --build
+    ```
+    *   **Frontend**: Accessible at `http://localhost:3000`.
+    *   **Generator**: Autonomously populates content in the background.
+    *   **Idempotency**: Existing data is skipped; re-launching only processes new or missing streams.
 
-### Installation
+3.  **Monitor Pipeline**:
+    ```bash
+    docker compose logs -f generator
+    ```
 
-TODO: Provide detailed setup instructions
+### Configuration
+Central configuration is managed in `generator/src/config.py`. You can customize:
+*   `TARGET_STREAMS`: Which exam streams to process (e.g., CS, DA).
+*   `OLLAMA_MODEL`: The local LLM to use (default: `llama3.1`).
 
-#### 1. Clone the Repository
+## Contributing
 
+We are building a free, high-quality platform for everyone, and we need your help to achieve that!
+
+### Non-Coding Contributions
+AI is a powerful accelerator, but it's not perfect. We rely on the community to ensure quality and depth.
+
+*   **Improve Theories**: AI-generated explanations can be generic or miss nuance. If you have a better explanation, analogy, or diagram for a concept, please submit a PR!
+*   **Quality Assurance**:
+    *   **Review**: Help us verify the correctness of questions and answers in Pull Requests.
+    *   **Model Testing**: Run the generator with different LLMs (Mistral, Gemma, Phi-3, or larger parameter models on your local machine) and report which yields the best results.
+*   **Community Questions**: Identify gaps in our question bank and add commonly asked questions or "gotchas" for specific topics.
+*   **Expand Scope**: PRs adding support for **other competitive exams** are highly welcome! Let's build a universal free platform together.
+
+### Testing
+The project includes a comprehensive test suite that runs in Docker.
+
+**1. Generator Tests (Backend)**
 ```bash
-git clone https://github.com/AOSSIE-Org/TODO.git
-cd TODO
+docker compose run --rm asset-generator pytest generator/tests
 ```
 
-#### 2. Install Dependencies
-
+**2. Frontend Tests (Playwright)**
+Run the end-to-end tests using the official Playwright container:
 ```bash
-npm install
-# or
-yarn install
-# or
-pnpm install
+docker run --rm --network gatebuster_app_network \
+  -e BASE_URL=http://frontend:3000 \
+  -v $(pwd)/frontend:/app \
+  -w /app \
+  mcr.microsoft.com/playwright:v1.58.0-jammy \
+  /bin/sh -c "npm install && npx playwright test"
 ```
+*Note: Ensure the frontend service is running (`docker compose up`) before starting Playwright tests.*
 
-#### 3. Configure Environment Variables(.env.example)
-
-Create a `.env` file in the root directory:
-
-```env
-# Add your environment variables here
-API_KEY=your_api_key
-DATABASE_URL=your_database_url
-```
-
-#### 4. Run the Development Server
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
-
-#### 5. Open your Browser
-
-Navigate to [http://localhost:3000](http://localhost:3000) to see the application.
-
-For detailed setup instructions, please refer to our [Installation Guide](./docs/INSTALL_GUIDE.md) (if you have one).
-
----
-
-## 📱 App Screenshots
-
-TODO: Add screenshots showcasing your application
-
-|  |  |  |
-|---|---|---|
-| Screenshot 1 | Screenshot 2 | Screenshot 3 |
-
----
-
-## 🙌 Contributing
-
-⭐ Don't forget to star this repository if you find it useful! ⭐
-
-Thank you for considering contributing to this project! Contributions are highly appreciated and welcomed. To ensure smooth collaboration, please refer to our [Contribution Guidelines](./CONTRIBUTING.md).
-
----
-
-## ✨ Maintainers
-
-TODO: Add maintainer information
-
-- [Maintainer Name](https://github.com/username)
-- [Maintainer Name](https://github.com/username)
-
----
-
-## 📍 License
-
-This project is licensed under the GNU General Public License v3.0.
-See the [LICENSE](LICENSE) file for details.
-
----
-
-## 💪 Thanks To All Contributors
-
-Thanks a lot for spending your time helping TODO grow. Keep rocking 🥂
-
-[![Contributors](https://contrib.rocks/image?repo=AOSSIE-Org/TODO)](https://github.com/AOSSIE-Org/TODO/graphs/contributors)
-
-© 2025 AOSSIE 
+## License
+Apache 2.0 License - see `LICENSE` for details.

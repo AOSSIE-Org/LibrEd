@@ -1,0 +1,11 @@
+{
+  "id": "28",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "MSQ",
+  "key": "(A), (C),(D)",
+  "question_text": "Question 28. \n \n \n \n  \n \n \n \n \nMSQ (2M)\nQuestion ID : 8232513143\n\nPAGE\n20\n\nConsider a computer system with multiple shared resource types, with one instance per resource \ntype. Each instance can be owned by only one process at a time. Owning and freeing of resources are \ndone by holding a global lock (L). The following scheme is used to own a resource instance:\nfunction\n \nOwnRESOURCE(Resource\n \nR)\nAcquire lock L // a global lock\nif R is available then\nAcquire\n \nR\nRelease lock L\nelse\nif R is owned by another process P then\nTerminate P, after releasing all resources owned by P\nAcquire R\nRestart P\nRelease lock L\nend if\nend if\nend function\nWhich of the following choice(s) about the above scheme is/are correct?\n(A) The scheme ensures that deadlocks will not occur.\n(B) The scheme violates the mutual exclusion property.\n(C) The scheme may lead to live-lock.\n(D) The scheme may lead to starvation.",
+  "answer_text": "(A), (C),(D)",
+  "explanation_text": "Sol. \nMutual exclusion is not violated.\nAlso, there will be no deadlock because of forceful preemption of resources.\nThis may lead to starvation if the process is keeps on coming and preempting each other like P1 is \npreempted by P2 and P2 is preempted by P3.\nLive-lock is also possible due to continuous preemption of resources.\nFor option (c) consider two processes P1 and P2 now P1 enter the code acquires lock and resource.\nNow P2 enters the else part kills P1 and acquire R and restart P1 Now P1 again acquire lock and kills \nthe process P2 this continues creating a live lock scenario but there is ambiguity in the code since \n\u201cRelease R\" is not written anywhere so ambiguity is regarding how the process will release Resource \nR. According to the code, the only way to release the resource is by getting killed."
+}

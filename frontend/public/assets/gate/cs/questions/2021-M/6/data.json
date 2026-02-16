@@ -1,0 +1,11 @@
+{
+  "id": "6",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-M",
+  "year": "2021",
+  "type": "MSQ",
+  "key": "",
+  "question_text": "Question 6 \n \n \n \n \n \n \n \nMSQ (2M) \n \n \n \n \n \n \n \nQuestion ID : 823251570 \n \nDefine R\nn\n to be the maximum amount earned by cutting a rod of length n meters into one or more pieces \nof integer length and selling them. For i > 0, let p [i] denote the selling price of a rod whose length is i \nmeters. Consider the array of prices: \n \n \n \np[l] = l,p[2] = 5, p[3] = 8,p[4] = 9. p[5] = 10, p[6] = I7,p[7] = 13 \n \nWhich of the following statements is/are correct about R\n7 \n?  \n \nOptions : \n \n(A) R\n7 \ncannot be achieved by a solution consisting of three picccs. \n \n(B) R\n7 \nis achieved by three different solutions. \n \n(C) R\n7\n = 19 \n \n(D) R\n7 = \n18 \nAns. \nB, D\n\nGATE 2021\n [Forenoon Session]\nComputer Science Engineering\nPAGE\n9\n",
+  "answer_text": "",
+  "explanation_text": ""
+}

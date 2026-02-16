@@ -1,0 +1,11 @@
+{
+  "id": "10",
+  "stream": "computer-science-information-technology",
+  "packet": "2022",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "0.85",
+  "question_text": "Question 10\n\nGATE 2022 \n [Forenoon Session]\nComputer Science Engineering\nPAGE\n6\n\nA code memory that has a hit rate of 0.8 has an access latency 10 ns and miss penalty 100 ns. An \noptimization is done on the cache to reduce the miss rate. However the optimization results in an increase \nof cache access latency to 15 ns, whereas the miss penalty is not affected. The minimum hit rate needed \nafter the optimization such that it should not increase the average memory access time is _____",
+  "answer_text": "0.85",
+  "explanation_text": "Sol.\nOld\nAMAT\n  \n0.8(10)\n0.2(100)\n8\n20\n28.\n\uf03d\n\uf02b\n\uf03d\uf02b\n\uf03d\nLet x be the cache hit rate after optimization.\nnew\nAMAT\n \n(15) (1\n)100\n15\n100 100\n100 85\nx\nx\nx\nx\nx\n\uf03d\n\uf02b\n\uf02d\n\uf03d\n\uf02b\n\uf02d\n\uf03d\n\uf02d\nOld\nnew\nAMAT\nAMAT\n\uf0b3\n100 85\n28\nx\n\uf0ae\n\uf02d\n\uf0a3\n72\n85\nx\n\uf0ae\n\uf03d\n72/85\n0.85\nx\n\uf0ae\n\uf03d\n\uf03d"
+}

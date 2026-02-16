@@ -1,0 +1,11 @@
+{
+  "id": "28",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-N",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 28 \n \n  \n[Computer Network (Network Layer)] \n \nWhich of the following statements about IPv4 fragmentation is/are TRUE ?  \n \n(A) The fragmentation of an IP datagram is performed only at the source of the datagram \n \n(B) The fragmentation of an IP datagram is performed at any IP router which finds that the size of the\ndatagram to be transmitted exceeds the MTU \n \n(C) The reassembly of fragments is performed only at the destination of the datagram  \n \n(D) The reassembly of fragments is performed at all intermediate routers along the path from the source\nto the destination \nAns. \n(B,C)",
+  "answer_text": "",
+  "explanation_text": "Sol.\n \nOption B : TRUE\nFragmentation can indeed occurs at any router along the path if the packet size exceeds the MTU, but it \ndepends on whether the \u201cDo not fragment\u201d flag is set, the router will not fragments the packet and will \ninstead drop it, sending an ICMP \u201c Fragmentation needed\u201d message back to the source.\nOption C : TRUE\nReassembly of fragments is typically performed only at the destination of the datagram the destination is \nresponsible for putting the fragments back together to reconstruct the original packets.\nHence, the correct option is (B) and (C)."
+}

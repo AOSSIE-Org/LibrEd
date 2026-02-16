@@ -1,0 +1,11 @@
+{
+  "id": "42",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "MSQ",
+  "key": "(B)",
+  "question_text": "Question 42. \n \n \n \n \n \n \n \n \nMSQ (1M)\nQuestion ID : 8232513113\nIn the context of compilers, which of the following is/are NOT an intermediate representation of\nthe source program?\n(A) 3 Address code \n \n(B) Symbol Table\n(C) Control Flow Graph  \n(D) Abstract Syntax Tree",
+  "answer_text": "(B)",
+  "explanation_text": "Sol. \nSymbol table is data structure used to store information related to variables, function name etc."
+}

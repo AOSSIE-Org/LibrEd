@@ -1,0 +1,11 @@
+{
+  "id": "55",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-N",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 55\n\nPAGE\n37\n\nConsider an Ethernet segment with a transmission speed of \n8\n10\n  bits/sec and a maximum segment length\nof 500 meters.  If the speed of propagation of the signal in the medium is \n8\n2 10\n\uf0b4\n meters/sec, then the \nminimum frame size (in bits) required for collision detection is _______.\n[Computer Network, 4 Transport Layer]\n \nAns. \n(500 to 500)",
+  "answer_text": "",
+  "explanation_text": "Sol.\n \n8\n10 bits/sec\nBw\n \uf03d\n500m\nd\n \uf03d\n8\n2 10 m/sec\nv\n \uf03d\uf0b4\nT\nT\nT\nT\n\uf0e6\n\uf0f6\n\uf0b3\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\nt\n \n=Transmission Time\n2.\n=Propagation Time\nt\np\nFor ethernet\n\np\nf\nd\nB\nV\n\uf0b3\n\uf0b4\n\uf0de\n \n2\ns\nw\nd\nf\nBw\nv\n\uf0b3\n\uf0b4\n\uf0b4\n2\ns\n8\n8\n2 500m\n10 bits/sec\n2 10 m/sec\ns\nf\n\uf0b4\n\uf0b3\n\uf0b4\n\uf0b4\n500bits\ns\nf\n \uf0b3\n\uf05c\n \nmin\n500bit\ns\nf\n\uf03d\nHence, the correct answer is 500 bit."
+}

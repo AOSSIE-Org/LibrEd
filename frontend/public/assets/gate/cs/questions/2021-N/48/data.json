@@ -1,0 +1,11 @@
+{
+  "id": "48",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "MSQ",
+  "key": "(A), (B), (D)",
+  "question_text": "Question 48. \n \n \n \n  \n \n \n \n \nMSQ (1M)\nQuestion ID : 8232513140\nSuppose the following functional dependencies hold on a relation U with attributes P, Q, R, S, and T\nP\nQR\n\u2192\nRS\nT\n\u2192\nWhich of the following functional dependencies can be inferred from the above functional\ndependencies?\n(A)\n PS\nQ\n\u2192\n \n(B) \nP\nR\n\u2192\n \n(C) \nR\nT\n\u2192\n \n(D) \nPS\nT\n\u2192",
+  "answer_text": "(A), (B), (D)",
+  "explanation_text": "Sol.\n \nFor the given F\u2019Ds, the closure of the attributes will be  \n \n \n{ ,\n, }\nP\nP Q R\n+ =\n{ , , }\nRS\nR S T\n+ =\n\nPAGE\n34\n\n{ , ,\n, , }\nPS\nP S Q R T\n+ =\n{ }\nR\nR\n+ =\nBased on these, the FD\u2019s\nPS\nT\n\u2212\uf03e\nP\nR\n\u2212\uf03e\n \n \n \nPS\nQ\n\u2212\uf03e\nHolds for the given relation\n"
+}

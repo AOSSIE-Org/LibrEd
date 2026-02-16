@@ -1,0 +1,11 @@
+{
+  "id": "39",
+  "stream": "computer-science-information-technology",
+  "packet": "2022",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "A",
+  "question_text": "Question 39\nSuppose we are given n keys, m hash table slots and two simple uniform hash functions \n1\nh\n  and \n2\nh\n . Further\nsuppose our hashing scheme uses \n1\nh\n  for the odd keys and \n2\nh\n  for the even keys. What is the expected no.\nof keys in a slot?\nm\n \n \n(D) \n2\nn\n(A) \nn\nm\n \n \n(B) \nm\nn\nn\n \n \n(C) \n2\nm",
+  "answer_text": "A",
+  "explanation_text": "Sol.\nIrrespective of the number of hash functions, the expected number of keys in a slot is given by (number \nof keys)/(number of slots) for a uniform hash function."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "38",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-N",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 38\n \n \nWhich one of the following CIDR prefixes exactly represents the range of IP addresses 10.12.2.0 to \n10.12.3.255 ?                                  \n[Computer Network, 1 Concept of Layering and LAN Technologies] \n \n(A) 10.12.2.0/23 \n(B) 10.12.2.0/24 \n \n(C) 10.12.0.0/22 \n(D) 10.12.2.0/22 \nAns. \n(A)",
+  "answer_text": "",
+  "explanation_text": "Sol.\n \nWe know that IP address are contiguous, block size is power of 2, and starting address is divisible by \nblock size so, they can form a block.\n10.12.2.0 to 10.12.2.255 = 256\n10.12.3.0 to 10.12.3.255 = 256\nTotal IP address   [10.12.2.0 to 10.12.3.255]\n9\n256\n256\n512\n2\n\uf03d\n\uf02b\n\uf03d\n\uf03d\nNumber of bit for Host id = 9 bit\n\nPAGE\n25\n\nNumber of bit for Net id (NiD) = 32 \u2013 9 = 23 bit\nCIDR notation represented as\n10.12.2.0/23\nHence, the correct option is (A)"
+}

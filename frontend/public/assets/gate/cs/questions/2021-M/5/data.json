@@ -1,0 +1,11 @@
+{
+  "id": "5",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-M",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 5 \n \n \n \n \n \n \n \nMCQ (2M) \n \n \n \n \n \n \n \nQuestion ID : 823251566 \n \nLet G=(V, E) be an undirected unweighted connected graph. The diameter of G is defined as : \nDiam (G)\nmax\nuv\nG\n\u2200\n\u2208\n=\n {the length of shortest path between u and v}\nLet M be the Adjacency matrix of G.  \nDefine a graph G\n2\n on the same set of vertices with adjacency matrix N, where\n2\nij\nij\nij\n P\n 0 where P\n1if M\n0 or\nN\n0\notherwais\nM\ne\n>\n\uf0ec\n=\n \uf0ed\n=\n>\n\n\uf0ee\nWhich one of the following statements is true?  \n(A) diam(G)<diam(G\n2\n) <=2diam(G) \n(B) diam(G\n2\n) = diam(G) \n(C) diam(G\n2\n) <=\n\u2308diam(G)/2)\u2309\n \n(D) \n\u2308diam(G2)/2\u2309\n <diam(G)/2) < diam(G) \nAns. \nC",
+  "answer_text": "",
+  "explanation_text": ""
+}

@@ -1,0 +1,11 @@
+{
+  "id": "19",
+  "stream": "computer-science-information-technology",
+  "packet": "2022",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "A, C, D",
+  "question_text": "Question 19\nConsider language\n\uf07b\n\uf07d\n1\n|\n{ , }*\nn\nn\nL\na\na\na b\n\uf03d\n\uf077\n\uf077\uf0ce\n\uf07b\n\uf07d\n2\n| ,\n{ , }*,\n,\n0\nR\nL\nx\nx\na b\nx\n\uf03d\uf077\uf077\n\uf077\n\uf0ce\n\uf077\n\uf03e\nNote \nR\n\uf077\n is reversal of string \n\uf077\n which is true?\n(A) \n1\nL\n  regular and \n2\nL\n  is context free language (B) \n1\nL\n  and \n2\nL\n  are context free language but not regular\n(C) \n1\nL\n  and \n2\nL\n  are context free language \n(D) \n1\n2\n,\nL L\n  are regular",
+  "answer_text": "A, C, D",
+  "explanation_text": "Sol. \n*\n1\n{\n( , ) }\nn\nn\nL\na\na\na b\n\uf03d\n\uf077\n\uf077\uf0ce\n is regular\n\nGATE 2022 \n [Forenoon Session]\nComputer Science Engineering\nPAGE\n11\n\n*\n2\n{\n,\n( , ) ,\n,\n0}\nR\nL\nx\nx\na b\nW\nx\n\uf03d\uf077\uf077\uf077\n\uf0ce\n\uf03e\n \nis also regular\n\uf05c\n \nBoth \n1\nL\n  and \n2\nL\n  are regular\nAny language which is regular is context free language as well.\nEngineering Mathematics"
+}

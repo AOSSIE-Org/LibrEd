@@ -1,0 +1,11 @@
+{
+  "id": "4",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "(B)",
+  "question_text": "Question 4. \n \n \n \n  \n \n \n \n \nMCQ (1M)\nQuestion ID : 8232513095\nPen: Write :: Knife :_____\nWhich one of the following options maintains a similar logical relation in the above.\n(A)\n \nSharp  \n(B) Cut  \n(C) Blunt  \n(D) Vegetables.",
+  "answer_text": "(B)",
+  "explanation_text": "Sol.\n \nGiven:\n relation is object and its purpose\nPen is used to Write,\nSimilarly, Knife is used to Cut.\n"
+}

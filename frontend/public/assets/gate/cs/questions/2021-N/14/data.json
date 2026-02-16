@@ -1,0 +1,11 @@
+{
+  "id": "14",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "(D)",
+  "question_text": "Question 14. \n \n \n \n  \n \n \n \n \nMCQ (2M)\nQuestion ID : 8232513135\nConsider the following ANSI C program:\n#include <stdio.h> \n#include <stdlib.h> \nstruct Node{\nint value;\nstruct Node *next;}; \nint main(){\nstruct Node *boxE, *head, *boxN; int index = 0;\nboxE = head = (struct Node *) malloc(sizeof(struct Node));\nhead->value = index;\nfor (index = 1; index <= 3; index++)\n{\nboxN = (struct Node *) malloc(sizeof(struct Node)); \nboxE->next = boxN; \nboxN->value = index; \nboxE = boxN; }\nfor (index = 0; index <= 3; index++) {\n\nPAGE\n11\n\nprintf (\"Value at index %d is %d\\n\", index, head->value);\nhead = head->next;\nprintf (\"Value at index %d is %d\\n\", index+1, head->value); } }\nWhich one of the statements below is correct about the program?\n(A) Upon execution, the program goes into an infinite loop.\n(B) It has a missing return which will be reported as an error by the compiler.\n(C) Upon execution, the program creates a linked-list of five nodes.\n(D) It dereferences an uninitialized pointer that may result in a run-time error.",
+  "answer_text": "(D)",
+  "explanation_text": "Sol.\n  \nThe linked list of four nodes will be created.\nFirst node: value = 0\nSecond node : value = 1\nThird node : value = 2\nFourth node : value = 3\nThe last for loop will print the index number and the values\nIn the last iteration when index = 3\nhead = head-> next // typing to access the unknown memory location because the fifth node is not \nthere.\nHence the segmentation fault or run time error will come here."
+}

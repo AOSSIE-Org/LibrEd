@@ -1,0 +1,11 @@
+{
+  "id": "63",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "NAT",
+  "key": "929\n\nPAGE\n44",
+  "question_text": "Question 63. \n \n \n \n  \n \n \n \n \nNAT (2M)\nQuestion ID : 8232513155\nIn a directed acyclic graph with a source vertex s, the quality-score of a directed path is defined to   \nbe the product of the weights of the edges on the path. Further, for a vertex v other than s. the \nquality-score of v is defined to be the maximum among the quality-scores of all the paths from s to v. \nThe quality-score of s is assumed to be 1.\ng\nt\nf\n1\n1\n9\n9\nc\nd\ne\n9\n1\n9\n1\n1\n1\n9\n1\nb\na\ns\nThe sum of the quality-score of all the vertices in the graph shown above is____",
+  "answer_text": "929\n\nPAGE\n44",
+  "explanation_text": "Sol.\n   s \u2192 s = 1\ns \u2192 a = 9\ns \u2192 b = 9\ns \u2192 c = 1\ns \u2192 d = 9\ns \u2192 e = 81\ns \u2192 f = 9\ns \u2192 g = 81\ns \u2192 t = 729\nSum = 929"
+}

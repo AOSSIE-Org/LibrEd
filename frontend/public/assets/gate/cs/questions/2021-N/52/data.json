@@ -1,0 +1,11 @@
+{
+  "id": "52",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "(C)",
+  "question_text": "Question 52. \n \n \n \n  \n \n \n \n \nMCQ (1M)\nQuestion ID : 8232513107\nConsider the three-way handshake mechanism followed during TCP connection establishment \nbetween hosts P and Q. Let X and Y be two random 32-bit starting sequence numbers chosen by P \nand Q respectively. Suppose P sends a TCP connection request message to Q with a TCP segment \nhaving SYN bit = 1, SEQ number = X, and ACK bit = 0. Suppose Q accepts the connection request \nmessage to\n(A)  SYN bit = 1 , SEQ NO = X+1 , ACK bit =0 , ACK No =Y, FIN bit =0\n(B)  SYN bit = 1 , SEQ NO = Y, ACK bit = 1 , ACK No = X, FIN bit = 0\n(C)  SYN bit = 1 , SEQ NO = Y, ACK bit = 1 , ACK No = X+1, FIN bit = 0\n(D)  SYN bit = 0 , SEQ NO = X+ 1, ACK bit = 0 , ACK No = Y, FIN bit = 1",
+  "answer_text": "(C)",
+  "explanation_text": "Sol.\n \nSYN =1 as Q also will establish a connection\nSEQ Num = Y, representing if it wants to send data, its starting from Y sequence number\nACK bit = 1, as now it is acknowledging the sender for connection request\nACK No = X+1, the data it is expecting will now start from sequence number X+1, as 1 bit has \nalready been consumed by the SYN request\nFIN = 0, because it is establishing the connection to terminating."
+}

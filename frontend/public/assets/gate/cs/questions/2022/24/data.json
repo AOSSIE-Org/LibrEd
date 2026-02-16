@@ -1,0 +1,11 @@
+{
+  "id": "24",
+  "stream": "computer-science-information-technology",
+  "packet": "2022",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "36",
+  "question_text": "Question 24\nConsider a simple undirected graph of 10 vertices if the graph is disconnected then the maximum number \nof edges it can have is__________.",
+  "answer_text": "36",
+  "explanation_text": "Sol.\nSuppose we have 1 vertex on one side and other n-1 vertices on another side. To make it connected \nmaximum possible edges (if consider it as complete graph) is\nn\nn\nn\nC\n \n\uf02d\n\uf02d\n\uf02d\n(\n1)(\n2)\nwhich is\n2\n1\n2\n\nThus to make it a disconnected graph we have 1 separate vertex on another side which is not connected. \nThus the maximum possible edges is\n\nGATE 2022 \n [Forenoon Session]\nComputer Science Engineering\nPAGE\n16\n\n1\n9\n2\n2\n9*8 / 2\n36\nn\nC\nC\n\uf02d\n\uf03d\n\uf03d\n\uf03d"
+}

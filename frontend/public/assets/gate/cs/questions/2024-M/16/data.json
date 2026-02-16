@@ -1,0 +1,11 @@
+{
+  "id": "16",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-M",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 16\n  \n \n  \n[Computer Network (Transport Layer)]\n \n \nA user starts browsing a webpage hosted at a remote server.  The browser opens a single TCP connection \nto fetch the entire webpage from the server.  The webpage consists of a top-level index page with multiple \nembedded image objects.  Assume that all caches (e.g., DNS cache, browser cache) are all initially empty.  \nThe following packets leave the user\u2019s computer in some order. \n \n \n(i) \nHTTP GET request for the index page  \n \n(ii) DNS request to resolve the web server\u2019s name to its IP address \n \n(iii) HTTP GET request for an image object \n \n \n(iv) TCP SYN to open a connection to the web server \n \nWhich one of the following is the CORRECT chronological order (earliest in time to latest) of the packets \nleaving the computer ? \n \n(A) (iv), (ii), (iii), (i) \n(B) (ii), (iv), (iii), (i)  \n \n(C) (ii), (iv), (i), (iii) \n(D) (iv), (ii), (i), (iii) \nAns. \n(C)",
+  "answer_text": "",
+  "explanation_text": "Sol.\n \nFirst the DNS request will be send then TCP SYN For opening the connection then it\u2019s ack followed by \nHTTP GET request for the index page and at the end HTTP het request for an image object.\nHence, the correct option is (C)."
+}

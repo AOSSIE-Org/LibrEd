@@ -1,0 +1,11 @@
+{
+  "id": "24",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-N",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "(B, C, D)",
+  "question_text": "Question 24 \n[Operating System (Memory management and Virtual Memory)]\nWhich of the following tasks is/are the responsibility/responsibilities of the memory management unit \n(MMU) in a system with paging-based memory management ?\n(A) Allocate a new page table for a newly created process.\n(B) Translate a virtual address to a physical address using the page table.\n(C) Raise a trap when a virtual address is not found in the page table.\n(D) Raise a trap when a process tries to write to a page marked with read - only permission in the page  \n \n \ntable.",
+  "answer_text": "(B, C, D)",
+  "explanation_text": "Sol.\n \nAs per property and function of memory management unit (MMU)\n(A) False as OS or kernel provides page table, and the MMU uses the page tables to translate virtual\naddresses into physical addresses for the OS.\n(B) True as it is main function of MMU\n(C) True as MMU will raise the trap when valid says invalid\n(D) True as MMU raise trap when process tries to write but protection says \u2018read only\u2019.\nHence, the correct option (B), (C) and (D).\n\nPAGE\n18\n"
+}

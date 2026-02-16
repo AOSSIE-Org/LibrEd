@@ -1,0 +1,11 @@
+{
+  "id": "2",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-M",
+  "year": "2021",
+  "type": "NAT",
+  "key": "",
+  "question_text": "Question 2 \n \n \n \n \n \n \n \nNAT (2M) \n \n \n \n \n \n \n \nQuestion ID : 823251580 \n \nConsider the following c code segments :\n;\na\nb c\n= +\n1;\ne\na\n=\n+\n;\nd\nb c\n= +\n1;\nf\nd\n=\n+\n;\ng\ne\nf\n= +\nIn a compiler, this code segment is represented internally as a directed acyclic graph (DAG). The \nnumber of nodes in the given DAG is _________.  \nAns. \n6 \nSol. \nGiven code segment\n;\na\nb\nc\n=\n+\n1;\ne\na\n=\n+\n;\nd\nb\nc\n=\n+\n1;\nf\nd\n=\n+\n;\ng\ne\nf\n=\n+\n1\ne\nd\n= +\n+\n\nGATE 2021\n [Forenoon Session]\nComputer Science Engineering\nPAGE\n7\n\n1\ne\nb\nc\n= + + +\n1\n1\na\nb\nc\n=\n+ + + +\n(\n1)\n(\n1)\nb\nc\nb\nc\n=\n+\n+\n+\n+\n+\nDAG\n\uf0de\n\uf02b\n\uf02b\n\uf02b\n1\nb\nc\n\n6 nodes\n=",
+  "answer_text": "",
+  "explanation_text": ""
+}

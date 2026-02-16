@@ -1,0 +1,11 @@
+{
+  "id": "55",
+  "stream": "computer-science-information-technology",
+  "packet": "2022",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "A, C",
+  "question_text": "Question 55\nEmployee (eid, Name)\nBrand (bid, bName)\nOwn (eid, bid)\nReturn the set of eids who own all the brands.\n(A) \n,\n(\n(Own) /\n(Brand))\neid\neid bid\nbid\n\uf070\n\uf070\n\uf070\n(B) \n,\n(\n(Own) /\n(Own))\neid\neid bid\nbid\n\uf070\n\uf070\n\uf070\n(C) \n,\n(Own)\n/\n(Own)\n(Brand)\n(Own))\neid\neid\neid\nbid\neid bid\n\uf070\n\uf02d\uf070\n\uf070\n\uf0b4\uf070\n\uf02d\uf070\n(D) \n(\n(Own)\n(Own)) /\n(Brand)\neid\neid\nbid\nbid\n\uf070\n\uf070\n\uf0b4\uf070\n\uf070",
+  "answer_text": "A, C",
+  "explanation_text": "Sol. \nEmployee (eid, ename) Brand (bid, bname) Own (eid, eid)\nTo find set of eids who own all the brand we need to divide the table own by table brand like.\n(A) \n,\n(\n(Own) /\n(Brand))\neid\neid bid\nbid\n\uf070\n\uf070\n\uf070\n and the division operation can be represented using \n( ,\n)\n\uf0b4\uf02d\noperations like\n(C) \n,\n(Own)\n/\n(Own)\n(Brand)\n(Own))\neid\neid\neid\nbid\neid bid\n\uf070\n\uf02d\uf070\n\uf070\n\uf0b4\uf070\n\uf02d\uf070"
+}

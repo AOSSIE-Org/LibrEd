@@ -1,0 +1,11 @@
+{
+  "id": "29",
+  "stream": "computer-science-information-technology",
+  "packet": "2022",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "7",
+  "question_text": "Question 29\nThe number of arrangement of 6 identical ball in 3 identical bins__________.",
+  "answer_text": "7",
+  "explanation_text": "Sol.\nIt is the case of distribution with identical objects and identical boxes.\nWe simply need to partition number 6 in to maximum 3 parts and count the partition.\n(6,0,0), (5,1,0), (4,2,0), (4,1,1), (3,2,0), (3,1,1), (2,2,2).\nAlgorithms"
+}

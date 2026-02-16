@@ -1,0 +1,11 @@
+{
+  "id": "53",
+  "stream": "computer-science-information-technology",
+  "packet": "2022",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "2",
+  "question_text": "Question 53\nConsider relational database consisting of following for relations and respective schema with tuples.\nStudent (sno, sname, dno)\nDepartment (dno, dname)\nCourse (cno, cname, dno)\n\nGATE 2022 \n [Forenoon Session]\nComputer Science Engineering\nPAGE\n37\n\nRegister (sno, dno)\nStudent\nsno \nsname  \ndno\nS1 \nJ \nD01\nS2 \nR \nD01\nS3 \nJ \nD02\nS4 \nJ \nD01\nS5 \nM \nD03\nDepartment\ndno \ndname\nD01 \nCSE\nD02 \nEEE\nCourse\ncno \ncname  \ndno\n11\nC\n  \nDS \nD01\n12\nC\n  \nDS \nD01\n21\nC\n  \nDE \nD02\n22\nC\n \nPT \nD02\n23\nC\n  \nCV \nD03\nRegister\nsno \ncno\nS01 \n17\nC\nS01 \n12\nC\nS02 \n11\nC\nS03 \n21\nC\nS03 \n22\nC\nS03 \n23\nC\nS04 \n11\nC\nS04 \n12\nC\nS05 \n11\nC\nS05 \n21\nC\n\nGATE 2022 \n [Forenoon Session]\nComputer Science Engineering\nPAGE\n38\n\nSelect * from student S where not exist (select cno from course where dno = \u201cD01\u201d except select cno, \nfrom register where sno = S.sno).",
+  "answer_text": "2",
+  "explanation_text": "Sol. \nSelect * from student S where not exist\n((Select cno from course where dno = D01 except))\n(Select cno from register where sno = S.sno)\nThe above query is co-related sub query so we need to execute inner query for every row of outer table.\nHence it gives 2 rows in output\nS1 \nJ \nD01\nS4 \nM \nD03"
+}

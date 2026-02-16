@@ -1,0 +1,11 @@
+{
+  "id": "51",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-N",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 51\n \n \nLet \nG\n  be an undirected connected graph in which every edge has a positive integer weight.  Suppose that \nevery spanning tree in \nG\n has even weight.  Which of the following statements is/are TRUE for every such \ngraph \nG\n ? \n \n  \n \n[Data Structure, 6 Graph] \n \n(A) All edges in \nG\n have even weight \n \n(B) All edges in \nG\n have even weight OR all edges in \nG\n have odd weight \n \n(C) In each cycle \nC\n in \nG\n , all edges in \nC\n have even weight \n \n \n(D) In each cycle \nC\n in \nG\n , either all edges in \nC\n have even weight OR all edges in \nC\n  have odd weight \nAns. \n(D)",
+  "answer_text": "",
+  "explanation_text": "Sol.\n \nGiven tree is spanning tree, not about minimum spanning tree. Hence for every spanning tree in G has an \neven weight or all edges in \nC\n have odd weight.\nHence, the correct option is (D)."
+}

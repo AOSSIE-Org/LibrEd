@@ -1,0 +1,11 @@
+{
+  "id": "60",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-N",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "(2 to 2) \nSol.\n\nPAGE\n41\n\nB\nR\nB\nR\nR\nB\n\nB\nR\nGiven :\n graph is bipartite, where alternating 4 vertices can be put in one part and remaining alternation 4 \nvertices in the second part.\nA bipartite graph with at least 1 edge always has chromatic No. 2.",
+  "question_text": "Question 60\n \n \nThe chromatic number of a graph is the minimum number of colours used in a proper colouring of the\ngraph. The chromatic number of the following graph is __________.\n[Discrete Mathematics, 4 Graph Theory]\n",
+  "answer_text": "(2 to 2) \nSol.\n\nPAGE\n41\n\nB\nR\nB\nR\nR\nB\n\nB\nR\nGiven :\n graph is bipartite, where alternating 4 vertices can be put in one part and remaining alternation 4 \nvertices in the second part.\nA bipartite graph with at least 1 edge always has chromatic No. 2.",
+  "explanation_text": ""
+}

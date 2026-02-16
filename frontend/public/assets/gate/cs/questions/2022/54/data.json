@@ -1,0 +1,11 @@
+{
+  "id": "54",
+  "stream": "computer-science-information-technology",
+  "packet": "2022",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "D",
+  "question_text": "Question 54\nLet \n( )\ni\nR z\n  and \n( )\ni\nW z\n  denote read and write operations on data element \nz\n by a transaction \n1\n,\nT\n consider\nschedule \nS\n with four transaction\n4\n2\n3\n1\n1\n2\n3\n4\n:\n( )\n( )\n( )\n( )\n( )\n( )\n( )\n( )\nS R x R x R x R y W y W x W y R\ny\n(A) \n4\n1\n3\n2\nT\nT\nT\nT\n\uf0ae\n\uf0ae\n\uf0ae\n  \n(B) \n1\n4\n3\n2\nT\nT\nT\nT\n\uf0ae\n\uf0ae\n\uf0ae\n(C) \n3\n1\n4\n2\nT\nT\nT\nT\n\uf0ae\n\uf0ae\n\uf0ae\n  \n(D) \n1\n3\n4\n2\nT\nT\nT\nT\n\uf0ae\n\uf0ae\n\uf0ae",
+  "answer_text": "D",
+  "explanation_text": "Sol. \n4\n2\n3\n1\n1\n2\n3\n4\n:\n( )\n( )\n( )\n( )\n( )\n( )\n( )\n( )\nS R x R x R x R y W y W x W y R y\n1\nT\n  \n2\nT\n  \n3\nT\n  \n4\nT\n( )\nR x\n( )\nR x\n( )\nR x\n( )\nR x\n( )\nW y\n( )\nW x\n( )\nW y\n( )\nR y\n\n\nGATE 2022 \n [Forenoon Session]\nComputer Science Engineering\nPAGE\n39\n\nApply topological sort then the sequence is\n1 3\n4\n2\nTT T T"
+}

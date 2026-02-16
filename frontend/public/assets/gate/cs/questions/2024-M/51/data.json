@@ -1,0 +1,11 @@
+{
+  "id": "51",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-M",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 51 \n \n  \n \n \n[Data Structure (Graph)]\n \n \nThe chromatic number of a graph is the minimum number of colors used in a proper coloring of the graph.  \nLet \nG\n  be any graph with \nn\n  vertices and chromatic number \nk\n .  Which of the following statements is/are \nalways TRUE ? \n \n(A) \nG\n contains a complete subgraph with \nk\n vertices \n \n(B) \nG\n contains an independent set of size at least \n/\nn k\n(C) \nG\n contains at least \n\uf028\n\uf029\n1 / 2\nk k\n \uf02d\n edges\n(D) \nG\n contains a vertex of degree at least \nk\n  \nAns. \n(B, C)",
+  "answer_text": "",
+  "explanation_text": "Sol.\n \n(A) False Because Chromatic no \u2018k\u2019 not necessarily means that graph contains a\nclique on \u2019k\u2019 vertices\n(B) True by virtue of pigeon \u2013 Hole principle\n(C) True because minimum no. of edges between k color class is \n( ,2)\nC k\n(D) False because take a cycle graph on odd vertices, chromatic No is 3 but degree is not 3 for any\nvertex\nHence, the correct option is (B) and (C)."
+}

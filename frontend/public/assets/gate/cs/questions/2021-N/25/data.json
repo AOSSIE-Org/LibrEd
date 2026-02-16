@@ -1,0 +1,11 @@
+{
+  "id": "25",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "MSQ",
+  "key": "(B), (D)",
+  "question_text": "Question 25. \n \n \n \n  \n \n \n \n \nMSQ (2M)\nQuestion ID : 8232513144\nIf the numerical value of 2-byte unsigned integer on a little endian computer is 255 more than that on \nbig endian computer, which of the following choice represent(s) the unsigned integer on a little \nendian\n(A)\n0 4243\n\uf0b4\n \n(B) \n0 6665\n\uf0b4\n \n(C) \n0 0001\n\uf0b4\n \n(D) \n0 0100\n\uf0b4",
+  "answer_text": "(B), (D)",
+  "explanation_text": "Sol.\n \n (A)  LE - 4243\n=49161'3 + 2*16^2 + 4*16A1 + 3\n= 16963 BE - 4342 = =4*16^3 + 3'161'2 + 416^1 + 2\n= 17218 (incorrect)\n(B)  LE - 6665 = =6'161'3 + 6*16^2 + 6*16^1 + 5\n= 26213 BE - 6566 \u2013\n=6*16^3 + 5*16^2 + 6*16^1 + 6\n=25958 Difference\n= 26213 - 25958 = 255 (correct)\n(C) LE - 0001 - 1 BE - 0100 - 256 (larger hence incorrect)\n(D)  little endian\n\nPAGE\n18\n\n= 0100 = 16\"2 = 256\nBig endian = 0001 = 1 ,\ndifference = 256-1= 255 correct."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "54",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-M",
+  "year": "2021",
+  "type": "NAT",
+  "key": "",
+  "question_text": "Question 54 \n \n \n \n \n \n \n \nNAT (2M) \n \n \n \n \n \n \n \nQuestion ID : 823251584 \n \nA sender (S) transmits a signal, which can be one of the two kinds: H and L with probabilities 0.1 and \n0.9 respectively, to a receiver (R). In the graph below, the weight of edge (u, v) is the probability of \nreceiving v when u is transmitted, where u, v \n\u2208\n {H. L}. For example, the probability that the received \nsignal is L given the transmitted signal was H. is 0.7.\nH\nH\n0.3\n0.8\nS\nR\n0.7\n0.2\nIf the received signal is H, the probability that the transmitted signal was H(rounded to 2 decimal places) \nis ________. \nAns. \n0.04\nL\nL",
+  "answer_text": "",
+  "explanation_text": ""
+}

@@ -1,0 +1,11 @@
+{
+  "id": "40",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "NAT",
+  "key": "8",
+  "question_text": "Question 40. \n \n \n \n  \n \n \n \n \nNAT (2M)\nQuestion ID : 8232513151\nConsider the following augmented grammar with \n{#,@, , , , , }\na b c\n\uf03c\uf03e\n as the set of terminals\n'\nS\nS\n\u23af\u23af\u2192\n#\nS\nS\ncS\n\u23af\u23af\u2192\nS\nSS\n\u23af\u23af\u2192\n@\nS\nS\n\u23af\u23af\u2192\nS\nS\n\u23af\u23af\u2192\uf03c\n\uf03e\nS\na\n\u23af\u23af\u2192\nS\nb\n\u23af\u23af\u2192\nS\nc\n\u23af\u23af\u2192\nLet \n0\nI\n =\n CLOSURE \n(\n)\n{ '\n}\nS\nS\n\u2192\uf0d7\n. The number of items in the set GOTO (GOTO \n0\n(\n, ),\nI\n \uf03c\uf03c\n)\nis_________.",
+  "answer_text": "8",
+  "explanation_text": "Sol.\n1\n.\nS\nS\n\u2192\n.\n#\nS\nS\nc S\n\u2192\n\uf03c\n.\nS\nS\n\u2192\uf03c\n\uf03e\n.\nSS\n\u2192\n.\n@\nS\n\u2192\n.\n#\nS\nS\nc S\n\u2192\n.\nS\n\u2192\uf03c\n\uf03e\n.\na\n\u2192\n.\nSS\n\u2192\n.\n@\nS\n\u2192\n.\nb\n\u2192\n\uf03c\n.\nS\n\u2192\uf03c\n\uf03e\n.\na\n\u2192\n.\nc\n\u2192\n.\nb\n\u2192\n.\nc\n\u2192\nNumber of items in the set GO TO (GOTO (IO, <), <) is 8"
+}

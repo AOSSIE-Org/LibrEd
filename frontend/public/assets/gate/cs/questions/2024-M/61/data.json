@@ -1,0 +1,11 @@
+{
+  "id": "61",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-M",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 61 \n \n      \n[Theory of Computation (Finite Automata)]\n\nPAGE\n47\n\nConsider the following two regular expressions over the alphabet \n\uf07b\n\uf07d\n0,1\n :\n*\n*\n0\n1\nr\n \uf03d\n\uf02b\n*\n*\n01\n10\ns\n \uf03d\n\uf02b\n \n \nThe total number of strings of length less than or equal to 5, which are neither in \nr\n  nor in \ns\n , is ________. \nAns. \n(44 to 44)",
+  "answer_text": "",
+  "explanation_text": "Sol.\n \n0\n1\nr\n\uf02a\n\uf02a\n\uf03d\n\uf02b\n (either all zero or all ones)\n01\n10\ns\n\uf02a\n\uf02a\n\uf03d\n\uf02b\n (Start with zero then all ones OR start with one then all zeros)\n3\n\uf0e5\n2\n{0,1}\n\uf0e5\uf03d\n0\n0\nr\n\uf0ae\n0 1\ns\n\uf0ae\n                      \n0 0 0\nr\n\uf0ae\n1 0\ns\n\uf0ae\n                     \n0 0 1\n1 1\nr\n\uf0ae\n                     \n0 1 0\n0 11\n s\n\uf02d\n1 0 0\ns\n\uf02d\n1 0 1\n11 0\n111\n r\n\uf02d\nTotal number of strings not in \u2018r\u2019 and not in \u2018s\u2019 for string length less than equal to 5.\n\uf028\n\uf029\uf028\n\uf029\uf028\n\uf029\uf028\n\uf029\n2\n3\n4\n5\n2\n4\n2\n4\n2\n4\n2\n4\n\uf03d\n\uf02d\n\uf02b\n\uf02d\n\uf02b\n\uf02d\n\uf02b\n\uf02d\n(4 8 16\n32)\n(4\n4\n4\n4)\n\uf03d\n\uf02b\uf02b\n\uf02b\n\uf02d\n\uf02b\uf02b\uf02b\n60 16\n44\n\uf03d\n\uf02d\n\uf03d\nHence, the correct answer is 44."
+}

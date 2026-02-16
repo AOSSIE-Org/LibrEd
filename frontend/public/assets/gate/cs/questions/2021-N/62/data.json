@@ -1,0 +1,11 @@
+{
+  "id": "62",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "NAT",
+  "key": "59049",
+  "question_text": "Question 62. \n \n \n \n  \n \n \n \n \nNAT (2M)\nQuestion ID: 8232513150\n\nPAGE\n43\n\nLet S be a set consisting of 10 elements. The of tuples of the form (A, B) such that A and B are \nsubsets of S, and \nA\nB\n\uf0cd\n is ____",
+  "answer_text": "59049",
+  "explanation_text": "Sol.\n \nAs B is subset of S, B set can have any number of elements from set S, and for each type of B subset, \nfurther A can have any number of elements from B, therefore\nAll the possibilities can be summarised below: -\n\nNumber of Elements in B \nNumber of elements in A\n\nNo element  \nNo Element\n\n1\n1\n0\n1\n2\nC\nC\n+\n=\n10\n1\nC\n1 =>\n\n2\nC\n  \n2\n2\n2\n2\n0\n1\n2\n2\nC\nC\nC\n+\n+\n=\n10\n2 =>\n\n. \n.\n\n. \n.\n\n. \n.\n\n10 => 10C10 \n10\n10\n10\n2\n10\n10\n0\n1\n2\n10\n(2)\n(2 )\n(2 )\nC\nC X\nC X\nC X\n+\n+\n+\u2212\u2212\u2212+\n\n\nOverall number of tuples will be:\n10\n10\n10\n2\n10\n10\n0\n1\n2\n10\n(2)\n(2 )\n(2 )\nC\nC X\nC X\nC X\n+\n+\n+\u2212\u2212\u2212+\nFrom binomial theorem, it is coming out to be \n10\n3\n59049\n="
+}

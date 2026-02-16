@@ -1,0 +1,11 @@
+{
+  "id": "12",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "NAT",
+  "key": "60",
+  "question_text": "Question 12. \n \n \n \n  \n \n \n \n \nNAT (2M)\nQuestion ID : 8232513149\n\nPAGE\n9\n\nConsider the following ANSI C program.\n#include <stdio.h>\nint foo(int x, int y, int q)\n{if ((x <= 0) && (y <= 0))\nreturn q;\nif (x <= 0)\nreturn foo(x, y-q, q);\nif (y <= 0)\nreturn foo(x-q, y, q);\nreturn foo(x, y-q, q) + foo(x-q, y,q)\nint main()\n{\nint r = foo(15,15,10);\nprintf ('\"/.d\", r) ;\nreturn 0;\n}\nThe output of the program upon execution is __________",
+  "answer_text": "60",
+  "explanation_text": "Sol.\n30\n30\nfoo (15,15,10) = 60\n+\nfoo (15,5,10)\nfoo (5,15,10)\n10\n20\n20\n10\n+\nfoo (15,-5,10)\nfoo (5,5,10)\nfoo (5,5,10)\nfoo (-5,15,10)\n+\nfoo (5,-5,10)\nfoo (5,-5,10)\nfoo (-5,5,10)\nfoo (5,-5,10)\nfoo (-5,5,10)\nfoo (-5,5,10)\n+\n+\nfoo (-5,-5,10)\nfoo (-5,-5,10)\nfoo (-5,-5,10)\nfoo (-5,-5,10)\nfoo (-5,-5,10)\nfoo (-5,-5,10)\n"
+}

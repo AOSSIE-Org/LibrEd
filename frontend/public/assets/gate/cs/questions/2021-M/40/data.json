@@ -1,0 +1,11 @@
+{
+  "id": "40",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-M",
+  "year": "2021",
+  "type": "MSQ",
+  "key": "",
+  "question_text": "Question 40 \n \n \n \n \n \n \n \nMSQ (1M) \n \n \n \n \n \n \n \nQuestion ID : 823251545 \n  \nConsider a linear list based directory implementation in a file system. Each directory is a list of nodes, \nwhere each node contains the file name along with the file metadata, such as the list of pointers to the \ndata blocks. Consider a given directory foo. \nWhich of the following operations will necessarily require a full scan of foo for \nsuccessful completion? \n(A)\n \nDeletion of an existing file from foo \n(B) Renaming of an existing file in foo \n(C) Creation of a new file in foo \n(D) Opening of an existing file in foo \nAns. \nB, C",
+  "answer_text": "",
+  "explanation_text": ""
+}

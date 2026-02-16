@@ -1,0 +1,11 @@
+{
+  "id": "13",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-M",
+  "year": "2021",
+  "type": "MSQ",
+  "key": "",
+  "question_text": "Question 13 \n \n \n \n \n \n \n \nMSQ (2M) \n \n \n \n \n \n \n \nQuestion ID : 823251576 \n \nConsider the following pseudocode, where S is a semaphore initialized to 5 in line#2 and counter is a \nshared variable initialized to 0 in line#1. Assume that the increment operation in line#7 is not atomic. \n \n1. int counter = 0; \n \n2. Semaphore S = init(5); \n \n3. void parop(void) \n \n4. { \n \n5. wait(S); \n \n6. wait(S); \n \n7. counter++;\n\nGATE 2021\n [Forenoon Session]\nComputer Science Engineering\nPAGE\n13\n\n8. signal(S); \n \n9. signal(S); \n \n10. } \n \nIf live threads execute the function parop concurrently, which of the following program behavior(s) \nis/are possible? \n \n(A) The value of counter is 0 after all the threads successfully complete the execution of parop. \n \n(B) The value of counter is 1 after all the threads successfully complete the execution of parop. \n \n(C) There is a deadlock involving all the threads. \n \n(D) The value of counter is 5 after all the threads successfully complete the execution of parop. \nAns. \nB, C, D",
+  "answer_text": "",
+  "explanation_text": ""
+}

@@ -1,0 +1,11 @@
+{
+  "id": "59",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "MSQ",
+  "key": "(B), (D)",
+  "question_text": "Question 59. \n \n \n \n  \n \n \n \n \nMSQ (1M)\nQuestion ID : 8232513111\nConsider the following sets, where n \u2265 2\nS1: Set of all n x n matrices with entries from the set {a, b, c}\nS2: Set of all functions from the set {0, 1, 2, \u2026., n\n2\n-1} to the set {0, 1, 2}\nWhich of the following is possible?\n(A) There does not exist an injection from S1 to S2 .\n(B) There exists a surjection from S1 to S2.\n(C) There does not exist a bijection from S1 to S2.\n(D) There exists a bijection from S1 to S2.",
+  "answer_text": "(B), (D)",
+  "explanation_text": "Sol.\n \nS1: For n \u00d7 n matrices n\n2\n entries will be there, for each entry we are having 3 choices, one of a, b and \nc. therefore total possible ways matrix can be built is 3\nn^2\n, i.e., 3\nn^2 \nelements in Set 1\nS2: Set A consists element from 0 to n\n2\n \u2013 1, in totality n\n2\n elements are there, in Set B only 3 elements \nare there namely 0,1,2. Therefore total number of functions possible from Set A to Set B are 3\nn^2\n. i.e., \n3\nn^2\n elements in Set 2\nTherefore, both Bijection and Surjection may exist from Set1 to Set 2 as both are having same \nnumber of elements."
+}

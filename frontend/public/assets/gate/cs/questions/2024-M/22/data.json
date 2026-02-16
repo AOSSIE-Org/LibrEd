@@ -1,0 +1,11 @@
+{
+  "id": "22",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-M",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 22 \n \n  \n[Database (Database Design Function)]\n \n \nWhich of the following statements about a relation \nR\n in first normal form (1 NF) is/are TRUE ? \n \n(A) \nR\n can have a multi-attribute key\n \n \n \n(B) \nR\n cannot have a foreign key\n\nPAGE\n19\n\n(C) \nR\n cannot have a composite attribute\n \n \n \n(D) \nR\n cannot have more than one candidate key \nAns. \n(A,C)",
+  "answer_text": "",
+  "explanation_text": "Sol.\n \nIn (1 NF) or \nm\n the relation \nR\n can have a multi-attribute key also if can\u2019t have a composite attribute.\nFirst normal form (1 NF) :\n\uf0b7\n \ncan have composite key (multi-attribute key)\n\uf0b7\n \nmust have atleast one candidate key\n\uf0b7\n \nnot allowed multi-valued attributes\n\uf0b7\n \nevery attribute of \nR\n must be atomic\n\uf0b7\n \nnot allowed composite attributes\n\uf0b7\n \nmay consist foreign keys\nHence, the correct option is (A) and (C)."
+}

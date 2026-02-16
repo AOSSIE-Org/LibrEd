@@ -1,0 +1,11 @@
+{
+  "id": "12",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-M",
+  "year": "2021",
+  "type": "MSQ",
+  "key": "",
+  "question_text": "Question 12 \n \n \n \n \n \n \n \nMSQ (2M) \n \n \n \n \n \n \n \nQuestion ID : 823251573 \n \nA relation R is said to be circular if aRb and bRc together imply cRa. Which of the following options \nis/are correct? \n \n(A) If a relation S is transitive and circular, then S is an equivalence relation. \n \n(B) If a relation S is reflexive and circular, then S is an equivalence relation. \n \n(C) If a relation S is circular and symmetric, then S is an equivalence relation. \n \n(D) If a relation S is reflexive and symmetric, then S is an equivalence relation. \nAns. \nB \nSol.\n \nIf S is reflexive and cyclic then S will be equivalence relation.\nProof: S is reflexive there for element a,b,c  (a,a), (b,b), (c,c) belongs to S\nIf (a,b) belongs to S then (b,a) must belong to S, as (a,b) and (b,b) belongs to S therefore, S is \nsymmetric.\nIf (a,b) and (b,c) belongs to S then because its cyclic (c,a) must belong to S and S is symmetric too, \nhence (a,c) also belongs to S and S is Equivalence Relation",
+  "answer_text": "",
+  "explanation_text": ""
+}

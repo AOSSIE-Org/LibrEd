@@ -1,0 +1,11 @@
+{
+  "id": "65",
+  "stream": "computer-science-information-technology",
+  "packet": "2022",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "B",
+  "question_text": "Question 65\nIn a currently conducted National Entrance Test, Boys constituted 65% of those who appeared for the test. \nGirls constituted the remaining candidates and they accounted for 60% of the qualified candidates. Which \none of the following is the correct logical inference based on the information provided in the above passage \n?\n(A) Equal number of boys and girls appeared for the test\n\nGATE 2022 \n [Forenoon Session]\nComputer Science Engineering\nPAGE\n45\n\n(B) The number of boys who qualified the test is less than the number of girls who qualified.\n(C) The number of boys who appeared for the test is less than the number of girls who appeared.\n(D) Equal number of boys and girls qualified.",
+  "answer_text": "B",
+  "explanation_text": "Sol.\n100% (Assumed total student)\nBoys (65%)\nGirls (35%)\n3\n60%\n5\n\uf03d\nPassed (60%)\n3\n35\n21\n5\n\uf0b4\n\uf03d\n7\n\uf0b4\n3\n21 ( )\ng\n7\n\uf0b4\n5\n35 ( + )\ng B\n21 Passed Girls\n\n14 Passed Boys (35 \u2013 21 = 14)\n\n\uf076\uf076\uf076\uf076\n"
+}

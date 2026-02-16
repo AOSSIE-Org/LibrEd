@@ -1,0 +1,11 @@
+{
+  "id": "40",
+  "stream": "computer-science-information-technology",
+  "packet": "2022",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "B",
+  "question_text": "Question 40\nConsider 2 linked list :\n\nGATE 2022 \n [Forenoon Session]\nComputer Science Engineering\nPAGE\n28\n\nWhat is the time complexity to get reverse of linked I and II linked list by using best algorithm and space \ncomplexity \nO\n(1).\nA\nB\nC\nD\nE\n(I)\n\nE\nD\nC\nB\nA\n(II)\n(A) \n(1)\nO\n(B) \n( )\nO n\n2\n(\n)\nO n\n(C)\n(D) Not possible in space complexity \n(1)\nO",
+  "answer_text": "B",
+  "explanation_text": "Sol.\nBest algorithm for the problem takes O(n) in worst case."
+}

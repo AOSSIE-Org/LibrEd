@@ -1,0 +1,11 @@
+{
+  "id": "15",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-M",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 15 \n \n    \n[Operating System (Process Management-II)] \n \nWhich one of the following statements is FALSE ? \n \n(A) In the cycle stealing mode of DMA, one word of data is transferred between an I/O device and main\nmemory in a stolen cycle \n \n \n(B) For bulk data transfer, the burst mode of DMA has a higher throughout than the cycle stealing mode \n \n(C) Programmed I/O mechanism has a better CPU utilization than the interrupt driven I/O mechanism \n \n(D) The CPU can start executing an interrupt service routine faster with vectored interrupts than with\nnon-vectored interrupts \nAns. \n(C)",
+  "answer_text": "",
+  "explanation_text": "Sol.\n \nAll the (I/O) operations are performed in CPU. So, In programmed (I/O)  processor utilisations is very \nless.\n\nPAGE\n14\n\nHence, the correct option is (C)."
+}

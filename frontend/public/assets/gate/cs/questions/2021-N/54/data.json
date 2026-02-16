@@ -1,0 +1,11 @@
+{
+  "id": "54",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "NAT",
+  "key": "15.0 to 16.0",
+  "question_text": "Question 54. \n \n \n \n  \n \n \n \n \nNAT (1M)\nQuestion ID : 8232513122\nFor a given biased coin, the probability that the outcome of a toss is head is 0.4. This coin is tossed \n1000 times. Let X denotes the random variable whose value is the number of times that head \nappeared in those 1000 tosses. The standard deviation of X (rounded to 2 decimal points) is________",
+  "answer_text": "15.0 to 16.0",
+  "explanation_text": "Sol.\n  \nGiven : \nProbability of head, \n0.4\np\n =\nProbability of tail, \n1\n0.6\nq\np\n= \u2212\n=\nCoin is tossed 1000 times, \n1000\nn\n =\nLet X is a random variable whose value is number of times head appeared in those 1000 tosses\nWe know that, for binomial distribution\nmean\nnp\n=\nvariance\nnpq\n=\nWhere \n1\nq\np\n= \u2212\nSo, standard deviation, \nnpq\n\uf073=\n1000 0.4 0.6\n240\n15.49\n\uf073=\n\uf0b4\n\uf0b4\n=\n=\n\nPAGE\n38\n\nHence, the correct answer is 15.49."
+}

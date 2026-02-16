@@ -1,0 +1,11 @@
+{
+  "id": "59",
+  "stream": "computer-science-information-technology",
+  "packet": "2022",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "A",
+  "question_text": "Question 59\nA function \n( )\ny x\n  is defined in the interval \n[0,1]\n  on the \nx\n - axis as\n\uf0ec\n\uf0a3\n\uf0a3\n\uf0ef\n\uf0ef\uf0ef\n\uf03d\n\uf0a3\n\uf0a3\n\uf0ed\n\uf0ef\n\uf0ef\n\uf0a3\n\uf0a3\n\uf0ef\uf0ee\n1\n2 if 0\n3\n1\n3\n( )\n3 if 3\n4\n3\n1 if \n1\n4\nx\n\n\ny x\nx\nx\nWhich one of the following is the area under the curve for the interval [0, 1] on the \nx\n \u2013axis ?\n(A) \n13\n6\n \n \n(B) \n6\n5\n \n \n(C) \n6\n13\n \n \n(D) \n5\n6",
+  "answer_text": "A",
+  "explanation_text": "Sol. \nGraph of \n( )\ny x vs x\ny-axis\n3\n2\n1\nx\n-axis\n0\n1\n3\n4\n1\n3\nArea of rectangle \nl\nb\n\uf03d\uf0b4\nArea enclosed under the curve \n1\n3\n1\n3\n2\n0\n3\n1 1\n3\n4\n3\n4\n\uf0e6\n\uf0f6\n\uf0e6\n\uf0f6\n\uf0e6\n\uf0f6\n\uf03d\n\uf02d\n\uf02b\n\uf02d\n\uf02b\n\uf02d\n\uf0e7\n\uf0f7\n\uf0e7\n\uf0f7\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n\uf0e8\n\uf0f8\n\uf0e8\n\uf0f8\n\n\uf0de\n   \n2\n5\n1\n3\n4\n4\n\uf02b\n\uf02b\n\uf0de\n  \n \n13\n6\n\uf03d"
+}

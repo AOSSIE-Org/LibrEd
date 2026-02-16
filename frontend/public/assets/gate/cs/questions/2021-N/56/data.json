@@ -1,0 +1,11 @@
+{
+  "id": "56",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "NAT",
+  "key": "4",
+  "question_text": "Question 56. \n \n \n \n  \n \n \n \n \nNAT (1M)\nQuestion ID : 8232513124\nSuppose that P is a \n4 5\n\uf0b4\n matrix such that every solution of the equation \n0\nx\nP\n =\n is a scalar multiple of\n[25431]\nT\n \n. The rank of P is ______",
+  "answer_text": "4",
+  "explanation_text": "Sol.\n  \nGiven:- P is 4 \u00d7 5 matrix\nNo. of Rows = 4\nNo of columns = 5\nSo , no of variable = No of columns = 5\nSince, Px is a homogeneous.\nAnd no of variables greater than Raw\n\nPAGE\n39\n\n\uf05c\nRank = No of rows = 4\n"
+}

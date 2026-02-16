@@ -1,0 +1,11 @@
+{
+  "id": "15",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "(D)",
+  "question_text": "Question 15. \n \n \n \n \n \n \n \n \nMCQ (1M)\nQuestion ID : 8232513102\nLet H be a binary min-heap consisting of n elements implemented as an array. What is the worst\ncase time complexity of an optimal algorithm to find the maximum element in \nH\n/?\n(A) \n(log )\nn\n\uf051\n(B) \n(1)\n\uf051\n(C) \n( log )\nn\nn\n\uf051\n(D) \n( )\nn\n\uf051",
+  "answer_text": "(D)",
+  "explanation_text": "Sol.\n  \nIn a min heap maximum element is present at leaf node we need to navigate through the leaf node i.e.\nn/2 node Hence O(n)."
+}

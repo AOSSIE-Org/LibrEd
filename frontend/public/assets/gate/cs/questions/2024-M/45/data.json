@@ -1,0 +1,11 @@
+{
+  "id": "45",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-M",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 45 \n \n  \n \n \n[Data Structure (Graph)]\n \n \nLet \nG\n  be a directed graph and \nT\n  a depth first search (DFS) spanning tree in \nG\n  that is rooted at a vertex\nv\n .  Suppose \nT\n  is also a breadth first search (BFS) tree in \nG\n , rooted at \nv\n .  Which of the following \nstatements is/are TRUE for every such graph \nG\n and tree \nT\n  ? \n \n(A) There are no back-edges in \nG\n with respect to the tree  \nT\n  \n \n(B) There are no cross-edges in \nG\n with respect to the tree  \nT\n  \n \n(C) There are no forward-edges in \nG\n with respect to the tree \nT\n    \n \n(D) The only edges in \nG\n are the edges in \nT\n  \nAns. \n(C) \n \nSol.\n\nPAGE\n36\n\nA\nE\nB\nC\nD\n\n\nB.F.S\nD.F.S\nA\nA\nB\nB\nE\nE\nD\nD\nC\nC\n\n\nBack edge possible\nCross edge possible\nAll edge of G not in T. Forward edge can\u2019t be there else at would not give same BFS and DFS.\nHence, the correct option is (C).",
+  "answer_text": "",
+  "explanation_text": ""
+}

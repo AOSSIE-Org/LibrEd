@@ -1,0 +1,11 @@
+{
+  "id": "64",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "MSQ",
+  "key": "(A), (D)",
+  "question_text": "Question 64. \n \n \n \n  \n \n \n \n \nMSQ (2M)\nQuestion ID : 8232513146\nConsider the following directed graph:\n\nWhich of the following is/are correct about the graph? \n(A)\n \nA depth first traversal starting at vertex S classifies three directed edges as back edges. \n(B)\n \nThe graph does not have strongly connected components. \n(C)\n \nFor each pair of vertices u and v, there is  a directed path from u to v. \n(D)\n \nThe graph does not have a topological order.\ns",
+  "answer_text": "(A), (D)",
+  "explanation_text": "Sol. \nGiven:\n\nPAGE\n45\n\nWe can observe that,\ns\nA) There are only 3 back edges, if started from S.\nB) The graph does have a strongly connected component, it has cycle.\nC) Not all rectangular/square components form a cycle.\nD) The graph does not have a topological order, because there\u2019s a cycle in the bottom left corner of \nthe graph\n"
+}

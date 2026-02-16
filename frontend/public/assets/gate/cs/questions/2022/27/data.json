@@ -1,0 +1,11 @@
+{
+  "id": "27",
+  "stream": "computer-science-information-technology",
+  "packet": "2022",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "A,B,D",
+  "question_text": "Question 27\nWhich of the following is /are true for group G?\n(A) If the order of G in 2, then G is commutative\n(B) If for all \n,\nx y\nG\n\uf0ce\n, \n2\n2\n2\n(\n)\nxy\nx y\n\uf03d\n, then G in commutative.\n(C) If G is commutative then a subgroup of G need not to be commutative\n(D) If for all \nx\nG\n\uf0ce\n,\n2\n1\nx\n \uf03d\n, then G in commutative, here 1 in identity element of G",
+  "answer_text": "A,B,D",
+  "explanation_text": "Sol.\nA.  True\nTheorem : All groups with less than 6 elements are abelian\nB.  \nTrue\nTo prove that G is an abelian group, we need \nab\nba\n\uf03d\n for any elements \na\n.\nb\n in \nG\n.\nBy the given relation, we have \n2\n2\n2\n(\n)\n.\nab\na b\n\uf03d\nThe left hand side is \n2\n(\n)\n(\n)(\n).\nab\nab\nab\n\uf03d\nand thus the relation becomes \n2\n2\n2\n(\n)\n(\n)\n.\nab\nab\na b\n\uf03d\n\uf03d\nEquivalently. we can express it as \n(\n)(\n)\n.\nab ab\naabb\n\uf03d\nMultiplying by \n1\na\n\uf02d\non the left and \n1\n011\nb\n\uf02d\nthe right, we obtain \n1\n1\n1\n~ (\n) ~\n~ (\n) ~ .\nI\na\nabab b\na\naabb b\n\uf03d\nSince \n1\n1\n.\n.\na a\ne bb\ne\n\uf02d\n\uf02d\n\uf03d\n\uf03d\n where \ne\n is the identity element of \n.\nG\nr\nw e\n  have \n.\nebae\neabe\n\uf03d\nSince e is the identity element, it yields that \nba\nab\n\uf03d\nand this implies that \nG\n is an abelian group.\nC. False\nJust use proof by contradiction.\nSuppose \nH\n is not abelian and thus contains two non-commuting members \nx\n and \ny\n. Then \n^\n.\nxy\nyx\n But \nx\n \nand \ny\n are also in \nG\n. and thus \nG\n is not abelian.\nContradiction.\nD. True\nWhenever we have a condition \n2\ng\ne\n\uf03d\n in a group, it's equivalent to \n1\ng\ng\n \n\uf02d\n\uf03d\n(multiply both sides by\n1\ng\n \n\uf02d\n).\nIn this case, it applies to every element of the group, so we can add remove inverses from any expression \nfreely. So the proof is simply\n1\n1\n1\n(\n)\n.\nab\nab\nb a\nba\n\uf02d\n\uf02d\n\uf02d\n\uf03d\n\uf03d\n\uf03d"
+}

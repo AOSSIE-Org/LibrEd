@@ -1,0 +1,11 @@
+{
+  "id": "55",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "NAT",
+  "key": "19",
+  "question_text": "Question 55. \n \n \n \n  \n \n  \n \nNAT (1M)\nQuestion ID : 8232513125\nSuppose that \n:\nf\nR\nR\n\u2192\n is a continuous function on the interval \n[ 3,3]\n\u2212\n and a differentiable function\nin the interval \n( 3,3)\n\u2212\nsuch that for every x in the interval,\n( )\n2\nf x\n \uf0a3\n. If \n( 3)\n7\nf\n \u2212\n=\n then \n(3)\nf\nis at\nmost____",
+  "answer_text": "19",
+  "explanation_text": "Sol. \nGiven:\n The function \nf  \nis continuous on interval [\u20133,3] and differentiable in interval (\u20133,3) and\n( )\n2.\nf\nx\n\uf0a2\n\uf0a3\nBy using Lagrange\u2019s mean value theorem,\nb\nf\nf a\nx\na\n\u2212\n=\n\u2212\n( )\n)\n'\n(\n( )\nf b\nHere, \n3\na\n = \u2212\nand \n3\nb\n =\n)\n'\n3\n( 3\nf\nf\nx\nf\n\u2212\n\u2212\n=\n\u2212\u2212\nSo,  \n( )\n(3)\n( 3)\nAs,  \n'( )\n2\nf\nx\n \uf0a3\n is given\n(3)\n7\n2\n3\n3\nf\n\u2212\n\uf0b3\n+\n\uf0b4\n\uf0b3\n\u2212\n\uf0a3\n+\n\uf0a3\n2 6\n(3)\n7\n(3)\n12\n7\n(3)\n19\nf\nf\nf\n\n\nHence, the correct answer is 19."
+}

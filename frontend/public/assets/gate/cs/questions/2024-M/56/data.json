@@ -1,0 +1,11 @@
+{
+  "id": "56",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-M",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 56 \n[Computer Organization & Architecture (Memory Organization)]\n \n \nA given program has 25% load/store instructions.  Suppose the ideal CPI (cycles per instruction) without \nany memory stalls is 2.  The program exhibits 2% miss rate on instruction cache and 8% miss rate on data \ncache.  The miss penalty is 100 cycles.  The speedup (rounded off to two decimal places) achieved with a \nperfect cache (i.e., with NO data or instruction cache misses) is __________. \nAns. \n(3.00 to 3.00) \nSol.\n \nLet\u2019s assume there are 100 instructions.\n\nPAGE\n43\n\nSo we have 100 fetches for 100 instructions, this will come from instruction cache.\n25% that is 25 instructions are Data fetch/store instructions \u2013 come from data cache\nSo in total 100 fetches we will have 2% i.e., 2 misses \u2013 200 cycles penality.\nFrom the data stream, 8% i.e., 2 misses \u2013 200 cycles penality.\nTotal cycles taken to execute 100 instructions is \n100 2\n200\n200\n600cycles\n\uf02a\uf02b\n\uf02b\n\uf03d\nCPI\n600 /100\n6\n\uf03d\n\uf03d\nIn a perfect caching solution we have 0 misses and hence the CPI will be default i.e., 2 CPI.\nSpeedup achieved \n6 / 2\n3\n\uf03d\n\uf03d\nHence, the correct answer is 3.",
+  "answer_text": "",
+  "explanation_text": ""
+}

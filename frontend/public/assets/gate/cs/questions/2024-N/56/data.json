@@ -1,0 +1,11 @@
+{
+  "id": "56",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-N",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 56\nA functional dependency \n:\nF X\nY\n\uf0ae\n is termed as a useful function dependency if and only if it satisfies \nall the following three conditions :\n\u2022  \nX\n is not the empty set.\n\u2022 \nY \nis not the empty set\n\u2022 \nIntersection of \nX \n and \nY \nis the empty set\nFor a relation \nR\n  with 4 attributes, the total number of possible useful functional dependencies is \n________.\n[Database, 2 Database Design Functional]\n   \nAns. \n(50 to 50)",
+  "answer_text": "",
+  "explanation_text": "Sol.\n \n:\nF X\nY\n\uf0ae\nCase I:\n when one element is present on the left side\n\nPAGE\n38\n\n3\n4\n(2\n1)\n4 7\n28\nC\n \n\uf0b4\n\uf02d\n\uf03d\n\uf0b4\n\uf03d\n\n1\nCase II:\n When 2 element are present on the left side\n2\n4\n(2\n1)\n6 3\n18\nC\n \n\uf0b4\n\uf02d\n\uf03d\n\uf0b4\n\uf03d\n\n2\nCase III:\n When 3 element are present on left side.\n1\n4\n(2\n1)\n4 1\n4\nC\n \n\uf0b4\n\uf02d\n\uf03d\n\uf0b4\uf03d\n\n3\nTotal functional dependency = 28+18+4\n= 50\nHence, the correct answer is 50."
+}

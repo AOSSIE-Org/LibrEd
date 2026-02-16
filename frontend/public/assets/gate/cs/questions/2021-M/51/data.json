@@ -1,0 +1,11 @@
+{
+  "id": "51",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-M",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "(B)",
+  "question_text": "Question 51 \n \n \n \n \n \n \n \nMCQ (2M) \n \n \n \n \n \n \n \nQuestion ID : 823251565 \n \nConsider the two statements.\n1\nS\n  : There exist random variables X and Y such that\n2\n( [\n(\n))(\n( ))]\n[\n]\n[ ]\nE X\nE X\nY\nE Y\nVar X Var Y\n\u2212\n\u2212\n>\n2\nS\n  : For all random variables X and Y.\n[\n, ]\n[|\n[\n]||\n[ ]|]\nCov X Y\nE\nX\nE X\nY\nE Y\n=\n\u2212\n\u2212\nWhich one of the following choices is correct?\n(A)\n \nBoth\n1\nS\n and \n2\nS\n are true. \n(B) Both \n1\nS\n and \n2\nS\n  are false.\n(C) \n1\nS\n is false, but \n2\nS\n is true. \n(D) \n1\nS\n  is true, but \n2\nS\n  is false.",
+  "answer_text": "(B)",
+  "explanation_text": ""
+}

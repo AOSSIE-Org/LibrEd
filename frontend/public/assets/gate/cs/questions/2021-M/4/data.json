@@ -1,0 +1,11 @@
+{
+  "id": "4",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-M",
+  "year": "2021",
+  "type": "MSQ",
+  "key": "",
+  "question_text": "Question 4 \n \n \n \n \n \n \n \nMSQ (1M) \n \n \n \n \n \n \n \nQuestion ID : 823251544 \n \nWhich of the following standard C library functions will always invoke a system call when executed \nfrom a single-threaded process in a UNIX/LINUX Operating system ? \n \n(A) sleep  \n(B) strlen  \n(C) malloc  \n(D) exit  \nAns. \nA, D",
+  "answer_text": "",
+  "explanation_text": ""
+}

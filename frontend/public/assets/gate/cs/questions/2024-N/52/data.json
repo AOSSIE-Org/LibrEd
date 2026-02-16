@@ -1,0 +1,11 @@
+{
+  "id": "52",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-N",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "(B, C)",
+  "question_text": "Question 52\nConsider a context - free grammar \nG \n with the following 3 rules\n,\n,\nS\naS S\naSbS S\nc\n\uf0ae\n\uf0ae\n\uf0ae\nLet \n( ).\nw\nL G\n\uf0ce\n Let \n( ),\n( ),\n( )\na\nb\nc\nn w n w n w\n  denote the number of times \na\n, \nb\n, \nc\n occur in \nw\n, respectively. Which\nof the following statements is/are TRUE ? \n \n          \n[Theory of Computation, 1 finite Automata]\n(A) \n( )\n( )\na\nb\nn w\nn w\n\uf03e\n \n(B) \n( )\n( )\n2\na\nc\nn w\nn w\n\uf03e\n\uf02d\n(C) \n( )\n( ) 1\nc\nb\nn w\nn w\n\uf03d\n\uf02b\n \n(D) \n( )\n( )*2\nc\nb\nn w\nn w\n\uf03d",
+  "answer_text": "(B, C)",
+  "explanation_text": "Sol.\n \nL\n = {\nc, ac, aac, acbc, aacbaac, acbaacba,\n \u2026\u2026..}\n(A) Not mentioned about \nC\n, where \nC\n is minimum string \nacbc\n number of \na\u2019s\n and \nb\u2019s\n are equal so always\nnot greater than. string of language.\n(B)\n aacbc\n, 2> (2-1) true for any string of language\n(C) True for any string\n(D) \nac\n, \n1\n0*2\n\uf0b9\n, \nacbaacbc,\n \n3\n2*2.\n\uf0b9\n false\nHence, the correct option are (B) and (C).\n\nPAGE\n36\n"
+}

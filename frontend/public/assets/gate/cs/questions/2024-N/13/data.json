@@ -1,0 +1,11 @@
+{
+  "id": "13",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-N",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "(A)",
+  "question_text": "Question 13 \n \n  \n \n \n \n[C-Programming]\n \n \nConsider the following C program. Assume parameter to function are evaluated from right to left. \n \n#include <stdio.h> \n \nint g(int p) {printf (\u201c%d\u201d, p); return p;} \n \nint h (int q) {printf (\u201c%d\u201d, q); return q;} \n \nvoid f (int x, int y){\ng(x);\nh(y);\n}\nint main () {\nf(g(10), h(20));\n}\nWhich one of the following options is the CORRECT output of the above C program?\n(A) 20101020 \n(B) 10202010\n(C) 20102010 \n(D) 10201020",
+  "answer_text": "(A)",
+  "explanation_text": "Sol.\nint h(int q) {\nprintf (\u201d%d\u201d,q);\nint g(int p) {\nprintf (\u201d%d\u201d,p);\n}\n}\n10\n20\nreturn p;\nreturn q;\n(ii)\n(i)\nint main()\n{\n f(g(10),   h(20));\n}\n\n20\n10\nAs its mentioned \u201cparameters to a function are evaluated from right to left\u201d\nSo, h() will be will be evaluated first, and it will print 20 first then g() will be evaluated and it will\n\nPAGE\n10\n\n(i)\nint g(int p) {\nprintf (\u201d%d\u201d,p);\nreturn p;\n}\n10\n10\nx\nvoid f (int , int ){\nx\ny\ng( );\nx\nh( );\ny\n}\n20\nint h(int q) {\nprintf (\u201d%d\u201d,q);\nreturn q;\n(ii)\n20\n}\ny\nint main ( )   {\nf\n (10, 20);\n}\n\nNow as \ng\n() and \nh\n() both function will return 10 and 20 respectively, So now \n(10,20)\nF\n will be called from \n \nthen again \n()\ng\n and \n()\nh\n will be called and 10 and 20 will be pointed respectively.\nHence, the correct option is (A)."
+}

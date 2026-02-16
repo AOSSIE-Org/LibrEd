@@ -1,0 +1,11 @@
+{
+  "id": "28",
+  "stream": "computer-science-information-technology",
+  "packet": "2022",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "A, B, D",
+  "question_text": "Question 28\nPeterson graph is given below, for the given graph which of the following is correct?\n\nGATE 2022 \n [Forenoon Session]\nComputer Science Engineering\nPAGE\n19\n\n(A) Hamilton path exist in the given graph\n(B) Chromatic number is 3\n(C) Largest independent set has size 3\n(D) Following graph is isomorphic to Peterson graph.",
+  "answer_text": "A, B, D",
+  "explanation_text": "Sol.\nA.  True\n\n\nB. \nTrue\nRed\nGreen\nGreen\nGreen\nBlue\nBlue\nBlue\nRed\n\nGreen\nRed\nC. \nFalse:\nA set of vertices I is called an independent set if no two vertices in set I are adjacent to each other \nor in other words the set of non-adjacent vertices is called an independent set.\n\nGATE 2022 \n [Forenoon Session]\nComputer Science Engineering\nPAGE\n20\n\nIt is 4. From option B by simply keeping all the green vertices together we can simply observe that \nlargest independent set contains 4 vertices.\nD. \nTrue :\nWe can say given graphs are isomorphic if they have :\n1. \nEqual number of vertices\n2. \nEqual number of edges\n3. \nSame degree sequence\n4. \nSame number of circuit of particular length\nNote : In most graphs checking the first three conditions is enough."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "43",
+  "stream": "computer-science-information-technology",
+  "packet": "2022",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "A",
+  "question_text": "Question 43\nConsider four processes \nP\n, \nQ\n, \nR\n and \nS\n scheduled on a CPU as per round robin algorithm with a time \nquantum of 4 units. The processes arrive in the order \nP\n, \nQ\n, \nR\n, \nS\n all at time \n0.\nt\n \uf03d\nThere is exactly one \ncontext switch from \nS\n to \nQ\n, exactly one context switch from \nR\n to \nQ\n. Exactly two context switches from \nQ\n \nto \nR\n. There is no context switch from \nS\n to \nP\n. Switching to a ready process after the termination of another \nprocess is also considered a context switch. Which one of the following is NOT possible a CPU burst time \n(in time units) of these process?\n(A) \n3,\n7,\n7,\n3\nP\nQ\nR\nS\n\uf03d\n\uf03d\n\uf03d\n\uf03d\n \n(B) \n4,\n10,\n6,\n2\nP\nQ\nR\nS\n\uf03d\n\uf03d\n\uf03d\n\uf03d\n(C) \n4,\n12,\n5,\n4\nP\nQ\nR\nS\n\uf03d\n\uf03d\n\uf03d\n\uf03d\n \n(D) \n2,\n9,\n5,\n1\nP\nQ\nR\nS\n\uf03d\n\uf03d\n\uf03d\n\uf03d",
+  "answer_text": "A",
+  "explanation_text": "Sol.\nValid Required Contexts switches are 1 \u2013 S to Q, 1 \u2013 R to Q, 2 \u2013 Q to R and no S to P.\nA :\nQ\nR\nR\nS\nQ\nP\nContexts switches are 1 \u2013 P to Q, 2 \u2013 Q to R, 1 \u2013 R to S and 1 \u2013 S to Q\n0\n3\n7\n11\n14\n17\n20\nB :\nQ\nR\nR\nS\nQ\nQ\nP\nContexts switches are 1 \u2013 P to Q, 2 \u2013 Q to R, 1 \u2013 R to S, 1 S to Q and 1 \u2013 R to Q\n0\n4\n8\n12\n14\n18\n20\n22\nC :\nQ\nR\nR\nS\nQ\nQ\nP\nContexts switches are 1 \u2013 P to Q, 2 \u2013 Q to R, 1 \u2013 R to S, 1 S to Q and 1 \u2013 R to Q\n0\n4\n8\n12\n16\n20\n21\n25\nD :\nQ\nR\nR\nS\nQ\nQ\nP\nContexts switches are 1 \u2013 P to Q, 2 \u2013 Q to R, 1 \u2013 R to S, 1 S to Q and 1 \u2013 R to Q\n0\n2\n6\n10\n11\n15\n16\n17\nHence, A is the correct option."
+}

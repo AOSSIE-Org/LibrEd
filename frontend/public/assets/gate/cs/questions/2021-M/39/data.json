@@ -1,0 +1,11 @@
+{
+  "id": "39",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-M",
+  "year": "2021",
+  "type": "NAT",
+  "key": "",
+  "question_text": "Question 39 \n \n \n \n \n \n \n \nNAT (1M) \n \n \n \n \n \n \n \nQuestion ID : 823251552 \n  \nConsider a computer system with a byte-addressable primary memory of size 2\n32\n bytes. Assume the \ncomputer system has a direct-mapped cache of size 32 KB (1 KB = 2\n10\n bytes), and each cache block is \nof size 64 bytes. The size of the tag field is _____bits. \nAns. \n17",
+  "answer_text": "",
+  "explanation_text": "Sol.\n \nSize of main memory \n32\n2 Bytes\n=\n\u2234\n No. of bits in physical add \n2\nlog (M.M.size)\n=\n32\n2\nlog (2 )\n=\n\nGATE 2021\n [Forenoon Session]\nComputer Science Engineering\nPAGE\n27\n\n32bits\n=\nCache memory size \n32kB\n=\nCache block size \n64B\n=\n\u2234\n No. of cache lines \nCachemainsize\nCacheblocksize\n=\n32kB\n512\n64B\n=\n=\nFormat of physical add at direct mapped cache is\nP.A bits (32)\nTag\nLine\no\ufb00set\nWord\no\ufb00set\n2\nlog (Blocksize)\n17\n2\nlog (64)\n6bits\n\u0003\n9 bits\n6\n2\nlog (Noof cachelines)\n\n2\nlog (512)\n=\n9bits\n=\nNo. of bits in tag = P.A \u2013 Line offset \u2013 word offse\n32\n96\n=\n\u2212\n17bits\n="
+}

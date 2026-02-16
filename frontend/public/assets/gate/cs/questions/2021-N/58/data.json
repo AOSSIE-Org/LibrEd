@@ -1,0 +1,11 @@
+{
+  "id": "58",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "(D)",
+  "question_text": "Question 58. \n \n \n \n  \n \n \n \n \nMCQ (2M)\nQuestion ID : 8232513129\nIn an examination, a student can choose the order in which two questions (QuesA and  QuesB) must \nbe attempted.\n-If the first question is answered wrong, the student gets zero marks.\n-If the first question is answered correctly and the second question is not answered correctly, the \nstudent gets the marks only for the first question.\n-If both the questions are answered correctly, the student gets the sum of the marks of the two \nquestions.\nThe following table shows the probability of correctly answering a question and the marks of the \nquestion respectively.\nquestion probability of answering\nmarks\ncorrectly\nQuesA                    0.8 \n   10\nQuesB                     0.5 \n   20\nAssuming that the student always wants to maximize her expected marks in the examination, in \nwhich order should she attempt the questions and what is the expected marks for that order (assume \nthat the questions are independent)?\n(A)First QuesA and then QuesB. Expected marks 14.\n(B)First QuesB and then QuesA. Expected marks 22.\n(C)First QuesB and then QuesA. Expected marks 14.\n(D)First QuesA and then QuesB. Expected marks 16.",
+  "answer_text": "(D)",
+  "explanation_text": "Sol. \nLet \nX\n be random variable which represents total marks record.\n( )\nP x\n be\n \nprobability of getting those marks\nP\n (answering Ques A correctly) =0.8\nP\n (answering Ques B correctly) =0.5\n\n\nPAGE\n41\n\nX\n  \n0\n  \n10 \n20 \n30\n0.2 0.5\n\uf0b4\n0.8 0.5\n\uf0b4\n0.5 0.2\n\uf0b4\n0.8 0.5\n\uf0b4\n( )\nP x\n=0.1\n=0.4\n=0.1\n=0.4\n\n( )\n1\nP x\n =\n\uf0e5\nCase I, if Question A is attempted first and it is correct.\n( )\n( ) ( )\nE x\nx P x\n= \uf053\n( )\nE x\n0.4 10\n0.4 30\n=\n\uf0b4\n+\n\uf0b4\n( )\nE x\n4 12\n16\n=\n+\n=\nCase II, If Question B is attempted first and is correct.\n( )\n( ) ( )\nE x\nx P x\n= \uf053\n( )\nE x\n0.1(20)\n0.4(30)\n=\n+\n( )\nE x\n2 12\n14\n=\n+\n=\nSo, Case I is giving maximum expected marks.\nHence, the correct option is (D)."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "44",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "(C)",
+  "question_text": "Question 44. \n \n \n \n \n \n \n \n \nMCQ (2M)\nQuestion ID : 8232513127\nAssume a two-level inclusive cache hierarchy, L1 and L2, where L2 is the larger of the two.\nConsider the following statements.\n1\n :\nS\n Read misses in a write through L1 cache do not result in writebacks of dirty lines to the L2.\n2\n \n:\nS\n Write allocate policy must be used in conjunction with write through caches and no-write\nallocate policy is used with writeback caches.\nWhich of the following statements is correct?\n(A) \n1\nS\n  is true and \n2\nS\n  is true\n(B) \n1\nS\n  is false and \n2\nS\n  is false\n(C) \n1\nS\n  is true and \n2\nS\n  is false\n(D) \n1\nS\n  is false and \n2\nS\n  is true",
+  "answer_text": "(C)",
+  "explanation_text": "Sol.\n \nA cache with a write through policy (and write allocate) reads on entire block (cache line) from \nmemory on a cache miss and writes only the updated item to memory for a  store.\n\nPAGE\n32\n\nEvictions do not need to write to memory.\nA cache with a write back policy (and write allocate) reads an entire block (cache line) from memory \non a cache miss, and may need to write a dirty cache line first. Any writes to memory need to be \nentire cache lines since there is no way to distinguish which word was dirty with only a single dirty \nbit. Evictions of a dirty cache line cause a write to memory\nS2: false\nWrite allocate policy is also used with write back cache."
+}

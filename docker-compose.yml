@@ -1,0 +1,64 @@
+services:
+  ollama:
+    image: ollama/ollama:rocm
+    container_name: ollama
+    group_add:
+      - video
+    environment:
+      - HSA_OVERRIDE_GFX_VERSION=11.0.0
+    volumes:
+      - /dev:/dev
+      - ollama_data:/root/.ollama
+    ports:
+      - "11435:11434"
+    networks:
+      - app_network
+
+  frontend:
+    build: 
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+      - ./frontend/public/assets:/app/public/assets # Mount assets from local to container
+    environment:
+      - VITE_API_URL=http://localhost:3000
+    networks:
+      - app_network
+
+  asset-generator:
+    build:
+      context: ./generator
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/app
+    environment:
+      - OLLAMA_MODEL
+      - OLLAMA_HOST=ollama:11434
+    depends_on:
+      - ollama
+    networks:
+      - app_network
+    # Run generator by default
+    command: python -m generator.src.main
+
+  playwright:
+    image: mcr.microsoft.com/playwright:v1.58.0-jammy
+    volumes:
+      - ./frontend:/app
+    working_dir: /app
+    environment:
+      - BASE_URL=http://frontend:3000
+    networks:
+      - app_network
+    depends_on:
+      - frontend
+
+volumes:
+  ollama_data:
+
+networks:
+  app_network:

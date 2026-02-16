@@ -1,0 +1,11 @@
+{
+  "id": "2",
+  "stream": "computer-science-information-technology",
+  "packet": "2022",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "7.08",
+  "question_text": "Question 2\nConsider a 100 Mbps link between an earth station (sender) and a satellite (receiver) at an altitude of 2100 \nkm. The signal propagates at a speed of \n8\n3 10  m/s.\n\uf0b4\nThe time taken (in milliseconds runoff to 2 decimal \nplaces) for the receiver to completely receive a packet of 1000 bytes transmitted by the sender is _____.",
+  "answer_text": "7.08",
+  "explanation_text": "Sol.\n\n\uf0b4\n\uf03d\n\uf03d\n\uf03d\n\uf0b4\n\uf0b4\n3\nd\nt\ns\n8\n8\n2100km\n2100 10 m\n3 10 m/s\n3 10 m/s\np\n\n3\n7 10 sec\n\uf02d\n\uf03d\uf0b4\n7ms\n\uf03d\n\nGATE 2022 \n [Forenoon Session]\nComputer Science Engineering\nPAGE\n2\n\n\uf0b4\n\uf03d\n\uf03d\n\uf03d\n\uf0b4\n6\n1000bytes\n1000 8 bits\n100 Mbps\n100 10 bits/sec\nt\nL\nt\nR\n3\n8\n10 sec\n0.08ms\n100\n\uf02d\n\uf03d\n\uf0b4\n\uf03d\n\n0.08\n7\n7.08 ms\nt\np\nT\nt\nt\nms\n\uf03d\n\uf02b\n\uf03d\n\uf02b\n\uf03d"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "44",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-M",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 44 \n \n \n \n \n \n \n \nMCQ (2M) \n \n \n \n \n \n \n \nQuestion ID : 823251559 \n \nAssume that a 12-bit Hamming codeword consisting of 8-bit data and 4 check bits \nis \n8\n7\n6\n5 8\n4\n4\n3\n2 4\n1 2 1\nd d d d c d d d d c d c c\n , where the data bits and the check bits are given inthe following tables:\n\nGATE 2021\n [Forenoon Session]\nComputer Science Engineering\nPAGE\n29\n\nData bits \nd\n8\n \nd\n7\n \nd\n0\n \nd\n5\n \nd\n4\n \nd\n3\n \nd\n2\n \nd\n1\n \n1 \n1 \n0 \nX \n0 \n1 \n0 \n1\nCheck bits \nC\n8\n \nC\n4\n \nC\n2\n \nC\n0\n \ny \n0 \n1 \n0 \nWhich one of the following choices gives the correct values of x and y? \n(A)\n \nx is 1 and y is 0. (B) x is 0 and y is 1. \n(C) x is 1 and y is 1. \n(D) x is 0 and y is 0. \nAns. \nD",
+  "answer_text": "",
+  "explanation_text": ""
+}

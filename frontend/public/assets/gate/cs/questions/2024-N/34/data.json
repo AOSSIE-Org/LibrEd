@@ -1,0 +1,11 @@
+{
+  "id": "34",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-N",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "(5 to 5) \nSol.\n \nHasse diagram\n4\n2\n\n1\n3\nTotal Order\n(1) \n1\n3\n2\n4\n\uf0ae\n\uf0ae\n\uf0ae\n(2) \n1\n3\n4\n2\n\uf0ae\uf0ae\n\uf0ae\n(3) \n3\n1\n2\n4\n\uf0ae\uf0ae\n\uf0ae\n(4) \n3\n1\n4\n2\n\uf0ae\uf0ae\n\uf0ae\n \n \n(5) \n3\n4\n1\n2\n\uf0ae\n\uf0ae\uf0ae\n \n \nHence, the correct answer is 5.\n \nQuestion 35\nLet \nA \nbe an array containing integer values. The distance of \nA\n is defined as the minimum number of\nelements in \nA\n that must be replaced with another integer so that the resulting array is sorted in non-\ndecreasing order. The distance of the array [2,5,3,1,4,2,6] is ________.\n[Data Structure, 1 Array]\n \n(3 to 3) \nSol.\n \nThe array with sorted indices\n\nPAGE\n23\n\nValue  \n2 \n2 \n3 \n3 \n4 \n4 \n6 \nIndex \n0 \n1 \n2 \n3 \n4 \n5 \n6 \n \nNo of elements out of order = 3\nHence, the correct answer is 3.\nQ.36 \u2013 Q.65 Carry TWO marks Each",
+  "question_text": "Question 34 \n \n \nLet \nP\n \nbe the partial order defined on the set {1, 2, 3, 4} as follows\n{( , )\n{1,2,3,4}}\n{(1,2),(3,2),(3,4)}\nP\nx x x\n\uf03d\n\uf0ce\n\uf0c8\nThe number of total order on \n{1,2,3,4}\nthat contain \nP \nis\n ________.\n[Discrete Mathematics & Graph theory, 4 Set theory & Algebra]",
+  "answer_text": "(5 to 5) \nSol.\n \nHasse diagram\n4\n2\n\n1\n3\nTotal Order\n(1) \n1\n3\n2\n4\n\uf0ae\n\uf0ae\n\uf0ae\n(2) \n1\n3\n4\n2\n\uf0ae\uf0ae\n\uf0ae\n(3) \n3\n1\n2\n4\n\uf0ae\uf0ae\n\uf0ae\n(4) \n3\n1\n4\n2\n\uf0ae\uf0ae\n\uf0ae\n \n \n(5) \n3\n4\n1\n2\n\uf0ae\n\uf0ae\uf0ae\n \n \nHence, the correct answer is 5.\n \nQuestion 35\nLet \nA \nbe an array containing integer values. The distance of \nA\n is defined as the minimum number of\nelements in \nA\n that must be replaced with another integer so that the resulting array is sorted in non-\ndecreasing order. The distance of the array [2,5,3,1,4,2,6] is ________.\n[Data Structure, 1 Array]\n \n(3 to 3) \nSol.\n \nThe array with sorted indices\n\nPAGE\n23\n\nValue  \n2 \n2 \n3 \n3 \n4 \n4 \n6 \nIndex \n0 \n1 \n2 \n3 \n4 \n5 \n6 \n \nNo of elements out of order = 3\nHence, the correct answer is 3.\nQ.36 \u2013 Q.65 Carry TWO marks Each",
+  "explanation_text": ""
+}

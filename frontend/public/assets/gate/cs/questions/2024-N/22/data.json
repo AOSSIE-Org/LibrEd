@@ -1,0 +1,11 @@
+{
+  "id": "22",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-N",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "(A)",
+  "question_text": "Question 22 \n \n \n[Theory of Computation (Finite Automata)]\n\nPAGE\n16\n\nWhich one of the following regular expressions is equivalent to the language accepted by the DFA given\nbelow?\n0\n0\n1\n\n1\n(A) \n0*1(0 10*1)*\n\uf02b\n \n(B) \n0*(10*11)*0*\n(C) \n0*1(010*1)*0*\n \n(C) \n0(1 0*10*1)*0*\n\uf02b",
+  "answer_text": "(A)",
+  "explanation_text": "Sol.\n1\n0\n0\n1\n\nThe given of DFA\n \naccepts all and only binary string containing odd number of 1\u2019S.\n1\n0\n0\n1\n\nGo to the final state by reading \n0*1\n then stay in the final state by making either loop (0) or loop \n(10*1)\n \nin any order, any number of times.\nRegular expression :\n*\n0*1(0 10*1)\n\uf02b\nOption B : Counter example :\nGenerates empty string\nOption C : Counter example :\nDoes not generates  \n1\n0\n0\n1 1\nOption D Counter examples :\nDoes not generates 1.\n\nPAGE\n17\n\nHence, the correct option is (A)."
+}

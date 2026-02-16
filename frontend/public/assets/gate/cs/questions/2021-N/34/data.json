@@ -1,0 +1,11 @@
+{
+  "id": "34",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "MSQ",
+  "key": "(B), (C), (D)",
+  "question_text": "Question 34. \n \n \n \n  \n \n \n \n \nMSQ (2M)\nQuestion ID : 8232513141\nFor a string w, we define \nR\nw\n  to be the reverse of \nw\n. If \n01101\nw\n=\n the \n10110\nR\nw\n =\n. Which of the \nfollowing language is/are context-free?\n(A)\n*\n{\n|\n,\n{0,1} }\nR\nR\nwxw x\nw x\n\uf0ce\n  \n(B) \n*\n{\n|\n,\n{0,1} }\nR\nR\nwx x w\nw x\n\uf0ce\n(C)\n*\n{\n|\n,\n{0,1} }\nR\nR\nww x x\nw x\n\uf0ce\n  \n(D) \n*\n{\n|\n,\n{0,1} }\nR\nwxw\nw x\n\uf0ce",
+  "answer_text": "(B), (C), (D)",
+  "explanation_text": "Sol. \n(A) \n\uf07b\n\uf07d\n*\n|\n,\n{0.1}\nR\nR\nL\nw x w x\nw x\n=\n\uf0ce\nThis is not CFL as if we push \nw\n then \nx\n then we can\u2019t match \nR\nw\n against \nw\n. similarly with \nx\n  and \nR\nx\n .\n(B)\n*\n{\n|\n,\n{0,14 }}\nR\nR\nL\nww x x\nw x\n=\n\uf0ce\nThis is CFL, particularly NCFL. We need to guess for middle of w here, and we can compare w with\nR\nw\n  and \nx\n  with \nR\nx\n .\n(C)\n*\n{\n|\n,\n{0,14 }}\nR\nR\nL\nw x x w\nw x\n=\n\uf0ce\nThis is NCFL clearly.\n(D) \n*\n{\n|\n,\n{0,14 }}\nR\nL\nwxw\nw x\n=\n\uf0ce\nTake \nw\n = \uf065\n then \nR\nw\n = \uf065\nx\n  can be expanded to \n*\n(0 1)\n+\nIt is clearly regular\nB, C, D are CFL language."
+}

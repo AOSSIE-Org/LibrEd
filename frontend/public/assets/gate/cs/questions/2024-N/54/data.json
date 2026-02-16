@@ -1,0 +1,11 @@
+{
+  "id": "54",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-N",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 54 \n \nConsider a TCP connection operating at a point of time with the congestion window of size 12 MSS \n(Maximum Segment Size), when a timeout occurs due to packet loss.  Assuming that all the segments \ntransmitted in the next two RTTs (Round Trip Time) are acknowledged correctly, the congestion window \nsize (in \nMSS\n) during the third RTT will be _________. \n \n \n \n[Computer Network, 4 Transport Layer] \nAns. \n(4 to 4) \nSol.\n \nGiven cwnd = 12 MSS\nNow timeout occurs which makes, cwnd = 1 and ssthreshold \n12\n6MSS\n2\n\uf03d\n\uf03d\nAgain slow start phase will begin.\nAfter 1 RTT, cwnd = 1 MSS.\nAfter 2 RTT, cwnd = 2 MSS.\n1\n2\n4\nRTT-1 RTT-2\nRTT-3\n\nDuring \nrd\n3\n  RTT cwnd will be 4 MSS.\nHence, the correct answer is 4.",
+  "answer_text": "",
+  "explanation_text": ""
+}

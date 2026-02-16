@@ -1,0 +1,11 @@
+{
+  "id": "20",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "(B)",
+  "question_text": "Question 20. \n \n \n \n \n \n \n \n \nMCQ (1M)\nQuestion ID : 8232513108\nWhat is the worst case number of arithmetic operations performed by recursive binary search on a \nsorted array of size n?\n2\n(n )\n\uf051\n  \n(B)\n\uf051\n( \n2\nlog\n n\n )\n(A)\n(C)\n\uf051\n(n)  \n(D)\n(\n)\nn\n\uf051",
+  "answer_text": "(B)",
+  "explanation_text": "Sol.\n  \nThe worst case occurs when we are searching for a key that is smaller than the smallest element of \nthe array or larger than the largest element of the array."
+}

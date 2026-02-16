@@ -1,0 +1,11 @@
+{
+  "id": "46",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-M",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "(B,C,D) \nSol\n.\n \nPrecedence graph of schedule (s)\n\nPAGE\n37\n\nT\n1\nT\n2\nT\n3\n\nSerial Schedule conflict equal to S are\n1\n3\n2\n1\n3\n2\n(\n)\nT\nT\nT T\nT\nT\n\uf0ae\n\uf0ae\n3\n2\n1\n3\n2\n1\n(\n)\nT\nT\nT T\nT\nT\n\uf0ae\n\uf0ae\n3\n1\n2\n3\n1\n2\n(\n)\nT\nT\nT T\nT\nT\n\uf0ae\n\uf0ae\nHence, the correct option is (B), (C) and (D).",
+  "question_text": "Question 46 \n  \n[Database (Transactions and Concurrency Control)]\n \n \nConsider the following read-write schedule \nS\n over three transactions \n1\n2\n,\n,\nT T\n  and \n3\nT\n , where the subscripts\nin the schedule indicate transaction IDs : \n \n1\n1\n2\n3\n3\n2\n2\n2\n: ( );\n( ); ( ); ( );\n( ); ( );\n( );\n( );\nS r z w z r x r y w y r y w x w y\nWhich of the following transaction schedules is/are conflict equivalent to \nS\n ?\n(A) \n1 2 3\nTT T\n  \n(B) \n1 3 2\nTT T\n(C) \n3 2 1\nT T T\n  \n(D) \n3 1 2\nT TT",
+  "answer_text": "(B,C,D) \nSol\n.\n \nPrecedence graph of schedule (s)\n\nPAGE\n37\n\nT\n1\nT\n2\nT\n3\n\nSerial Schedule conflict equal to S are\n1\n3\n2\n1\n3\n2\n(\n)\nT\nT\nT T\nT\nT\n\uf0ae\n\uf0ae\n3\n2\n1\n3\n2\n1\n(\n)\nT\nT\nT T\nT\nT\n\uf0ae\n\uf0ae\n3\n1\n2\n3\n1\n2\n(\n)\nT\nT\nT T\nT\nT\n\uf0ae\n\uf0ae\nHence, the correct option is (B), (C) and (D).",
+  "explanation_text": ""
+}

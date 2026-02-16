@@ -1,0 +1,11 @@
+{
+  "id": "34",
+  "stream": "computer-science-information-technology",
+  "packet": "2022",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "C",
+  "question_text": "Question 34\nWhich one of the following statement is True and all positive functions \n( )?\nf n\n(A) \n2\n2\n(\n)\n( ( ) )\nf n\nf n\n\uf03d\uf057\n(B) \n2\n2\n(\n)\n( ( ) )\nf n\nO f n\n\uf03d\n(C) \n2\n2\n(\n)\n( ( ) )\nf n\nf n\n\uf03d\n, when \n( )\nf n\n is a polynomial\n(D) \n2\n2\n(\n)\n( ( ) )\nf n\nO f n\n\uf03d\n, when \n( )\nf n\n  is an exponential function.",
+  "answer_text": "C",
+  "explanation_text": "Sol.\nA:  It need not be true for a function which is decreasing.\nB:  \nAn exponential function may be increasing or decreasing, so this condition may not always be true.\nC:  \nIt always holds because if we square the input variable, then the highest order in the polynomial \nwill also get squared.\nD:  It is not true in cases when \n( )\nf n\n is a polynomial function.\nC Programming"
+}

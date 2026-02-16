@@ -1,0 +1,11 @@
+{
+  "id": "53",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-N",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 53\n \n \nConsider a disk with the following specifications : rotation speed of 6000 RPM, average seek time of 5 \nmilliseconds, 500 sectors/track, 512-byte sectors.  A file has content stored in 3000 sectors located \nrandomly on the disk.  Assuming average rotational latency, the total time (in seconds, rounded off to 2 \ndecimal places) to read the entire file from the disk is __________.\n[Operating System, 5 File System and Device Management]\n \nAns. \n(29.50 to 30.50\n) \nSol.\n \nTotal time (T) = No. of sectors \n\uf0b4\n (Avg. time per sector for random access)\n3000\nT\n \uf03d\n\uf0b4\n (Avg. seek time + Avg. rotational latency + transfers time)\n10\n1\n3000\n5\nms\n2\n50\nT\n\uf0e6\n\uf0f6\n\uf03d\n\uf0b4\n\uf02b\n\uf02b\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n\nT\n = 30.06 sec\nHence, the correct answer is 30.06 sec.",
+  "answer_text": "",
+  "explanation_text": ""
+}

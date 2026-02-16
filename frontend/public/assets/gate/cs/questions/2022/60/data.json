@@ -1,0 +1,11 @@
+{
+  "id": "60",
+  "stream": "computer-science-information-technology",
+  "packet": "2022",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "A",
+  "question_text": "Question 60\nGiven below are four statements\nStatement 1 : All students are inquisitive\nStatement 2 : Some students are inquisitive\n\nGATE 2022 \n [Forenoon Session]\nComputer Science Engineering\nPAGE\n42\n\nStatement 3 : No students are inquisitive\nStatement 4 : Some students are not inquisitive\nFor the given four statements, find the statements what cannot be true, simultaneously, assuming that there \nis at least one student in the class\n(A) Statement 1 and Statement 3 \n(B) Statement 3 and Statement 4\n(C) Statement 2 and Statement 4 \n(D) Statement 1 and Statement 2",
+  "answer_text": "A",
+  "explanation_text": "Sol.\nAs in the question, it is asked that statements that can not be true simultaneously\nOption A\n\nOption B\n\nStudents\nInquisitive\nStudents\nInquisitive\nOption C\n\nStatement-4\nStatement-2\nStudents\nStudents\nInquisitive\nOption D\nInquisitive\nAfter making the venn diagram it is clearly visible that statement 1 and statement 3 cannot be possible \nsimultaneously only one can possibly be happen at a time.\nStatement-2\nStatement-1"
+}

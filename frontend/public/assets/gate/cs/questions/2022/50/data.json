@@ -1,0 +1,11 @@
+{
+  "id": "50",
+  "stream": "computer-science-information-technology",
+  "packet": "2022",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "C",
+  "question_text": "Question 50\nFloating point number A, B and C stored in registered \n&\nA\nB\nC\nR R\nR\n as per IEEE -754, The 32 bit content\nstored in these registered in hexadecimal form\n0\n1400000\nA\nR\nXC\n\uf03d\n \n0\n42100000\nB\nR\nX\n\uf03d\n \n0\n41400000\nC\nR\nX\n\uf03d\nWhich is false\n(A) \n0\nA\nC\n\uf02b\n\uf03d\n(B) \n3\nB\nC\n\uf03d\n(C) \nC\nA\nB\n\uf03d\n\uf02b\n(D) \n(\n)\n0\nB\nC\n\uf02d\n\uf03e",
+  "answer_text": "C",
+  "explanation_text": "Sol. \n1100\n0001 0100\n0000\nA\n \uf03d\nBiased Exponent\n130, Exponent\n130 127\n3\n\uf03d\n\uf03d\n\uf02d\n\uf03d\n3\nDecimal\n1.1 2\n1100\n12\n\uf03d\uf02d\n\uf0b4\n\uf03d\uf02d\n\uf03d\uf02d\n0100\n0010\n0001\n0000\nB\n \uf03d\nBiased Exponent\n132, Exponent\n132 127\n5\n\uf03d\n\uf03d\n\uf02d\n\uf03d\n5\nDecimal\n1.001 2\n100100\n36\n\uf03d\uf02b\n\uf0b4\n\uf03d\n\uf03d\n0100\n0001 0100\n0000\nC\n \uf03d\n\nGATE 2022 \n [Forenoon Session]\nComputer Science Engineering\nPAGE\n36\n\nBiased Exponent\n128\n2\n130, Exponent\n130 122\n3\n\uf03d\n\uf02b\n\uf03d\n\uf03d\n\uf02d\n\uf03d\n3\nDecimal\n1.1 2\n1100\n12\n\uf03d\uf02b\n\uf0b4\n\uf03d\n\uf03d\uf02b\n12\nA\n \uf03d\uf02d\n36\nB\n \uf03d\n12\nC\n \uf03d\uf02b\nDBMS"
+}

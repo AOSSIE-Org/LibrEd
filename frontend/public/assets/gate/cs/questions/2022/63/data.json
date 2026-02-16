@@ -1,0 +1,11 @@
+{
+  "id": "63",
+  "stream": "computer-science-information-technology",
+  "packet": "2022",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "C\n\nGATE 2022 \n [Forenoon Session]\nComputer Science Engineering\nPAGE\n44",
+  "question_text": "Question 63\nThe corners and the mid point of a triangle are name using distinct letters \n,\n, , ,\nP Q R S T\n  and U but not \nnecessarily in the same order. Consider the following statements\n\u25cf \nThe line joining \nP\n  and \nR\n  is parallel to the line joining \nQ\n and \nS\n\u25cf \nP\n is placed on the side opposite to the corner \nT\n\u25cf \nS and U cannot be placed in the same side\nWhich one of the following statements is correct based on the above information?\n(A) P cannot be placed at a corner  \n(B) U cannot be placed at a mid point\n(C) S cannot be placed at a corner  \n(D) R cannot be placed at a corner",
+  "answer_text": "C\n\nGATE 2022 \n [Forenoon Session]\nComputer Science Engineering\nPAGE\n44",
+  "explanation_text": "Sol.\nR\nS\nU\nP\nQ\nT\n\nIt satisfies all the given points.\n||\nPR QS\nP is placed on the side opposite to the corner T\nS and U cannot be placed in the same side"
+}

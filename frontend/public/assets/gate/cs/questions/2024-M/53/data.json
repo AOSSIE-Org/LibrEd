@@ -1,0 +1,11 @@
+{
+  "id": "53",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-M",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 53                                     \n[Computer Organization & Architecture (Memory Organization)]\n \n \nConsider two set-associative cache memory architectures: WBC, which uses the write back policy, and \nWTC, which uses the write through policy.  Both of them use the LRU (Least Recently Used) block \nreplacement policy.  The cache memory is connected to the main memory.  Which of the following \nstatements is/are TRUE ? \n \n(A) A read miss in WBC never evicts a dirty block \n \n(B) A read miss in WTC never triggers a write back operation of a cache block to main memory \n \n(C) A write hit in WBC can modify the value of the dirty bit of a cache block \n \n(D) A write miss in WTC always writes the victim cache block to main memory before loading the\nmissed block to the cache \nAns. \n(B,C)",
+  "answer_text": "",
+  "explanation_text": "Sol.\n \nIn write through policy , data is we never need to perform a \u201cwrite back\u201d operation to remove any entry \nfrom the cache block.\nHence, the correct option is (B) and (C)."
+}

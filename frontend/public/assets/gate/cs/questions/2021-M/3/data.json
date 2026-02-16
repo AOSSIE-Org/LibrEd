@@ -1,0 +1,11 @@
+{
+  "id": "3",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-M",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "D",
+  "question_text": "Question 3 \n \n \n \n \n \n \n \nMCQ (2M) \n \n \n \n \n \n \n \nQuestion ID : 823251562\nLet \n( )\ni\nr z\n  and \n( )\ni\nw z\n  denote read and write operations respectively on a data item Z by a transaction \ni\nT\n .\nConsider the following two schedules.\n1\n1\n1\n2\n2\n2\n1\n: ( );\n( );\n( );\n( );\n( );\n( )\nS\nr x\nr y\nr x\nr y\nw\ny\nw x\n2\n1\n2\n2\n2\n1\n1\n: ( );\n( );\n( );\n( );\n( );\n( )\nS\nr x\nr x\nr y\nw\ny\nr y\nw x\n(A) Both \n1\nS\n  and \n2\nS\n  are conflict serializable.\n(B) Neither \n1\nS\n  nor \n2\nS\n  is conflict serializable.\n(C) \n1\nS\n  is conflict serializable, and \n2\nS\n  is not conflict serializable.\n(D) \n1\nS\n  is not conflict serializable and\n2\nS\n  is conflict serializable.",
+  "answer_text": "D",
+  "explanation_text": "Sol.\n \nThe schedule \n2\nS\n  is CSS but \n1\nS\n  is not conflict serializable due to the cycle in the precedence graph.\nThe precedence graph of \n1\nS\n  will be :\n1\nT\n2\nT\n\nIt is not CSS due to the conflict :\n1\n2\n( )\n( )\nR Y\nW Y\n\u2212\n, and \n2\n1\n(\n)\n(\n)\nR\nX\nW X\n\u2212\nThe precedence graph of \n2\nS\n  will be :\n\nGATE 2021\n [Forenoon Session]\nComputer Science Engineering\nPAGE\n8\n\n1\nT\n2\nT\n\n2\nS\n  is a conflict serializable schedule."
+}

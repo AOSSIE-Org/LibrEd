@@ -1,0 +1,11 @@
+{
+  "id": "8",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-M",
+  "year": "2021",
+  "type": "NAT",
+  "key": "820",
+  "question_text": "Question 8 \n \n \n \n \n \n \n \nNAT (1M) \n \n \n \n \n \n \n \nQuestion ID : 823251553 \n \nA relation r (A, B) in relational database has 1200 tuples. The attribute A has integer value ranging 6 to \n20 and the attribute B has integer values ranging from 1 to 20. Assume that the attributes A and B \nindependently distributed. The estimated number of tuple in the output of \n(\n10) (\n18)\n(r)\n>\n\u2228\n=\n\u03c3\n A\nB\n \nis ______.",
+  "answer_text": "820",
+  "explanation_text": ""
+}

@@ -1,0 +1,11 @@
+{
+  "id": "64",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-N",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 64 \n \nConsider a 32-bit system with 4 KB page size and page table entries of size 4 bytes each.  Assume\n10\n1\n2\nKB\n \uf03d\nbytes.  The OS uses a 2-level page table for memory management, with the page table\ncontaining an outer page directory and an inner page table.  The OS allocates a page for the outer page \ndirectory upon process creation.  The OS uses demand paging when allocating memory for the inner page \ntable, i.e,. a page of the inner page table is allocated only if it contains at least one valid page table entry. \n \nAn active process in this system accesses 2000 unique pages during its execution, and none of the pages \nare swapped out to disk.  After it completes the page accesses, let \nX\n  denote the minimum and \nY\n denote \nthe maximum number of pages across the two levels of the page table of the process.\nThe value of \nX\nY\n\uf02b\n is ________.\n[Operating System, 4 Memory Management & Virtual Memory] \nAns. \n1028 (1028 to 1028) \nSol.\n \nPage size = 4 kB\n12\n2\n2\n2\n2\nlog\n12log\n12bit\n\uf03d\n\uf03d\n\uf03d\nNo. of bits\n32\n10 bit\n10 - bit\n12 - bit\n\nX\n = Minimum No. of page\n\nPAGE\n44\n\nY\n = Maximum No. of page\nFor \nX\n, there will be Minimum of 3 page and for\n Y\n there will be = 1 + 1024 =1025\nHence, the total No. of page i.e \nX\n +\n Y\n = 1025 + 3 = 1028\nHence, the correct answer is 1028.",
+  "answer_text": "",
+  "explanation_text": ""
+}

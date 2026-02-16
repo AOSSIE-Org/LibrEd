@@ -1,0 +1,11 @@
+{
+  "id": "16",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-N",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "(B)",
+  "question_text": "Question 16\nLet \n( )\nf x\n  be a continuous function from \nR \nto\n R \nsuch that \n( ) 1\n(2\n)\nf x\nf\nx\n\uf03d\uf02d\n\uf02d\n2\n0\n( )\nf x dx\n\uf0f2\n? \n \n(1 Mark)\nWhich one of the following options is the CORRECT value of\n[Engineering Mathematics, Calculus] \n \n(A) 0 \n(B) 1 \n \n(C) 2 \n(D) \u20131 \nAns. \n(B) \nSol.\n \nGiven :\n\nPAGE\n13\n\n( )\nf x\n  is a continuous function from \nR \nto \nR\n.\n( )\n1\n(2\n)\nf x\nf\nx\n\uf03d\uf02d\n\uf02d\nNote :\nb\nb\na\na\nf x dx\nf a\nb\nx dx\n\uf03d\n\uf02b\n\uf02d\n\uf0f2\n\uf0f2\n\u2022 \n( )\n(\n)\nNow according to question\n2\n2\n0\n0\n( )\n(2\n)\nI\nf x\nf\nx dx\n\uf03d\n\uf03d\n\uf02d\n\uf0f2\n\uf0f2\n   \n \n \n\u2026(i)\n\n2\n[1\n(2\n)]\nI\nf\nx dx\n\uf03d\n\uf02d\n\uf02d\n\uf0f2\n\n0\n2\n2\n0\n0\n1\n(2\n)\nI\ndx\nf\nx dx\n\uf03d\n\uf02d\n\uf02d\n\uf0f2\n\uf0f2\n\nFrom equation (i)\n2\n0\n[ ]\nI\nx\nI\n\uf03d\n\uf02d\n\n2\n2\nI\n \uf03d\n \n \n \n1\nI\n \uf03d\n2\n( )\n1\nI\nf x dx\n\uf03d\n\uf03d\n\uf0f2\n\n0\nHence, the correct option is (B). \nQuestion 17 \n \n  \n \n \n[Data Structure (Graph)]\n \n \nLet \nA\n be the adjacency matrix of a simple undirected graph \nG\n. Suppose \nA\n is its own inverse. Which one\nof the following statements is always TRUE?\n(A) \nG \nis a cycle \n(B) \nG\n is a perfect matching\n(C) \nG\n is a complete graph \n(D) There is no such graph \nG",
+  "answer_text": "(B)",
+  "explanation_text": "Sol.\n \nWe know that\nEvery adjacent matrix is symmetric.\n1\nT\nA\nA\nA\n\uf02d\n\uf03d\n\uf03d\n\nn\nA\nAA\nA A\nI\n\uf03d\n\uf03d\n\uf03d\n2\nT\nT\nAbove results in the orthogonal matrix as given, the graph is simple which means that it consists of only \n0 and 1.\nFrom this we can conclude that if any vertex \ni\nV\n  is connected to vertex \nJ\nV\n  then similarly vertex \nJ\nV\n  should\nalso connected to vertex \ni\nV\n , hence it will cover the entire graph. Hence, it will results in perfect matching.\n\nPAGE\n14\n\nHence, the correct option is (B)."
+}

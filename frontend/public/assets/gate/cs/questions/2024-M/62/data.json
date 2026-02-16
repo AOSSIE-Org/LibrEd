@@ -1,0 +1,11 @@
+{
+  "id": "62",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-M",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 62 \n[Operating System (Memory management and Virtual Memory)]\n \n \nConsider a memory management system that uses a page size of 2 KB.   Assume that both the physical \nand virtual addresses start from 0.  Assume that the pages 0, 1, 2, and 3 are stored in the page frames 1, 3, \n2, and 0, respectively.  The physical address (in decimal format) corresponding to the virtual address 2500 \n(in decimal format) is ________. \nAns. \n(6596 to 6596)\n11\n2KB\n2 B\n\uf03d\n\uf03d",
+  "answer_text": "",
+  "explanation_text": "Sol.\n \nPage size\nVirtual address \n10\n16\n(2500)\n(9 4)\nC\n\uf03d\n\uf03d\n\nPAGE\n48\n\npageno.\noffset\n1\n001 1100\n0100\n\uf03d\n\n\n\u2022\n \nGiven that page no. 1 is stored in page frame 3. \n\u2022\n \nPhysical address\noffset\n11 001 1100\n0100\n\uf03d\n\n\uf0af\nframe no.\n12\n1 2\n2500\n\uf03d\uf02a\n\uf02b\n \n \n4096\n2500\n\uf03d\n\uf02b\n6596\n\uf03d\nHence, the correct answer is 6596."
+}

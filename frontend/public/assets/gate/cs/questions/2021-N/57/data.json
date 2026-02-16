@@ -1,0 +1,11 @@
+{
+  "id": "57",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "(D)",
+  "question_text": "Question 57. \n \n \n \n  \n \n \n \n \nMCQ (2M)\nQuestion ID : 8232513133\nA bag has r red balls and b black balls. All balls are identical except for their colours. In a trial, a ball \nis randomly drawn from the bag, its colour is noted and the ball is placed back into the bag along \nwith another ball of the same colour. Note that the number of balls in the bag will increase by one, \nafter the trial. A sequence of four such trials is conducted. Which one of the following choices gives \nthe probability of drawing a red ball in the fourth trial?\n(A) \n1\n2\n3\n1\n2\n3\nr\nr\nr\nr\nr\nb\nr\nb\nr\nb\nr\nb\n+\n+\n+\n\uf0e6\n\uf0f6\uf0e6\n\uf0f6\uf0e6\n\uf0f6\uf0e6\n\uf0f6\n\uf0e7\n\uf0f7\uf0e7\n\uf0f7\uf0e7\n\uf0f7\uf0e7\n\uf0f7\n+\n+\n+\n+\n+\n+\n+\n\uf0e8\n\uf0f8\uf0e8\n\uf0f8\uf0e8\n\uf0f8\uf0e8\n\uf0f8\n3\nr\nr\nb\n+\n+\n+\n(B) \n3\n(C) \n3\nr\nr\nb\n+\n+\n(D) \nr\nr\nb\n+",
+  "answer_text": "(D)",
+  "explanation_text": "Sol. \nThere are 10 favorable ways to calculate the probability of red ball in 4\nth\n trial\n(\n)\n(\n)\n1 way\nRBR R\nR BRR R\n=\n=\nOr \n \n(\n)\n3 ways or (\n)\n3 ways\nRRR\nBBB R\n=\n=\n1\n2\n2\n(\n)\n1\n2\n3\nr\nr\nr\nP RRRR\nr\nb\nr\nb\nr\nb\nr\nb\n+\n+\n+\n=\n\uf0b4\n\uf0b4\n\uf0b4\n+\n+ +\n+\n+\n+ +\n \n \n\u2026 (i)\n1\n2\n(\n)\n1\n2\n3\nb\nb\nb\nr\nP BBBR\nr\nb\nr\nb\nr\nb\nr\nb\n+\n+\n=\n\uf0b4\n\uf0b4\n\uf0b4\n+\n+\n+\n+\n+\n+\n+\n \n \n\u2026 (ii)\n+\n=\n\uf0b4\n\uf0b4\n\uf0b4\n+\n+\n+\n+\n+\n+\n\uf0b4\n+\n+\nr\nr\nb\nP RRBR\nr\nb\nr\nb\nr\nb\nr\nr\nb\n3!\n1\n(\n)\n2!\n1\n2\n2\n\n\n3\n\u2026 (iii)\n+\n=\n\uf0b4\n\uf0b4\n\uf0b4\n+\n+\n+\n+\n+\n+\n\uf0b4\n+\n+\nb\nb\nr\nP BBRR\nr\nb\nr\nb\nr\nb\nr\nr\nb\n3!\n1\n(\n)\n2!\n1\n2\n1\n\n\n3\n\u2026 (iv)\nRequired probability\n(i)\n(ii)\n(iii)\n(iv)\n=\n+\n+\n+\n\nPAGE\n40\n\n+\n+\n+\n+\n+\n+\n+\n+\n+\n+\n+\n+\n=\n+\n+\n+\n+\n+\n+\n+\nr r\nr\nr\nb b\nb\nr\nr r\nb r\nb b\nr r\nr\nb r\nb\nr\nb\nr\nb\n(\n1)(\n2)(\n3)\n(\n1)(\n2)\n3 (\n1) (\n2)\n3 (\n1) (\n1)\n(\n)(\n1)(\n2)(\n3)\n\nOn solving it we get,\n(\n1\n)\n(\n)(\n1)\nr r\nb\nr\nr\nb r\nb\nr\nb\n+ +\n=\n=\n+\n+\n+\n+\nHence, the correct option is (A).\n"
+}

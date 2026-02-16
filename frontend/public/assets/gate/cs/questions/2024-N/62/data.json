@@ -1,0 +1,11 @@
+{
+  "id": "62",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-N",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "(15 to 15) \nSol.\n \n*\n*(\n*\n*)*\nb ab\nab ab\nLength 1 \n\uf0ae\n a  \n \n \n\u2026(i)\nLength 2 \n\uf0ae\n ba, ab \n \n \n\u2026(ii)\nLength 3 \n\uf0ae\n bba, abb, bab, aaa \n\u2026(iv)\nLength 4 \n\uf0ae\n \n4!\n3!\n \n\uf03d\n4\n(3 | )\nb a\nLength 4 \n\uf0ae\n \n4!\n3 |\n4\n3!\na b\n \uf03d\n\uf03d\nTotal \n1 2\n4\n4\n4\n\uf02b\n\uf02b\n\uf02b\n\uf02b\n\uf03d\n(15)\nHence, the correct answer is 15.",
+  "question_text": "Question 62\nLet \n1\nL\n be \nthe \nlanguage \nrepresented \nby \nthe \nregular \nexpression \n\uf028\n\uf029\nb ab\nab ab\n\uf02a\n\uf02a\n\uf02a\n\uf02a\n\uf02a\n \nand\n\uf028\n\uf029\n\uf07b\n\uf07d\n2\n|\n4\nL\nw\na\nb\nw\n\uf02a\n\uf03d\n\uf0ce\n\uf02b\n\uf0a3\n, where \nw\n  denotes the length of string \nw\n.  The number of strings in \n2\nL\n  which\nare also in \n1\nL\n  is __________. \n \n \n[Theory of Computation \u2013 Finite Automata]",
+  "answer_text": "(15 to 15) \nSol.\n \n*\n*(\n*\n*)*\nb ab\nab ab\nLength 1 \n\uf0ae\n a  \n \n \n\u2026(i)\nLength 2 \n\uf0ae\n ba, ab \n \n \n\u2026(ii)\nLength 3 \n\uf0ae\n bba, abb, bab, aaa \n\u2026(iv)\nLength 4 \n\uf0ae\n \n4!\n3!\n \n\uf03d\n4\n(3 | )\nb a\nLength 4 \n\uf0ae\n \n4!\n3 |\n4\n3!\na b\n \uf03d\n\uf03d\nTotal \n1 2\n4\n4\n4\n\uf02b\n\uf02b\n\uf02b\n\uf02b\n\uf03d\n(15)\nHence, the correct answer is 15.",
+  "explanation_text": ""
+}

@@ -1,0 +1,11 @@
+{
+  "id": "17",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-M",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "(A)",
+  "question_text": "Question 17 \n \n  \n \n[Algorithm (Complexity Analysis)]\n \n \nGiven an integer array of size N. we want to check if the array is sorted (in either ascending or descending \norder). An algorithm solves this problem by making a single pass through the array and comparing each \nelement of the array only with its adjacent elements. The worst-case time complexity of this algorithm is\n(A) Both \nO(N)\n  and \n\u03a9(N)\n  \n(B) \nO(N)\n  but not \n\u03a9(N)\n(C) \n\u03a9(N)\n  but not \nO(N)\n  \n(D) Neither O(\nN\n) nor \n\u03a9(N)",
+  "answer_text": "(A)",
+  "explanation_text": "Sol. \n Code Snippet\nIs ascending = 0; is descending = 0;\nFor \n(\n1;1\n1;\n)\nidx\nN\ni\n\uf03d\n\uf03c\uf03d\n\uf02d\n\uf02b\uf02b\n{\nIf \n(arr[\n]\narr[\n1])\nidx\nidx\n\uf03e\n\uf02b\n{\nIs descending = 1;\n}\n\nPAGE\n15\n\nElse\n{\nIs ascending = 1;\n}\n}\nSo, both will take O(N) as we will require to traverse full array.\nHence, the correct option is (A)."
+}

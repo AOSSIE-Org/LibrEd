@@ -1,0 +1,11 @@
+{
+  "id": "30",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "NAT",
+  "key": "1.87 to 1.88",
+  "question_text": "Question 30. \n \n \n \n  \n \n \n \n \nNAT (2M)\nQuestion ID : 8232513153\nConsider a pipelined processor with 5 stages, Instruction Fetch (IF), Instruction Decode (ID). \nExecute (EX), Memory Access (MEM), and Write Back (WB). Each stage of the pipeline, except the \nEX-stage, takes one cycle. Assume that the ID stage merely decodes the instruction and the register \nread is performed in the EX-stage. The EX-stage takes one cycle for ADD instruction and two cycles \nfor MUL instruction. Ignore pipeline register latencies. \nConsider the following sequence of 8 instructions:\nADD, MUL, ADD, MUL, ADD, MUL, ADD, MUL\nAssume that every MUL instruction is data-dependent on the ADD instruction just before it and \nevery ADD instruction (except the first ADD) is data-dependent on the MUL instruction just before \nit. The Speedup is defined as follows:\n\nSpeedup = \nExecution time without operand forwarding\nExecution time with operand forwarding\nThe Speedup achieved in executing the given instruction sequence 011 the pipelined processor \n(rounded to 2 decimal places) is_____",
+  "answer_text": "1.87 to 1.88",
+  "explanation_text": "Sol.\n  \nExecution cycle without operand forwarding = 30\nExecution cycle with operand forwarding = 16\nSpeed up = 30/16 = 1.875"
+}

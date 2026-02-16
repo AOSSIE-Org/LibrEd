@@ -1,0 +1,11 @@
+{
+  "id": "38",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-M",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 38 \n \n \n \n \n \n \n \nMCQ (1M) \n \n \n \n \n \n \n \nQuestion ID : 823251540 \n \nA Binary search tree T contains n distinct elements. What is time complexity of picking an elements in \nT that is smaller than the maximum element in T? \n \n(A) \n( log )\nn\nn\n\u03b8\n \n(B) \n(log )\nn\n\u03b8\n \n(C) \n( )\nn\n\u03b8\n \n(D) \n(1)\n\u03b8\n \nAns. \nD \nSol. \nIn BST maximal element will be in right most leaf node\nIf root has right sub tree then root itself is smaller than maximum value\nIf root does not have right subtree then root is maximum element and left child of root is the required \nelement.",
+  "answer_text": "",
+  "explanation_text": ""
+}

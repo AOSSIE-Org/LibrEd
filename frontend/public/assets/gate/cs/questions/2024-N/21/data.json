@@ -1,0 +1,11 @@
+{
+  "id": "21",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-N",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "(B)",
+  "question_text": "Question 21 \n \n  \n      \n[Complier Design (Lexical Analysis)]\n \n \nConsider the following two sets\nSet X \nSet Y\nP. \nLexical Analyzer  \n1. \nAbstract Syntax Tree\nQ. \nSyntax Analyzer \n2. \nToken\nR. \nIntermediate Code\n3. \nParse Tree\nGenerator\nS. \nCode Optimizer \n4. \nConstant Folding\nWhich one of the following options is the CORRECT match from set \nX\n to Set \nY\n ?\n(A) \nP\n-4; \nQ\n-1; \nR\n-3; \nS\n-2 \n(B) \nP\n-2; \nQ\n-3; \nR\n-1;\n S\n-4\n(C) \nP\n-2; \nQ\n-1; \nR\n-3; \nS\n-4 \n(D) \nP\n-4; \nQ\n-3; \nR\n-2; \nS\n-1",
+  "answer_text": "(B)",
+  "explanation_text": "Sol. \nLexical analysis \n\uf0ae\n tokens\nSyntax analysis \n\uf0ae\n parse tree\nICG \n\uf0ae\n abstract syntax tree\nCode optimizer \n\uf0ae\n Constant folding\nHence, the correct option is (B)."
+}

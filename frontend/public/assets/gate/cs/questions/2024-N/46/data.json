@@ -1,0 +1,11 @@
+{
+  "id": "46",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-N",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "(B, C)",
+  "question_text": "Question 46\nConsider a multi-threaded program with two threads \nT\n1 and \nT\n2. The threads share two semaphores : \ns\n1 \n(initialized to 1) and \ns\n2 (initialized to 0). The threads also share a global variable \nx \n(initialized to 0). The \nthreads execute the code shown below.\n// code of T1\n// code of T2\nwait (s1);\nwait (s1);\nx = x\n+\n1;\nx = x\n+\n1;\nprint (x);\nprint (x);\nwait (s2);\nwait (s2);\nsignal (s1);\nsignal (s1);\nWhich of the following outcomes is/are possible when thread T1 and 2 execute concurrently ?\n[Operating System, 3 Deadlock]\n(A) \nT\n1 runs first and prints 1. \nT\n2 runs next and prints 2\n\nPAGE\n31\n\n(B) \nT\n2 runs first and prints 1. \nT\n1 tuns next and prints 2\n(C) \nT\nl runs first and prints 1. \nT\n2 does not print anything (deadlock)\n(D) \n \nT\n2 runs first and prints 1. \nT\n1 does not print anything (deadlock)",
+  "answer_text": "(B, C)",
+  "explanation_text": "Sol.\n \nInitially \n1\n1\nS\n \uf03d\nand both threads are performing wait operation on \n1\nS\n . So, only one thread will succeed\nand run.\nIf thread \n1\nT\n  runs first then \n1\nT\n  get blocked When it execute wait \n2\n(\n)\nS\n. Also, \n2\nT\n  cannot run as it would\nget blocked when it executes wait \n1\n( )\nS\n . So deadlock occur.\nHence, the correct option is (B) and (C)."
+}

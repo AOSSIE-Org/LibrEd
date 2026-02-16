@@ -1,0 +1,11 @@
+{
+  "id": "7",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-N",
+  "year": "2024",
+  "type": "NAT",
+  "key": "",
+  "question_text": "Question 7 \n \nA person sold two different items at the same price. He made 10% profit in one item, and 10% loss in \nthe other item. In selling these two items, the person made a total of \n[\nNumerical Ability, 2]\n \n \n(A) 1% profit \n(B) 2% profit \n \n(C) 1% loss \n(D) 2% loss \nAns. \n(C) \nSol.\n \nCommon selling price = '\ns\n' each\none at profit \n= \ud835\udc5d%\nanother at Loss \n= \ud835\udc5d%\n\ud835\udc5d\n2\nthen overall Loss% =\n  (\n100\n) %\nhere \n\ud835\udc5d= 10\n(10)\n2\nLoss \n% = (\n100\n \n) % = 1%\n Loss\nHence, the correct option is (C).",
+  "answer_text": "",
+  "explanation_text": ""
+}

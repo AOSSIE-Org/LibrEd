@@ -1,0 +1,11 @@
+{
+  "id": "53",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "NAT",
+  "key": "130 to 140",
+  "question_text": "Question 53. \n \n \n \n  \n \n \n \n \nNAT (2M)\nQuestion ID : 8232513154\n\nPAGE\n37\n\nConsider a network using pure aloha where frame length = 1000 bits, transmission rate= 1Mbps. The \naverage number of transmissions across all nodes modeled as a Poisson process with a rate 1000 \nframes/sec. Throughput is an average number of transmissions per seconds then the throughput is ?",
+  "answer_text": "130 to 140",
+  "explanation_text": "Sol. \nFrame size \n( )\n1000 bits\nL\n =\nData rate \n( )\n1 Mbps\nR\n =\n3\nL\nt\nR\n=\n=\n=\n6\n10  bits\n1 ms\n10  bits/sec\nf\n\nTotal no. of frames transmitted per sec = 1000\n1 ms\nf\nt\n =\n\nSo \n1\nG\n =\nThroughput\n2\nG\nG\ne\n\u2212\n=\n\uf0b4\n2\ne\n\u2212\n=\n= 0.1353\nFor 1000 frames\nThroughput \n1000 0.1353 135\n=\n\uf0b4\n=\nNote : \nG\n =\nno. of frames transmitted per frames to transmission time."
+}

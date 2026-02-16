@@ -1,0 +1,11 @@
+{
+  "id": "24",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-M",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "D",
+  "question_text": "Question 24 \n \n \n \n \n \n \n \nMCQ (1M) \n \n \n \n \n \n \n \nQuestion ID : 823251537 \n \nLet p and q be two propositions. Consider the following two formulae in propositional logic.\n1\n \n:(\n(\n)\nS\np\np\nq\nq\n\u00ac \u2227\n\u2228\n\u2192\n2\n \n:\n(\n(\n))\nS\nq\np\np\nq\n\u2192\u00ac \u2227\n\u2228\n(A) Both \n1\nS\n  and \n2\nS\n  both are tautologies.  \n(B) Neither \n1\nS\n   nor \n2\nS\n  is a tautology.\n(C) \n1\nS\n  is not a tautology but \n2\nS\n  is a tautology.  (D) \n1\nS\n  is a tautology but \n2\nS\n  is not a tautology.",
+  "answer_text": "D",
+  "explanation_text": "Sol.  \n1\nS\n : (p\u2019(p+q))\u2019 + q = (p\u2019p+p\u2019q)\u2019 + q =  (p\u2019q)\u2019 + q = p + q\u2019 + q = 1 ( Tautology )\n2\nS\n : q\u2019 + (p\u2019(p+q))  =  q\u2019 + (pp\u2019 + p\u2019q)  = q\u2019 + p\u2019q = (q\u2019 + p\u2019)(q\u2019 + q) = q\u2019+p\u2019"
+}

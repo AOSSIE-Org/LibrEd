@@ -1,0 +1,11 @@
+{
+  "id": "17",
+  "stream": "computer-science-information-technology",
+  "packet": "2022",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "A,C,D",
+  "question_text": "Question 17\nWhich of the following is/are undecidable?\n(A) Given a TM M, decide is M accepts are strings.\n(B) Given a TM, M decide is M takes more than 1073 steps on every string.\n\nGATE 2022 \n [Forenoon Session]\nComputer Science Engineering\nPAGE\n10\n\n(C) Given two turing machines \n1\nM\n  and \n2\nM\n  decide of \n1\n2\n(\n)\n(\n)\nL M\nL M\n\uf03d\n.\n(D) Given a TM M, decide is \n(\n)\nL M\n  is regular.",
+  "answer_text": "A,C,D",
+  "explanation_text": "Sol. \nFor a given TM, M decide that m takes more than 1073 steps on every string is decidabe only.\nRemaining are undecidable\n(A), (C) and (D) are undecidable."
+}
