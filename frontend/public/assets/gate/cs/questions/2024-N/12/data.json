@@ -1,0 +1,11 @@
+{
+  "id": "12",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-N",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "(A)",
+  "question_text": "Question 12 \n \n  \n \n[Digital Logic (Boolean Algebra)]\nLet \np\n  and \nq\n  be the following propositions :\n:\np\n Fail grade can be given.\n:\nq\n Student scores more than 50% marks.\nConsider the statement: \u201cFail grade cannot be given when student scores more than 50% marks.\u201d  \n \nWhich one of the following is the CORRECT representation of the above statement in propositional logic \n? \n \n(A) \nq\np\n\uf0ae\uf0d8\n \n(B) \nq\np\n\uf0ae\n(C) \np\nq\n\uf0ae\n \n(D) \np\nq\n\uf0d8\n\uf0ae",
+  "answer_text": "(A)",
+  "explanation_text": "Sol.\n \nQ\n when \nP\n means \nP\nQ\n\uf03d\n\uf0ae\nGiven statement\n:\np\n  Fail grade can be given\n:\nq\n  Student scores more then 50% marks\n:\np\nFail grade cannot be given\n\nPAGE\n9\n\nSo, Fail grade cannot be given when student score more than 50 % marks\n(\n)\nQ\nP\n\uf0ae\n\nHence, the correct option is (A)."
+}

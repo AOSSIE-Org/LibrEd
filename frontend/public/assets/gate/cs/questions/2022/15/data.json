@@ -1,0 +1,11 @@
+{
+  "id": "15",
+  "stream": "computer-science-information-technology",
+  "packet": "2022",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "A,C,D",
+  "question_text": "Question 15\nWhich of the following statements is are true?\n(A) If \n1\n2\nand\nL\nL\n are regular, then \n1\n2\nL\nL\n\uf0c7\nmust be DCFL.\n(B) Every subset of recursively enumerable Language is recursive\n(C) If Language L & its complement \nL\n  are both recursively enumerable then L must be recursive\n(D) Complement of context free language must be recursive.",
+  "answer_text": "A,C,D",
+  "explanation_text": "Sol.\nOption A: True\n\nGATE 2022 \n [Forenoon Session]\nComputer Science Engineering\nPAGE\n9\n\nIf \n1\nL\n  \nand \nL\n2\n \nare \nregular \nthen \n1\n2\nL\nL\n\uf0c7\n \nis \nRegular \nthus \nalso \ndeterministic\ncontext free Language.\nOption B:\n False\nSince \n*\n\uf0e5\n is a recursively enumerable Language but there are many languages which are subset of \n*\n\uf0e5\n \nwhich are not Recursive.\nOption C: True\nIf L is recursively enumerable Language, then for all member strings of L, the TM of L will halt within \nfinite time. If \nL\n  is recursively enumerable Language, then for all nonmember strings of L. The TM of \nL\n  \nwill halt within finite time. Thus for both member and nonmember strings of L and \nL\n  we have a TM \nwhich halts within finite time. Thus \nL\n is a Recursive Language.\nOption D:\n True\nComplement of CFL is a CSL in the worst case which is Recursive."
+}

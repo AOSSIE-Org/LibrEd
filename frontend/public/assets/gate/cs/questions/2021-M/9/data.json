@@ -1,0 +1,11 @@
+{
+  "id": "9",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-M",
+  "year": "2021",
+  "type": "NAT",
+  "key": "",
+  "question_text": "Question 9 \n \n \n \n \n \n \n \nNAT (1M) \n \n \n \n \n \n \n \n \nQuestion ID : 823251555 \n \nThree processes arrive at time zero with CPU bursts time of 16, 20 & 10 milliseconds. If the scheduler \nhas prior knowledge about the length of CPU bursts, Minimum achievable average waiting time for this \nthree processes in a non-preemptive scheduler (rounded to nearest integer) is______ milliseconds. \nAns. \n12 \nSol. \nGantt chart :  \nA \nC \nB \n \n \n \n \n \n \n    0   10     26   46\nAverage \n(0 10\n26)\n36\n12\n3\n3\nWT\n+\n+\n=\n=\n=",
+  "answer_text": "",
+  "explanation_text": ""
+}

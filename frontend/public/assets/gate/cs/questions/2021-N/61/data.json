@@ -1,0 +1,11 @@
+{
+  "id": "61",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "MSQ",
+  "key": "(B), (C)",
+  "question_text": "Question 61. \n \n \n \n  \n \n \n \n \nMSQ (1M)\nQuestion ID: 8232513115\nChoose the correct choice(s) regarding the following propositional logic assertion S:\nS: ((P ^ Q) \u2192 R) ((P ^ Q) \u2192 4 (Q \u2192 R))\n(A)\n S is a contradiction\n(B)\n S is a tautology\n(C)\n The antecedent of S is equal to consequent of S (doubtful)\n(D)\n Neither tautology nor contradiction",
+  "answer_text": "(B), (C)",
+  "explanation_text": "Sol. \nAntecedent (X): (PQ)\u2019 + R ==> P\u2019 + Q\u2019 + R --------- 1\nConsequent (Y): ((PQ)\u2019 + (Q\u2019 + R)) ==> (P\u2019 + Q\u2019) + Q\u2019 + R ==> P\u2019 + Q\u2019 + Q\u2019 + R ==> P\u2019 + Q\u2019 + R -\n------2\nBecause Antecedent and Consequent are returning same expression, therefore X \n\u2192\n Y, will be \nTautology because X and Y are coming out to be same. For example\nA\n\u2192\nA ==> A\u2019 + A ==> 1"
+}

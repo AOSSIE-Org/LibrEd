@@ -1,0 +1,11 @@
+{
+  "id": "35",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "(C)",
+  "question_text": "Question 35. \n \n \n \n  \n \n \n \n \nMCQ (1M)\n\nPAGE\n25\n\nQuestion ID : 8232513109\nLet \n{0,1}*\nL\n \uf0cd\n be an arbitrary regular language accepted by a minimal DFA with k states. Which \none of the following languages must necessarily be accepted by a minimal DFA with \nk\n states?\n(A) \nL L\n\uf0d7\n(B) \n{01}\nL\n \uf0c8\n(C) \n{0,1}*\n L\n\u2212\n(D) \n{01}\nL\n \u2212",
+  "answer_text": "(C)",
+  "explanation_text": "Sol. \nNumber of states in minimal DFA is same for language as well as it\u2019s complement\nL and \nL\n  has same number of states\n*\n{0,14\n}\nL\nL\n=\n\u2212"
+}

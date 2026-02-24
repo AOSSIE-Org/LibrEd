@@ -1,0 +1,11 @@
+{
+  "id": "15",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-N",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "(A)",
+  "question_text": "Question 15                                               \n[Algorithm (Complexity Analysis & Asymptotic Notation)]\n \n \nLet \n( )\nT n\n  be the recurrence relation defined as follows :\n(0)\n1,\nT\n\uf03d\n(1)\n2,\nT\n\uf03d\n and\n( )\n5 (\n1)\n6 (\n2)\nT n\nT n\nT n\n\uf03d\n\uf02d\n\uf02d\n\uf02d\n for \n2\nn\n \uf0b3\nWhich one of the following statements is TRUE ?\n(A) \n( )\n(2 )\nn\nT n\n \uf03d\uf051\n \n(B) \n( )\n( 2 )\nn\nT n\nn\n\uf03d\uf051\n(C) \n( )\n(3 )\nn\nT n\n \uf03d\uf051\n \n(D) \n( )\n( 3 )\nn\nT n\nn\n\uf03d\uf051",
+  "answer_text": "(A)",
+  "explanation_text": "Sol.\n \n:\n Method 1 \n:\n0\n(0)\n1\n2\nT\n\uf03d\uf03d\n1\n(1)\n2\n2\nT\n\uf03d\n\uf03d\n2\n(2)\n5 (1) 6 (0)\n5 2 6 1 10 6\n4\n2\nT\nT\nT\n\uf03d\n\uf02d\n\uf03d\uf0b4\uf02d\uf0b4\uf03d\n\uf02d\uf03d\n\uf03d\n3\n(3)\n5 (2) 6 (1)\n5 4 6 2\n20 12\n8\n2\nT\nT\nT\n\uf03d\n\uf02d\n\uf03d\uf0b4\uf02d\uf0b4\uf03d\n\uf02d\n\uf03d\n\uf03d\n\uf05c\n \n( )\n(2 )\nn\nT n\n \uf03d\uf071\nHence, the correct option is (A).\n:\n Method 2 \n:\n(0)\n1\nT\n\uf03d\n(1)\n2\nT\n\uf03d\n( )\n5 (\n1)\n6 (\n2)\nT n\nT n\nT n\n\uf03d\n\uf02d\n\uf02d\n\uf02d\n\nPAGE\n12\n\n( )\n5 (\n1)\n6 (\n2)\n0\nT n\nT n\nT n\n\uf02d\n\uf02d\n\uf02b\n\uf02d\n\uf03d\nRecurrence relation :\n2\n5\n6\n0\nP\nP\n\uf02d\n\uf02b\n\uf03d\n2\n3\n2\n6\n0\nP\nP\nP\n\uf02d\n\uf02d\n\uf02b\n\uf03d\n(\n3)\n2(\n3)\n0\nP P\nP\n\uf02d\n\uf02d\n\uf02d\n\uf03d\n(\n2)(\n3)\n0\nP\nP\n\uf02d\n\uf02d\n\uf03d\n2\nP\n \uf03d\n  \n3\nP\n \uf03d\n1\n2\n( )\n.\nn\nn\nT n\nC P\nC P\n\uf03d\n\uf02b\n1\n2\n( )\n2\n3\nn\nn\nT n\nC\nC\n\uf03d\n\uf02b\n \n \n \n\u2026(i)\n0\n0\n1\n2\n0\n(0)\n2\n3\nn\nT\nC\nC\n\uf03d\n\uf03d\n\uf02b\n1\n2\n1\nC\nC\n\uf03d\n\uf02b\n \n \n \n\u2026(iii)\n1\nn\n \uf03d\n    \n1\n2\n(1)\n2'\n3'\nT\nC\nC\n\uf03d\n\uf02b\n1\n2\n2\n2\n3\nC\nC\n\uf03d\n\uf02b\n \n \n \n\u2026(iv)\nSolve equation (iii) and (iv)\n1\n1\nC\n \uf03d\n        \n2\n0\nC\n \uf03d\n1\n2\n( )\n2\n3\nn\nn\nT n\nC\nC\n\uf03d\n\uf02b\n( )\n2\nn\nT n\n \uf03d\n( )\n(2 )\nn\nT n\n \uf03d\uf071\nHence, the correct option is (A)."
+}

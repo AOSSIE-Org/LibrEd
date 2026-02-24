@@ -1,0 +1,11 @@
+{
+  "id": "52",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-M",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "(C)",
+  "question_text": "Question 52 \n \n \n \n \n \n \n \nMCQ (1M) \n \n \n \n \n \n \n \nQuestion ID : 823251535 \n \nConsider  the following statements\n1\n \n:\nS\n Every SLR (1) parser parses is unambiguous but there are certain unambiguous grammars that are\nnot SLR (1)\n2\nS\n  : For any context-free grammar, there is a parser that takes at most 0(n\n3\n) time to parse a string of\nlength n. \n \nWhich of the following option is/are correct.\n(A) \n1\nS\n  is false and  \n2\nS\n  is false  \n(B) \n1\nS\n  is true and  \n2\nS\n  is false\n(C) \n1\nS\n  is true  and  \n2\nS\n  is true \n(D) \n1\nS\n  is false and  \n2\nS\n is true",
+  "answer_text": "(C)",
+  "explanation_text": ""
+}

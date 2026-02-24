@@ -1,0 +1,11 @@
+{
+  "id": "22",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "NAT",
+  "key": "3",
+  "question_text": "Question 22. \n \n \n \n  \n \n \n \n \nNAT (1M)\nQuestion ID : 8232513118\nIf x and y are two decimal digits and \n2\n10\n(0.1101)\n(0.8\n5)\nxy\n=\n, the decimal value of \nx\ny\n+\n is\n____",
+  "answer_text": "3",
+  "explanation_text": "Sol.\n \n \n2\n(0.1101)\n1\n2\n4\n2\n2\n2\n\u2212\n\u2212\n\u2212\n=\n+\n+\n0.0625 0.25 0.5\n=\n+\n+\n10\n(0.8125)\n1\nx\n =\n2\ny\n =\n3\nx\ny\n+\n="
+}

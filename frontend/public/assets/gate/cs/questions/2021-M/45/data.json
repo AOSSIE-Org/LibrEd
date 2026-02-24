@@ -1,0 +1,11 @@
+{
+  "id": "45",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-M",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "A",
+  "question_text": "Question 45 \n \n \n \n \n \n \n \nMCQ (1M) \n \n \n \n \n \n \n \nQuestion ID : 823251532 \n  \nLet P be an array containing n integers. Let t be the lowest upper bound on the number of comparisons \nof the array elements, required to find the minimum and maximum values in an arbitrary array of n \nelements. Which one of the following \nchoices is correct?\n(A) \nt\nn\n>\nand \n3\nt\n \u2264\n\u1252\n\u0be1\n\u0b36\n\u1253\n \n \n(B) t > 2n - 2\n(C) t > \n\u2308log\n\u0b36\n(\ud835\udc5b)\u2309 \ud835\udc4e\ud835\udc5b\ud835\udc51 \ud835\udc61\u2264\ud835\udc5b\n \n(D) \n3\nt\n >\n\u1252\n\u0be1\n\u0b36\n\u1253\n and t \n\u22642\ud835\udc5b\u22122",
+  "answer_text": "A",
+  "explanation_text": ""
+}

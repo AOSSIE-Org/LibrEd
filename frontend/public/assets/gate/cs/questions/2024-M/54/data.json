@@ -1,0 +1,11 @@
+{
+  "id": "54",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-M",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 54 \n[Operating System (File system and Device Management)]\n \n \nConsider a 512 GB hard disk with 32 storage surfaces.  There are 4096 sectors per track and each sector \nholds 1024 bytes of data.  The number of cylinders in the hard disk is _______. \nAns. \n(4096 to 4096) \nSol.\n \nDisk Capacity = No. of Surface \n\uf0b4\n number of track per surface \n\uf0b4\n No. of sector per track \n\uf0b4\n No of byte \nper sector\n\uf0de\n \n39\n5\n12\n10\n2\n2\n2\n2\nx\n\uf03d\n\uf0b4\uf0b4\n\uf0b4\n\uf0de\n \n39\n27\n2\n2\nx\n\uf03d\uf0b4\n\nPAGE\n42\n\n39\n12\n27\n2\n2\n4096\n2\nx\n \uf03d\n\uf03d\n\uf03d\n\nHence, the correct answer is 4096.",
+  "answer_text": "",
+  "explanation_text": ""
+}

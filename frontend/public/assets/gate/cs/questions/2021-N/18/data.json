@@ -1,0 +1,11 @@
+{
+  "id": "18",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "(B)",
+  "question_text": "Question 18. \n \n \n \n  \n \n \n \n \nMCQ (2M)\nQuestion ID : 8232513139\nFor constants \n1\na\n \uf0b3\n and \n1\nb\n \uf03e\n, consider the following recurrence defined on the non-negative \nintegers:\n( )\n( )\nn\nT n\na T\nf n\nb\n\uf0e6\n\uf0f6\n=\n\uf0d7\n+\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\nWhich of the following options is correct about the recurrence \n( )?\nT n\nlog ( )\n(\n),\nb\n \na\nn\n\uf051\n then\nlog ( )\n( )is\n(\n)\nb\n \na\nT n\nn\n\uf051\n(A) if \n( )\nf n\n  is\n\u2212\uf065\n\uf051\n for some \n0\n\uf065\uf03e\n then,\nlog ( )\n( )is\n(\n)\nb\n \na\nT n\nn\n\uf051\nlog ( )\n(\n),\nb\n \na\nn\n(B)  if \n( )\nf n\n  is\nn\nn\n \n,  then \n2\n( )is\n(log ( ))\nT n\nn\n\uf051\n(C) if \n( )\nf n\n  is\n2\nlog ( )\n(D) if \n( )\nf n\n  is \n2\nlog ( ),\nn\nn\n then,  \n2\n( )is\n( log\n))\nT n\nn\nn\n\uf051",
+  "answer_text": "(B)",
+  "explanation_text": "Sol.\n  \n If we take a = 2, b = 2, on applying extended master theorem A, C, D are false hence option B is\ncorrect."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "7",
+  "stream": "computer-science-information-technology",
+  "packet": "2022",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "B,C,D\n \n80\n \n5",
+  "question_text": "Question 7\nWhich of the following statements is TRUE?\n(A) Symbol table is accessed only during the lexical analysis.\n(B) LR (1) parsing is sufficient for DCFL.\n(C) The LALR (1) parser for a grammar G cannot have R/R conflict if the LR (1) parser for G does not\nhave R/R conflict\n(D) Data flow analysis is necessary for run time memory management.",
+  "answer_text": "B,C,D\n \n80\n \n5",
+  "explanation_text": "Sol.\nFrom given statements\nStatements B, C, and D are true. \nQuestion 8\nConsider the following grammar along with translation rules:\n1\n \n#\nS\nS\nT\n\uf0ae\n \n1\n{S.val\n.val*T.val}\nS\n\uf03d\nS\nT\n\uf0ae\n \n \n{S.val\nT.val}\n\uf03d\n, %\nT\nT\nR\n\uf02b\n \n1\n(T.val\nT val R.val)\n\uf03d\n\uf0b8\nT\nR\n\uf0ae\n \n \n{T.val\nR.val}\n\uf03d\nR\nid\n\uf0ae\n \n  \n{R.val\nid.val}\n\uf03d\nUsing translation rules, the computed value of the S.val for the expression\n20#10%5#8%2%2\n is ______.\nSol.\nAnnotated parse tree\n\nGATE 2022 \n [Forenoon Session]\nComputer Science Engineering\nPAGE\n5\n\nS\n.val = 80\nS\n1\n.val = 40\n#\nT\n.val = 2\nS\n1\n.val = 20\n#\nT\n.val = 2\nT\n1\n.val = 4\n%\nR\n.val = 2\nT\n1\n.val = 10 %\n R\n.val = 5\nT\n1\n.val = 8 %\n R\n.val = 2\nid\n.val = 2\nT\n.val = 20\nR\n.val = 20\nR\n.val = 10\nid\n.val = 5\nR\n.val = 8\nid\n.val = 2\n2\nid\n.val = 20\nid\n.val = 10\n5\nid\n.val = 8\n2\n\uf05c\n \n.val\n80\nS\n\uf03d\n \nQuestion 9\n20\n10\n8\nConsider the augmented grammar with \n{ , ,(,),\n}\nid\n\uf02b\uf02a\nas the set of terminals.\n'\n.\nS\nS\n\uf0ae\n|\nS\nS\nR R\n\uf0ae\n\uf02b\n*\n|\nR\nR P P\n\uf0ae\n( )|\nP\nS\nid\n\uf0ae\nIf \n0\nI\n  is the set of two \n(0)\nLR\nitems \n\uf05b\n\uf05d\uf05b\n\uf05d\n\uf07b\n\uf07d\n'\n. ,\n.\n,\nS\nS\nS\nS\nR\n\uf0ae\n\uf0ae\n\uf02b\nthen goto \n\uf028\n\uf029\n0\nClosure( ,),\nI\n\uf02b\ncontains\nexactly _____ items.\nSol.\n1\nI\n0\nI\nS\nS\nR\n\uf0ae\n\uf02b\uf0d7\nR\nRP\n\uf0ae\uf0d7\nR\nP\n\uf0ae\uf0d7\n\uf02b\nS\nS\n\uf0ae\n\uf0d7\n( )\nP\nS\n\uf0ae\uf0d7\nS\nS\nR\n\uf0ae\n\uf0d7\uf02b\n.\nP\nid\n\uf0ae\n\n5 item\n\uf05c\nComputer Organization and Architecture"
+}

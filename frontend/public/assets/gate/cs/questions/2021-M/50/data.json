@@ -1,0 +1,11 @@
+{
+  "id": "50",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-M",
+  "year": "2021",
+  "type": "NAT",
+  "key": "",
+  "question_text": "Question 50 \n \n \n \n \n \n \n \nNAT (2M) \n \n \n \n \n \n \n \nQuestion ID : 823251583 \n \nA five-stage pipeline has stage delays of 150, 120. 150, 160 and 140 nanoseconds. The registers that are \nused between the pipeline stages have a delay of 5 nanoseconds each. The total time to execute 100 \nindependent instructions on this pipeline, assuming there are no pipeline stalls, is ________ \nnanoseconds. \nAns.  17160 \nSol.\n \nFor pipeline processor\nCycle time \np\nt\n =\n  Max of stage delay + Buffer delay\n= Max (150, 120, 150, 160, 140) + 5 ns\n160N+5ns\n=\n165ns\n=\nFor a K stage pipeline processor, execution time for \nn\n instruction using cycle turns of \np\nb\n  is given by,\npipe\nET\n=\n Execution Time (Pipeline processor) \n(\n1)\n p\nk\nn\nt\n=\n+\n\u2212\n\nGATE 2021\n [Forenoon Session]\nComputer Science Engineering\nPAGE\n32\n\nGiven,\nNo. of stages = 5 = \nk\nAnd no. of instructions pipeline \n100\nn\n=\n=\n\u2234\n \n(5 100 1) 165ns\npipe\nET\n=\n+\n\u2212\n\u00d7\n17160ns\n=",
+  "answer_text": "",
+  "explanation_text": ""
+}

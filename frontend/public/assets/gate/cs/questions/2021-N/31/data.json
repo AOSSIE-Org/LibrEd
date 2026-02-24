@@ -1,0 +1,11 @@
+{
+  "id": "31",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "NAT",
+  "key": "80000",
+  "question_text": "Question 31. \n \n \n \n  \n \n \n \n \nNAT (1M)\nQuestion ID : 8232513120\n\nPAGE\n22\n\nConsider a computer system with DMA support. The DMA module is transferring one 8-bit character \nin one CPU cycle from a device to memory through cycle stealing at regular intervals. Consider a 2 \nMHz processor. If 0.5% processor cycles are used for DMA, the data transfer rate of the device is \nbits per second.",
+  "answer_text": "80000",
+  "explanation_text": "Sol.\n  \nCPU cycles stolen in DMA is = data transfer time/data preparation time\n\uf0f0\n \n0.5% of processor cycles are used or stolen\nprocessor speed= 2MHz\n\uf0f0\n \nCycle time = \u00bd MHz = 0.5 \n\u03bc\ns  \n\uf0f0\n \nIn one sec = 1/0.5*\n10\n\u22126\n= 2 MIPS\nTime for One byte transfer =(1/2*\n10\n6\n)\nLet X is the device transfer rate\n\uf0f0\n \n0.5 = data transfer time / data preparation time \n\uf0f0\n \n0.5 = ((1/2*\n10\n6\n)/ (1/X))*100 \n\uf0f0\n \n1 MIPS (in bytes)\nDevice transfer rate is 8*\n10\n4\n bit per second."
+}

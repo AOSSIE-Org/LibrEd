@@ -1,0 +1,11 @@
+{
+  "id": "59",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-M",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 59 \n[Theory of Computation (Properties of Languages)]\nLet \n\uf028\n\uf029\n, , ,\n P\nG\nV\nS\n\uf03d\n\uf053\n be a context-free grammar in Chomsky Normal Form with \n\uf07b\n\uf07d\n, ,\na b c\n\uf03d\n\uf0e5\n and \nV\ncontaining 10 variable symbols including the start symbol \nS\n .  The string \n30\n30\n30\nw\na b c\n\uf03d\n is derivable from\nS\n .  The number of steps (application of rules) in the derivation \n*\nS\nw\n\uf0ae\n is _________. \nAns. \n(179 to 179)",
+  "answer_text": "",
+  "explanation_text": "Sol. \nFor CNF, number of steps required is \n2\n1\nw\n \uf02d\n(30\n30\n30)\n90\nw\n \uf03d\n\uf02b\n\uf02b\n\uf03d\n2 90 1 179\n\uf02a\n\uf02d\uf03d\nHence, the correct option is 179."
+}

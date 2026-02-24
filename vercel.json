@@ -1,0 +1,5 @@
+{
+    "version": 2,
+    "buildCommand": "cd frontend && npm run build && mv .vercel/output ../.vercel/",
+    "installCommand": "cd frontend && npm install"
+}

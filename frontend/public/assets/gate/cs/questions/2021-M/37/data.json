@@ -1,0 +1,11 @@
+{
+  "id": "37",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-M",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 37 \n \n \n \n \n \n \n \nMCQ (2M) \n \n \n \n \n \n \n \nQuestion ID : 823251557 \n \nThe following relation records the age of 500 employees of a company, where empNo \n(indicating the employee number) is the key : \n \nempAge(empNo, cige) \nConsider the following relational algebra expression: \n \n(\n1)\n1,\n1\n(\n(\n)\nempNo\nage age\nempNo age\nempAge\nempAge\n>\n\u03a0\n\u03c1\n\uf03e\uf03c\nWhat does the above expression generate? \n(A)\n \nEmployee numbers of only those employees whose age is more than the age of \nexactly one other employee. \n(B)\n \nEmployee numbers of only those employees whose age is the maximum. \n(C)\n \nEmployee numbers of all employees whose age is the minimum. \n(D)\n \nEmployee numbers of all employees whose age is not the minimum. \nAns. \nD \nSol. \nThe given join is the conditional joins the relations if the age is greater than any of the ages mentioned in \nthe database. Therefore, it results employees whose age is not minimum.",
+  "answer_text": "",
+  "explanation_text": ""
+}

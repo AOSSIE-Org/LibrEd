@@ -1,0 +1,11 @@
+{
+  "id": "3",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "(D)",
+  "question_text": "Question 3. \n \n \n \n \n \n \n \n \nMCQ (2M)\nQuestion ID : 8232513098\nThe number of students in three classes is in the ratio 3 : 13 : 6. If 18 students are added to each\nclass, the ratio changes to 15 : 35 : 21.\nThe total number of students in all the three classes in the beginning was:\n(A)\n \n110 \n(B) 66 (C) 22 \n(D) 88",
+  "answer_text": "(D)",
+  "explanation_text": "Sol. \nGiven :\nThe ratio of number of students of three classes is \n3:13:6\n=\nLet the number of students in each class is \n3 ,13 ,6\nx\nx\nx\n\nPAGE\n3\n\nTherefore the ratio will become\n3 :13 :6\nx\nx\nx\nAfter implementing the given condition,\n3\n18\n15\nx\ny\n+\n=\n  \n \n \n \n\u2026(i)\n13\n18\n35\nx\ny\n+\n=\n18\n21\nx\ny\n+\n=\n  \n \n \n \n\u2026(ii)\n2 3\n18 2\n15\n2\nx\ny\n\uf0b4\n+\n\uf0b4\n=\n\uf0b4\n6\n18\n21\nx\ny\n+\n=\n6\n36\n30\nx\ny\n+\n=\n6\n18\n21\nx\ny\n+\n=\n4\nx\n =\n \n2\ny\n =\n\uf05c\n The total number students in all the three classes in the beginning\n22\n22 4\n88\nx\n=\n=\n\uf0b4="
+}

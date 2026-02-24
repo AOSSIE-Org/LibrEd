@@ -1,0 +1,11 @@
+{
+  "id": "55",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-M",
+  "year": "2021",
+  "type": "NAT",
+  "key": "",
+  "question_text": "Question 55 \n \n \n \n \n \n \n \nNAT (2M) \n \n \n \n \n \n \n \nQuestion ID : 823251579 \n \nConsider the sliding window flow-control protocol operating between a sender and a receiver over a \nfull-duplex error-free link. Assume the following: \n \n\u2022 \nThe time taken for processing the data frame by the receiver is negligible. \n\u2022\n \nThe time taken for processing the acknowledgement frame by the sender is negligible. \n\u2022\n \nThe sender has infinite number of frames available for transmission. \n \n\u2022 \nThe size of the data frame is 2.000 bits and the size of the acknowledgement frame is 10 bits. \n \n\u2022 \nThe link data rate in each direction is 1 Mbps (= 10\n6\n bits per second). \n \n\u2022 \nOne way propagation delay of the link is 100 milliseconds. \nThe minimum value of the sender's window size in terms of the number of frames, (rounded to the \nnearest integer) needed to achieve a link utilization of 50% is ________. \nAns. \n 50 to 52",
+  "answer_text": "",
+  "explanation_text": "Sol. \nPropagation time (tp)  = 100 ms\nSData  = 2000 bits\nRData = 10 bits\n\nGATE 2021\n [Forenoon Session]\nComputer Science Engineering\nPAGE\n34\n\nBW = 1 Mbps\nSender transmission time (ts) = 2000/1000000 = 2 ms\nReceiver transmission time (tr) = 10/1000000 = 0.01 ms\nSender\u2019s window size = ? for 50% link utilisation\n(N X ts)/(ts +tr + 2tp) = 0.5\n= > N X 2 /(2+0.01+2X100) = 0.5\n= > NX2/(202.01) = 0.5\n= > N = 0.5 X 202.01/2  = 50.5\nNearest integer for size of window  =  51\n\n\uf076\uf076\uf076\uf076\n"
+}

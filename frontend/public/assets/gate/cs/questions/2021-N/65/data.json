@@ -1,0 +1,11 @@
+{
+  "id": "65",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "NAT",
+  "key": "2",
+  "question_text": "Question 65. \n \n \n \n  \n \n \n \n \nNAT (1M)\nQuestion ID : 8232513119\nConsider a set-associative cache of size 2KB (1KB = 2\n10\n bytes) with the cache block size of 64 bytes. \nAssume that the cache is byte addressable and a 32-bit address is used for accessing the cache. If the \nwidth of tag field is 22 bits, the associativity of the cache is______.",
+  "answer_text": "2",
+  "explanation_text": "Sol.\n \nNumber of cache lines = 2KB/64B = 32\nSet Index bits are 32-(22+6) = 4 \n\u21d2\n 16 sets are there in the cache\n\u21d2\nBits of the cache line Index = 5 \n\u21d2\n 32 cache lines\n\u21d2\n 32/2 =16 set. We will have 2-way set associative memory\n\nTAG \nSet Index \nOffset\n\n22 \n4 \n6\n\n32- bits\n\n\u2756\u2756\u2756\u2756\n"
+}

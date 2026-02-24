@@ -1,0 +1,11 @@
+{
+  "id": "39",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-N",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "(A)",
+  "question_text": "Question 39\n \n \nYou are given a set \nV\n of distinct integers. A binary search tree \nT\n is created by inserting all elements of \nV\n \none by one. starting with an empty tree. The tree \nT\n follows the convention that, at each node, all values \nstored in the left subtree of the node are smaller than the value stored at the node. You are not aware of \nthe sequence in which these values were inserted into \nT\n. and you do not have access to \nT\n.\nWhich one of the following statements is TRUE?   \n \n \n[Data Structure, 5 tree]\n(A) Inorder traversal of \nT\n can be determined from \nV\n(B) Root node of \nT\n can be determined from \nV\n(C) Preorder traversal of \nT\n can be determined from \nV\n(D) Postorder traversal of \nT\n can be determined from \nV",
+  "answer_text": "(A)",
+  "explanation_text": "Sol.\n \nAs per convention given, we can derive the in order traversal of the nodes in the left root right and also \ngive the data in ascending order.\nHence, the correct option is (A)."
+}

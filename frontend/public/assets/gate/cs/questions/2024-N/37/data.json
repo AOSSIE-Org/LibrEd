@@ -1,0 +1,11 @@
+{
+  "id": "37",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-N",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "(B) \nSol.\n \nSJF CPU Schedulling\nP \nA.T \nB.T \nC.T \nTAT \nWT \nA \n0 \n10 \n10 \n10 \n0 \nB \n2 \n6 \n19 \n17 \n11 \nC \n4 \n3 \n13 \n9 \n6 \nD \n6 \n7 \n26 \n20 \n13\nTotal average waiting time \n0 11 6 13\n30\n7.5\n4\n4\n\uf02b\n\uf02b\n\uf02b\n\uf03d\n\uf03d\n\uf03d\nSRTF CPU scheduling\nP \nA.T \nB.T \nC.T \nTAT \nWT \nA \n0 \n10 \n26 \n26 \n16 \nB \n2 \n6 \n11 \n9 \n3 \nC \n4 \n3 \n7 \n3 \n0 \nD \n6 \n7 \n18 \n12 \n5\nTotal average waiting time \n16\n3\n0\n5\n24\n6\n4\n4\n\uf02b\uf02b\n\uf02b\n\uf03d\n\uf03d\n\uf03d\nHence, the correct option is (B).",
+  "question_text": "Question 37\nConsider a single processor system with four processes \n, ,\n,\nA B C\n  and \nD\n , represented as given below,\nwhere for each process the first value is its arrival time, and the second value is its CPU burst time.\n\uf028\n\uf029\n\uf028\n\uf029\n\uf028\n\uf029\n\uf028\n\uf029\n0,10 ,\n2,6 ,\n4,3 , and\n6,7\nA\nB\nC\nD\n\nPAGE\n24\n\nWhich one of the following options gives the average waiting times when preemptive Shortest Remaining \nTime First (SRTF) and Non-Premptive Shortest Job First (NP-SJF) CPU scheduling algorithms are \napplied to the processes ? \n \n[Operating System, 2 Process Management II]\n \n \n(A) \n6,\n7\nSRTF\nNP\nSJF\n\uf03d\n\uf02d\n\uf03d\n \n(B) \n6,\n7.5\nSRTF\nNP\nSJF\n\uf03d\n\uf02d\n\uf03d\n(C) \n7,\n7.5\nSRTF\nNP\nSJF\n\uf03d\n\uf02d\n\uf03d\n \n(D) \n7,\n8.5\nSRTF\nNP\nSJF\n\uf03d\n\uf02d\n\uf03d",
+  "answer_text": "(B) \nSol.\n \nSJF CPU Schedulling\nP \nA.T \nB.T \nC.T \nTAT \nWT \nA \n0 \n10 \n10 \n10 \n0 \nB \n2 \n6 \n19 \n17 \n11 \nC \n4 \n3 \n13 \n9 \n6 \nD \n6 \n7 \n26 \n20 \n13\nTotal average waiting time \n0 11 6 13\n30\n7.5\n4\n4\n\uf02b\n\uf02b\n\uf02b\n\uf03d\n\uf03d\n\uf03d\nSRTF CPU scheduling\nP \nA.T \nB.T \nC.T \nTAT \nWT \nA \n0 \n10 \n26 \n26 \n16 \nB \n2 \n6 \n11 \n9 \n3 \nC \n4 \n3 \n7 \n3 \n0 \nD \n6 \n7 \n18 \n12 \n5\nTotal average waiting time \n16\n3\n0\n5\n24\n6\n4\n4\n\uf02b\uf02b\n\uf02b\n\uf03d\n\uf03d\n\uf03d\nHence, the correct option is (B).",
+  "explanation_text": ""
+}

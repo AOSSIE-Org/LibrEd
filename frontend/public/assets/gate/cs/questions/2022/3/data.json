@@ -1,0 +1,11 @@
+{
+  "id": "3",
+  "stream": "computer-science-information-technology",
+  "packet": "2022",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "33",
+  "question_text": "Question 3\nWhat is the minimum number of bits required for sequence number field in a TCP connection to send \nmaximum segment life time of 60 sec if the bandwidth of connection is 1 Gbps, without wrap around time.",
+  "answer_text": "33",
+  "explanation_text": "Sol.\nB = 1 Gbps\n2\nn\nbytes\nT\nB\n\uf03d\n, \nSequence Number bits\nn\n \uf03d\n\uf0b4\n\uf03d\nn\nbits\nbits\n\uf0de\n  \n9\n2\n8\n60sec\n10\n/ sec\n\uf0de\n  \n9\n3\n60 10\n2\nn\n\uf02b\n\uf0b4\n\uf03d\n\uf0de\n  \n9\n2\nlog (60 10 )\nn 3\n\uf0b4\n\uf03d\uf02b\n\uf0de\n  \n2\nlog60\n9 log 10\nn 3\n\uf02b\uf0b4\n\uf03d\uf02b\n\uf0de\n  \n5.9\n29.87\n3\nn\n\uf02b\n\uf03d\n\uf02b\n\uf0de\n  \n35.79\n3\nn\n\uf03d\n\uf02b\n\uf0de\n  \n3\n36\nn\n \uf02b\n\uf03d\n\uf0de\n  \n33\nn\n \uf03d"
+}

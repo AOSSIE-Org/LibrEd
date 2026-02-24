@@ -1,0 +1,11 @@
+{
+  "id": "10",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "(D)",
+  "question_text": "Question 10. \n \n \n \n  \n \n \n \n \nMCQ (2M)\nQuestion ID : 8232513099\n\nNo of units\nSerieNet profit (Rs.)\n350\n300\n296\n300\n240\n250\n210\n200\n200\n150\n100\n100\n50\n0\nYear 1\nYear 2\nYear 3\nThe number of units of a product sold in three different years and the respective net profits are \npresented in the figure above. The cost/unit in Year 3 was Rs.1, which was half the cost/unit in Year 2.\n\nPAGE\n7\n\nThe cost/unit in Year 3 was one-third of the cost/unit in Year 1. Taxes were paid on the selling price at \n10%. 13% and 15% respectively for the three years. Net profit is calculated as the difference between \nthe selling price and the sum of cost and taxes paid in that year.\nThe ratio of the selling price in Year 2 to the selling price in Year 3 is________\n\n(A)\n \n3 : 4 (B) 1 : 1\n(C) 1 : 2 (D) 4 : 3",
+  "answer_text": "(D)",
+  "explanation_text": "Sol. \nGiven :\ncost per unit of year 3 = Rs.1\nand Cost per unit of year 3 = (cost per unit of year 2)/2\nSo, cost per unit of year 2 = 2*cost per unit of year 3 = 2*1 = 2.\nLet selling price of year 2 = sp2 and selling price of year 3 = sp3.\nwe have taxes in year 2 and 3 as 13% and 15% of selling price respectively.\nTax in year 2 = 13*sp2/100 =.13*sp2\nTax in year 3 = 15*sp3/100 = 0 .15*sp3\nprofit in year 2 = selling price in year 2\u2212(cost of all units +tax in year 2)\n296 = sp2\u2212(200*2+0.13*sp2)\n296 = sp2\u2212400\u22120.13sp2\n296+400 = 0.87*sp2\n696*100/87 = sp2\nsp2 = 800.\nprofit in year 3 = selling price in year 3\u2212(cost of all units +tax in year 3)\n210 = sp3\u2212(300*1+0.15*sp3)\n210 = sp3\u2212300\u22120.15sp3\n210+300 = 0.85*sp3\n510*100/85 = sp3\nsp3 = 600.\nRatio of selling price in year 2 to selling price in year 3\n= 800/600\n= 4/3\n.\nTechnical Section\n."
+}

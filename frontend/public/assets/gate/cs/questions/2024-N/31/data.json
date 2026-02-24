@@ -1,0 +1,11 @@
+{
+  "id": "31",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-N",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 31 \n[Computer Organization & Architecture (Machine Instruction and Addressing)]\n \n \nAn instruction format has the following structure : \n \n \nInstruction Number :\n \n \n,\n \n1,\n \n2\nOpcode destination reg source reg\nsource reg\n\uf02d\n\uf02d\nConsider the following sequence of instructions to be executed in a pipelined processor : \n \n \n1:\n3, 1, 2\nI\nDIV R\nR R\n2:\n5, 3, 4\nI\nSUBR\nR\nR\n3:\n3, 5, 6\nI\nADDR\nR\nR\n4:\n7, 3, 8\nI\nMULR\nR\nR\nWhich of the following statements is/are TRUE ?\n(A) There is a RAW dependency on \n3\nR\n  between \n1\nI\n  and \n2\nI\n(B) There is a WAR dependency on \n3\nR\n  between \n1\nI\n  and \n3\nI\n(C) There is a RAW dependency on \n3\nR\n  between \n2\nI\n and \n3\nI\n(D) There is a WAW dependency on \n3\nR\n  between \n3\nI\n  and \n4\nI\n \nAns. \n(A)",
+  "answer_text": "",
+  "explanation_text": "Sol. \nGiven :\n\nPAGE\n21\n\n1\n3\n1\n2\n:\n/\nI\nR\nR\nR\n\uf0ac\n2\n5\n3\n4\n:\nI\nR\nR\nR\n\uf0ac\n\uf02d\n3\n3\n5\n6\n:\nI\nR\nR\nR\n\uf0ac\n\uf02b\n4\n7\n3\n8\n:\nI\nR\nR\nR\n\uf0ae\n\uf02b\nRAW Dependency\n1\n2\n3\nto\nfor\nI\nI\nR\n2\n3\n5\nto\nfor\nI\nI\nR\n3\n4\n3\nfor\nfor\nI\nI\nR\nHence, the correct option is (A)."
+}

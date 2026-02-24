@@ -1,0 +1,11 @@
+{
+  "id": "33",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-M",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 33 \n \nConsider the operator precedence and associativity rules for the integer the integer arithmetic operators \n \ngiven in the table below.\nOperator  \nPrecedence  \nAssociativity\n+ \nHighest  \nLeft\n- \nHigh \nRight\n* \nMedium \nRight\n/ \nLow  \nRight\nThe value of the expression \n3 1 5*2/ 7\n2\n4\n7\n6/ 2\n\uf02b\uf02b\n\uf02b\n\uf02d\uf02d\uf02d\n as per the above rules is ____________.\n[Data Structure \u2013 Stack & Queue] \nAns.  6 to 6",
+  "answer_text": "",
+  "explanation_text": "Sol.\n \nFirst, we will solve (+) with left associativity.\n\uf0de\n  \n((3 1) 5) 2/ (7 2) 4 7 6/ 2\n\uf02b\n\uf02b\n\uf0b4\n\uf02b\n\uf02d\uf02d\uf02d\n\uf0de\n  \n9 2/ 9\n4\n7\n6/ 2\n\uf0b4\n\uf02d\uf02d\uf02d\nNow, we will solve \n( )\n\uf02d\n with right associativity.\n\uf0de\n  \n9 2/ (9 (4 (7 6)))/ 2\n\uf0b4\n\uf02d\n\uf02d\n\uf02d\n\uf0de\n  \n(9 2) / 6/ 2\n\uf0b4\n\uf0de\n  \n(18/ (6/ 2))\n      \u2190           \nRight associative\n\uf0de\n  \n(18/ 3)\n6\n\uf03d\nHence, the correct answer is 6."
+}

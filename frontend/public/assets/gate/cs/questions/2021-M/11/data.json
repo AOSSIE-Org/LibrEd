@@ -1,0 +1,11 @@
+{
+  "id": "11",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-M",
+  "year": "2021",
+  "type": "NAT",
+  "key": "",
+  "question_text": "Question 11 \n \n \n \n \n \n \n \nNAT (1M) \n \n \n \n \n \n \n \nQuestion ID : 823251551 \n \nConsider the following sequence of operations on an empty stack.\n\nGATE 2021\n [Forenoon Session]\nComputer Science Engineering\nPAGE\n12\n\npush(54); push(52): pop(); push(55); push(62); s = pop(); \n \nConsider the following sequence of operations on an empty queue. \n \n \nenqueue(21); enqueue (24); dequeue(); enqueue(28); enqueue(32): q = dequeue(); \n \nThe value of s +q is ________. \nAns. \n86 \nSol.\n  \ns\n =\npop() will return top of stack value, i.e.  \n \n \n \n62\ns\n =\nq\n =\ndequeue () will return head of queue value\n24\nq\n =\n9\n62\n24\n86\ns\n +\n=\n+\n=",
+  "answer_text": "",
+  "explanation_text": ""
+}

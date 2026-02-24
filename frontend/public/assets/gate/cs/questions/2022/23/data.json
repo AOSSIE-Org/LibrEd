@@ -1,0 +1,11 @@
+{
+  "id": "23",
+  "stream": "computer-science-information-technology",
+  "packet": "2022",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "A",
+  "question_text": "Question 23\nConsider the following two statements with respect to the matrices.\n,\n,\nm n\nn m\nn n\nA\nB\nC\n\uf0b4\n\uf0b4\n\uf0b4\n and \n.\nn n\nD\n \uf0b4\nStatement 1 : \n(\n)\n(\n)\ntr AB\ntr BA\n\uf03d\nStatement 2 : \n(\n)\n(\n)\ntr CD\ntr DC\n\uf03d\nWhere \n()\ntr\nrepresents the trace of a matrix which one of the following holds?\n(A) Both statement 1 and 2 are correct.\n(B) Statement 1 is true and statement 2 is false\n(C) Statement 1  is false and statement 2 is true\n(D) Both Statement 1 and 2 are wrong.",
+  "answer_text": "A",
+  "explanation_text": "Sol.\nThe eigenvalues (counting multiplicity) of AB are the same as those of BA\nIf\n \nA is an m by n matrix and\n \nB is an n by m matrix with \nn\nm\n\uf0b3\n then the characteristic polynomial \nBA\np\n of\nBA is related to the characteristic polynomial \nAB\np\n of\n \nAB by\n( )\n( )\nn m\nBA\nAB\np\nt\nt\np\nt\n\uf02d\n\uf03d\nSince Eigenvalues are the same thus the sum of Eigen Values (i.e. the Trace) is also the same.\nDiscrete Mathematics"
+}

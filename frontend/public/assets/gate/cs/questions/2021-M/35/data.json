@@ -1,0 +1,11 @@
+{
+  "id": "35",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-M",
+  "year": "2021",
+  "type": "NAT",
+  "key": "",
+  "question_text": "Question 35 \n \n \n \n \n \n \n \nMCQ (2M) \n \n \n \n \n \n \n \nQuestion ID : 823251556 \n \nConsider the following grammar (that admits a series of declaration, followed by expression) and the \nassociated  syntax directed translation (SDT)action, gived as pseudo-code :\n\nGATE 2021\n [Forenoon Session]\nComputer Science Engineering\nPAGE\n25\n\nS\nD*E*\n\u2192\n \nD\n \u2192\n int ID {record that  ID.lexeme  is of type int} \nD\n \u2192\nbool ID{record that  ID.lexeme  is of type bool} \nE\n \u2192\nE\n1\n + E\n2\n {check if E\n1.\ntype = E\n2\n.type = int; set E.type t = int} \nE\n \u2192\n!E\n1\n {check that  E\n1\n.type = bool;  then set E.type = bool} \nE\n \u2192\nID {Set E.type= int} \nWith respect to the above grammar, which one of the following choices is correct? \n(A) The actions can be used to type-check syntactically correct integer variable decla- \nrations and integer expressions. \n(B)The actions will lead to an infinite loop. \n(C)The actions can be used to type-check syntactically correct boolean variable decla- \nrations and boolean expressions. \n(D)The actions can be used to correctly type-check any syntactically correct program. \nAns. \nA\n \nQuestion 36 \n \n \n \n \n \n \n \nNAT (1M) \n \n \n \n \n \n \n \nQuestion ID : 823251554 \n \nConsider the following representation of a number in IEEE 754 single-precision floating point format \nwith bass of 127  \n \nS : 1 \n \nE : 10000001 \nF : 11110000000000000000000 \nHere S, E and F denote the sign, exponent and fraction components of the floating \npoint representation. \nThe decimal value corresponding to the above representation (rounded to 2 decimal \nplaces) is_______. \nAns. \n\u20137.75 \nSol.\n \nSign bit = 1 \n \n \nBE \n10000001\n=\n7\n0\n2\n2\n=\n+\n128\n1\n129\n=\n+\n=\n127\nE\nBE\n=\n\u2212\n129\n127\n=\n\u2212\n2\n=\nBinary No \n2\n1.1111 2\n= \u2212\n\u00d7\n2\n( 111.11)\n= \u2212\n10\n( 7.75)\n= \u2212\n\nGATE 2021\n [Forenoon Session]\nComputer Science Engineering\nPAGE\n26\n",
+  "answer_text": "",
+  "explanation_text": ""
+}

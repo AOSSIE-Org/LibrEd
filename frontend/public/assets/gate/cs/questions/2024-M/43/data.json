@@ -1,0 +1,11 @@
+{
+  "id": "43",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-M",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 43 \n \n  \n \n  \n     \n[Data Structure (Tree)]\n \n \nConsider a binary min-heap containing 105 distinct elements.   Let k be the index (in the underlying array) \nof the maximum element stored in the heap. The number of possible values of k is  \n \n(A) 53 \n(B) 52 \n \n(C) 27 \n(D) 1 \nAns. \n(A)\n  \nSol. \nA binary heap is a complete binary tree.\nA binary min - heap satisfies min - heap properly this implies that the maximum element can be in the \n \nleaves only.\n\nPAGE\n35\n\nn\n\uf0ea\uf0fa\n\uf0ea\uf0fa\n\uf0eb\uf0fb\nn\n\uf0e9\uf0f9\n\uf0ea\uf0fa\n\uf0ea\uf0fa\nIn binary min heap of \nn \nelements exactly \n2\ninternal node and \n2\nleaf nodes.\nNo. of internal nodes in 105 element \n105\nheap\n52\n2\n\uf0ea\n\uf0fa\n\uf03d\n\uf03d\n\uf0ea\n\uf0fa\n\uf0eb\n\uf0fb\n\nNo. of leaves \n105\n52\n53\n\uf03d\n\uf02d\n\uf03d\nHence, the correct option is (A).",
+  "answer_text": "",
+  "explanation_text": ""
+}

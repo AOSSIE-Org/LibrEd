@@ -1,0 +1,11 @@
+{
+  "id": "25",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-N",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 25 \n \n \n[Operating System (Process Management-II)]\nConsider a process \nP\n  running on a CPU.  Which one or more of the following events will always trigger \na context switch by the OS that results in process \nP\n  moving to a non-running state (e.g., ready, blocked) \n?\n(A) \nP\n makes a blocking system call to read a block of data from the disk\n(B) \nP\n tries to access a page that is in the swap space, triggering a page fault \n \n(C) An interrupt is raised by the disk to deliver data requested by some other process \n \n \n(D) A timer interrupt is raised by the hardware \nAns. \n(A, B)",
+  "answer_text": "",
+  "explanation_text": "Sol.\n \nOption A :\n \nTRUE\nIf a process itself makes a block ( ) call then it will be blocked until input/output.\nOption B : TRUE\nIf a page is not in the physical memory then the OS invokes the page faults handler and the process remains \nblocked until the page is read (Disk i/o is complete).\nOption C : False\nThat kind of request will be served by DMA and the CPU does not need to get invoked hence the current \nprogram will keep on using the CPU.\nOption D : False\nTimer interrupts will be ignored in many cases and will not lead to a context switch.\nHence, the correct option is (A) and (B)."
+}

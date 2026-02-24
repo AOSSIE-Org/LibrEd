@@ -1,0 +1,11 @@
+{
+  "id": "33",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-N",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "(A, B, D)",
+  "question_text": "Question 33 \n \n  \n \n \n \n[C-Programming]\n \n \nConsider the following C function definition\nint fX (char * a) {\nchar *b = a ;\nwhile (*b)\nb++;\nreturn b \u2013 a;\nWhich of the following statement is /are TRUE ?\n\nPAGE\n22\n\n(A) The function call fX (\u201cabcd\u201d) will always return a value\n(B) Assuming a character array c is declared as char c[ ] = \u201cabcd\u201d in main ( ), the function call fX (c)\nwill always return a value\n(C) The code of the function will not compile\n(D) Assuming a character pointer C is declared as char *C = \u201cabcd\u201d in main ( ), the function call fX(c)\nwill always return a value",
+  "answer_text": "(A, B, D)",
+  "explanation_text": "Sol.\n \nWe can try run the code to get the result"
+}

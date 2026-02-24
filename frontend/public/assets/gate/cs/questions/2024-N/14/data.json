@@ -1,0 +1,11 @@
+{
+  "id": "14",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-N",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "(B)\n\nPAGE\n11",
+  "question_text": "Question 14 \n[Computer Organization & Architecture (Machine Instruction and Addressing)]\n \n \nThe format of a single \u2013 precision floating - point number as per the \nIEEE 754 \nstandard is :\nSign \n(1 bit)\nExponent\nMantissa\n(23 bits) \n \nChoose the largest floating - point number among the following options. \n \n(A)\n(8 bits)\nSign \nExponent \nMantissa \n0 \n0111 1111 \n1111 1111 1111 1111 1111 1111\n(B)  \n \n \nSign \nExponent \nMantissa \n0 \n1111 1110 \n1111 1111 1111 1111 1111 1111\n(C)  \n \n \nSign \nExponent \nMantissa \n0 \n1111 1111 \n1111 1111 1111 1111 1111 111\n(D)\nSign \nExponent \nMantissa \n0 \n0111 1111 \n0000 0000 0000 0000 0000 000",
+  "answer_text": "(B)\n\nPAGE\n11",
+  "explanation_text": "Sol.\n \nAs per described IEEE 754\nSingle precision format\nSign : 0\nExponent : 11111110\nMantissa : 23 1\u2019s\nWill give maximum value.\nHence, the correct option is (B)."
+}

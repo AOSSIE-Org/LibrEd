@@ -1,0 +1,11 @@
+{
+  "id": "49",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-N",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 49\n \n \nWhich of the following is/are EQUAL to 224 in radix-5 (i.e., base-5) notation ?\n[Digital Logic, 1 Number System] \n \n(A) 64 in radix-10 \n(B) 100 in radix-8\n\nPAGE\n34\n\n(C) 50 in radix-16 \n(D) 121 in radix-7 \nAns. \n(A, B, D)",
+  "answer_text": "",
+  "explanation_text": "Sol.\n \n0\n1\n2\n5\n10\n(224)\n4 5\n2 5\n2 5\n(4 10\n50)\n\uf03d\uf0b4\n\uf02b\uf0b4\n\uf02b\uf0b4\n\uf03d\n\uf02b\n\uf02b\n10\n(64)\n\uf03d\n0\n1\n2\n8\n10\n(100)\n0 8\n0 8\n1 8\n(0\n0\n64)\n\uf03d\uf0b4\n\uf02b\uf0b4\n\uf02b\uf0b4\n\uf03d\n\uf02b\n\uf02b\n10\n(64)\n\uf03d\n0\n1\n16\n(50)\n0 16\n5 16\n(0\n80)\n\uf03d\uf0b4\n\uf02b\uf0b4\n\uf03d\n\uf02b\n10\n(80)\n\uf03d\n0\n1\n2\n7\n10\n10\n(121)\n1 7\n2 7\n1 7\n(1 14\n49)\n(64)\n\uf03d\uf0b4\n\uf02b\uf0b4\n\uf02b\uf0b4\n\uf03d\n\uf02b\n\uf02b\n\uf03d\nHence, the correct option are (A), (B) and (D)."
+}

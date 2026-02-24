@@ -1,0 +1,11 @@
+{
+  "id": "42",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-N",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "(B)",
+  "question_text": "Question 42\n\nPAGE\n27\n\nConsider an array \nX\n that contains \nn\n positive integers.  A subarray of \nX\n  is defined to be a sequence of \narray locations with consecutive indices.\nThe \nC\n code snippet given below has been written to compute the length of the longest subarray of \nX\n that \ncontains at most two distinct integers.  The code has two missing expressions labelled \n\uf028\uf029\nP\n  and \n\uf028\uf029\nQ\n .\nInt first = 0, second = 0, len1 = 0, len2 = 0, maxlen = 0; \n \n \nfor (int i = 0; i < n; i++)    { \n \n \n  if (X[i] == first)     { \n \n \n    len2++;    len1++; \n \n          } else if (X[i] == second)    { \n \n \n     len2++; \n \n \n \n     len1  =    (P)   ; \n \n \n     second = first ; \n \n \n}  else  { \n \n \n  len2 =    (Q)   ; \n \n \n  len1 = 1; second = first; \n \n \n} \n \n \nif (len2 > maxlen)   { \n \n \n    maxlen = len2; \n \n \n} \n \n \nFirst = X[i]; \n \n \n} \n \nWhich one of the following options gives the CORRECT missing expressions ? \n \n(Hint : At the end of the i-th iteration, the value of len1 is the length of the longest subarray ending with \nX[i] that contains all equal values, and len2 is the length of the longest subarray ending with X[i] that \ncontains at most two distinct values.) \n \n  \n \n[Data Structure, 1 Array]\n(A) \n\uf028\uf029\n\uf028\uf029\n1 1\n2\n1\nP\nlen\nQ\nlen\n\uf02b\n\uf02b\n(B) \n\uf028\uf029\n\uf028\uf029\n1\n1 1\nP\nQ\nlen\n \uf02b\n(C) \n\uf028\uf029\n\uf028\uf029\n1\n2\n1\nP\nQ\nlen\n \uf02b\n(D) \n\uf028\uf029\n\uf028\uf029\n2 1\n1 1\nP\nlen\nQ\nlen\n\uf02b\n\uf02b",
+  "answer_text": "(B)",
+  "explanation_text": "Sol.\n \nIn the given program we keep track of the atmost two distinct values allowed in the subarray using the \nvariables first and second.\nThe variable first stores the latest [or the second] distinct value in the subarrary.\nWhile the variable second stores the second latest [or the first] distinct value we see in the subarray.\n\nPAGE\n28\n\nWe can try run the code\nHence, the correct option is (B)."
+}

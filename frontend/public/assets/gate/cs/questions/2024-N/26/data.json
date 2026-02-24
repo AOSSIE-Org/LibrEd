@@ -1,0 +1,11 @@
+{
+  "id": "26",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-N",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "(A, B)",
+  "question_text": "Question 26  \n \n[Database (File Structure)]\nWhich of the following file organizations is/are I/O efficient for the scan operation in DBMS?\n(A) Sorted \n(B) Heap\n(C) Unclustered tree index \n(D) Unclustered hash index",
+  "answer_text": "(A, B)",
+  "explanation_text": "Sol.\n \nThe file organization that are I/O efficient for the scan operation in DBMS are\n(1) Sorted\n(2) Heap\nHence, the correct option is (A) and (B)"
+}

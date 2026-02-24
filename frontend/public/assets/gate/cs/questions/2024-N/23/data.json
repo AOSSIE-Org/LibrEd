@@ -1,0 +1,11 @@
+{
+  "id": "23",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-N",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "(B)",
+  "question_text": "Question 23 \n \n \n \n[Computer Network (Transport Layer)]\nNode \nX\n has a TCP connection open to node \nY\n. The packets from \nX\n to \nY\n go through an intermediate IP \nrouter \nR\n. Ethernet switch \nS\n is the first switch on the network path between \nX\n and \nR\n. Consider a packet sent \nfrom \nX\n to \nY\n over this connection.\nWhich of the following statements is/are TRUE about the destination IP and MAC addresses on this \n \npacket at the time it leaves \nX \n?\n(A) The destination MAC address is the MAC address of \nS\n(B) The destination IP address is the IP address of \nR\n(C) The destination IP address is the IP address of \nY\n(D) The destination MAC address is the MAC address of \nY",
+  "answer_text": "(B)",
+  "explanation_text": "Sol.\n \nHost \u2013 Switch \u2013 Router \u2013 Host\nX  \n    S \n       R           Y\nX\n send packet to \nY\n. considered IP datagram, IP address of destination is IP address of host (\nY\n). But \nX \nsend packet always default gateway router \nR\n and in path comes switch only forwarding the packet.\nHence, the correct option is (B)."
+}

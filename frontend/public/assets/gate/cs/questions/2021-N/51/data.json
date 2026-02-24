@@ -1,0 +1,11 @@
+{
+  "id": "51",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "D",
+  "question_text": "Question 51. \n \n \n \n  \n \n \n \n \nMCQ (2M)\nQuestion ID : 8232513134\nConsider the cyclic redundancy check (CRC) based error detecting scheme having the generator\npolynomial \n3\n1\nX\nX\n+\n+\n . Suppose the message \n4\n3\n2\n1\n0\n1100\nm m m m m\n =\nis to be transmitted. Check bits\n\nPAGE\n36\n\n2 1 0\nc c c\n  are appended at end of the message by the transmitter using the above CRC scheme. The\ntransmitted bit string is denoted by \n4\n3\n2\n1\n0 2 1 0\nm m m m m c c c\n . The value of the check bit sequence \n2 1 0\nc c c\n  is\n(A)\n \n111 \n(B) \n110 (C) \n101 (D) \n100",
+  "answer_text": "D",
+  "explanation_text": "Sol.\n  \nGenerator: X\n3\n + X + 1 = > 1011\nData: 11000\n\n1011 | 1 1 0 0 0 0 0 0\n1 0 1 1\n1 1 1 0\n1 0 1 1\n1 0 1 0\n1 0 1 1\n0\n \n1 0 0  => CRC"
+}

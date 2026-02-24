@@ -1,0 +1,11 @@
+{
+  "id": "60",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "(A)",
+  "question_text": "Question 60. \n \n \n \n  \n \n \n \n \nMCQ (2M)\nQuestion ID: 8232513137\n\nPAGE\n42\n\nFor two n-dimensional real vectors \nP\n and Q. the operation s (\nP\n,\n Q\n) is defined as follows:\nn\n=\n=\n\uf0d7\n\uf0e5\n(\n)\ni\ns P Q\nP i Q i\n1\n( ,\n)\n[ ]\n[ ]\nLet \u00a3 be a set of 10-dimensional non-zero real vectors such that for every pair of distinct vectors \nP\n,\n\uf0ce\n\u00a3, s (\nP\n,\n Q\n) = 0. What is the maximum cardinality possible for the set \u00a3?\n(A) 10\n(B) 11\n(C) 9\n(D) 100",
+  "answer_text": "(A)",
+  "explanation_text": "Sol. \nGiven:\nn\n=\n=\n\uf0d7\n\uf0e5\n(\n)\ni\ns P Q\nP i Q i\n1\n( ,\n)\n[ ]\n[ ]\nS\n(\nP, Q\n) is nothing but the dot product of two vectors.\nThe dot product of two vectors is zero when they are perpendicular, as we are dealing with 10\ndimensional vectors the maximum number of mutually-perpendicular vectors can be 10.\nTherefore, the maximum cardinality possible for the set \n\u00a3."
+}

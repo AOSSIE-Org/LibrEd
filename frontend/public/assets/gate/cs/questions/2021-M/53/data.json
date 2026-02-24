@@ -1,0 +1,11 @@
+{
+  "id": "53",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-M",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "(A)",
+  "question_text": "Question 53 \n \n \n \n \n \n \n \nMCQ (1M) \n \n \n \n \n \n \n \nQuestion ID : 823251534 \n \nConsider the following statements.\n1\nS\n  : The sequence of procedure calls corresponds to a preorder traversal of the activation tree.\n2\nS\n  : The sequence of procedure returns corresponds to a postorder traversal of the activation tree.\nWhich one of the following options is correct?\n\nGATE 2021\n [Forenoon Session]\nComputer Science Engineering\nPAGE\n33\n\n(A) \n1\nS\n  is true and So is true \n(B)\n1\nS\n  is true and is false\n(C)\n1\nS\n is false and is true  \n(D)\n1\nS\n  is false and So is false",
+  "answer_text": "(A)",
+  "explanation_text": ""
+}

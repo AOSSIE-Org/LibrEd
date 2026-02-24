@@ -1,0 +1,11 @@
+{
+  "id": "50",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-N",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "(C, D)\n\nPAGE\n35",
+  "question_text": "Question 50\n \n \nConsider 4-variable functions \n1, 2, 3, 4\nf\nf\nf\nf\n expressed in sum-of-minterms form as given below :\n\uf028\n\uf029\n1\n1,2,3,5,7,8,11,13\nf\n \uf03d\uf0e5\n\uf028\n\uf029\n2\n1,3,5,7,11,13,15\nf\n\uf03d\uf0e5\n\uf028\n\uf029\n3\n0,1,4,11\nf\n\uf03d\uf0e5\n\uf028\n\uf029\n4\n0,2,6,13\nf\n\uf03d\uf0e5\nWith respect to the circuit given above, which of the following options is/are CORRECT ?\n(Digital logic, 2 Boolean Algebra)\n(A) \n\uf028\n\uf029\n0,1,2,11,13\nY\n \uf03d\uf0e5\n \n(B) \n\uf028\n\uf029\n3,4,5,6,7,8,9,10,12,14,15\nY\n \uf03d\uf050\n(C) \n\uf028\n\uf029\n0,1,2,3,4,5,6,7\nY\n \uf03d\uf0e5\n \n(D) \n\uf028\n\uf029\n8,9,10,11,12,13,14,15\nY\n \uf03d\uf050",
+  "answer_text": "(C, D)\n\nPAGE\n35",
+  "explanation_text": "Sol. \nAs per given diagram \n1\n2\n( ,\n)\nf\nf\n and \n3\n4\n(\n,\n)\nf\nf\nwill go for AND product and then, they will go for XOR\nfunction.\n(0,1,2,3,4,5,6,7)\nY\n \uf03d\uf0e5\n(8,9,10,11,12,13,14,15)\nY\n \uf03d\uf070\nHence, the correct option are (C) and (D)."
+}

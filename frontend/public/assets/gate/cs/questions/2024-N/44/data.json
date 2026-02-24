@@ -1,0 +1,11 @@
+{
+  "id": "44",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-N",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "(D)\n\nPAGE\n29",
+  "question_text": "Question 44\nLet \nx\n and \ny\n be random variables, not necessarily independent, that take real values in the interval [0, 1] \nLet \nz \n= \nxy\n and let the mean values of \nx\n, \ny\n, \nz\n be \n, , ,\nx y z\n respectively. Which one of the following statements \nis TRUE ? \n \n \n \n[Engineering Mathematics, Probability]\n  \n \n(A) \nz\nx y\n\uf03d\n \n(B) \nz\nx y\n\uf0a3\n(C) \nz\nx y\n\uf0b3\n \n(D) \nz\nx\n\uf0a3",
+  "answer_text": "(D)\n\nPAGE\n29",
+  "explanation_text": "Sol.\n \nLet us first give counter example for (C) and (A)\nLet us assume \nX\n is a random variable uniformly distributed is [0,1] and Y is 1\n\u2013X\nSo, \n1\n(X)\n2\nE\n\uf03d\n and \n1\n1\n( )\n(1\n)\n(1)\n(\n)\n1\n2\n2\nE Y\nE\nX\nE\nE X\n\uf03d\n\uf02d\n\uf03d\n\uf02d\n\uf03d\uf02d\n\uf03d\nNow, Given \nZ \n= \nXY\n1\n1\n( )\n(\n)\n(1- )\n6\nE Z\nE XY\nx\nx dx\n\uf03d\n\uf03d\n\uf03d\n\uf0f2\n\n0\nSo, \n( )\n(\n) ( )\nE Z\nE X E Y\n\uf0a3\n[Note here covariance is negative]\nCounter Example for (B):\nLet us assume \nX\n is random variable uniformly distributed in [0,1] and \nY\n = \nX\nSo, \n1\n(\n)\n2\nE X\n \uf03d\n1\n( )\n2\nE Y\n \uf03d\nNow Given \nZ\nXY\n\uf03d\n1\n2\nx\nxdx\n\uf03d\n\uf0b4\n\uf03d\n\uf0f2\n1\nSo, \n( )\n(\n)\nE Z\nE XY\n\uf03d\n0\nSo, \n( )\n(\n) ( )\nE Z\nE X E Y\n\uf0b3\n[Note here Covariance is positively]\nNow, why does option (D) is correct?\n\uf0de\n It is given, \nX \nand \nY \ntakes value in the range [0, 1]\nSo, we can write, \n0\n1\nY\n\uf0a3\n\uf0a3\nMultiply this inequality by \nX\n.\nSo, \n0\nXY\nX\n\uf0a3\n\uf0a3\nNow take expectation of this inequality\nSo, \n(0)\n(\n)\n(\n)\nE\nE XY\nE X\n\uf0a3\n\uf0a3\nSo, \n0\n(\n)\n(\n)\nE XY\nE X\n\uf0a3\n\uf0a3\nWhich proof the option (D)\n\nPAGE\n30\n\nNote this inequality holds true because \nX\n and \nY \ntakes value in the range between [0,1]\nHence the correct option is (D)"
+}

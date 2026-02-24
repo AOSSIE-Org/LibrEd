@@ -1,0 +1,11 @@
+{
+  "id": "48",
+  "stream": "computer-science-information-technology",
+  "packet": "2022",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 48\nIn a digital control system as shown in figure, a 16 bit code word is used to retrieve the value of \nX\n . The\nX\n  will have the value of either of \nR\n  or \nS\n  depending on value of bit \nM\n  (\n M\n  is mode bit). Determine \ncorrect digital units \n,\nP Q\n  and \nT\n . \nR\n  denotes a memory containing 1024 words and \nS\n  denotes a register \nfile of size 32 registers.\n\nGATE 2022 \n [Forenoon Session]\nComputer Science Engineering\nPAGE\n34\n\n\n(A) \n10\nis 10: 2\ndecoder, \nP\n \n5\nis 5: 2 decoder, \nQ\n \nis 2:1 Multiplexer\nT\n \n(B) \n10\nis 10: 2  decoder, \nP\n \n5\nis 5: 2 decoder, \nQ\n \nis 2:1 encoder\nT\n \n(C) \nis 10: 1 Multiplexer, \nP\n \nis 5: 1 Multiplexer, \nQ\n \nis 2:1 Multiplexer\nT\n \n(D) \nis 1:10 de - multiplexer\nP\n \nis 1:5 de - multiplexer\nQ\n \nis 2:1 Multiplexer\nT\n \nAns. \nA",
+  "answer_text": "",
+  "explanation_text": "Sol. \nBased on the Address provided to P, one of the words of the memory unit S has to be selected. this \nfunction is performed by a Decoder r To be able to address 1024 words, we need 10 bits , and to select \none out of \n10\n2\n addresses , we need 1G:\n10\n2\n  Decoder which is unit P.\nSimilarly to decoder Address R we need 5:\n5\n2\n  Decoder.\nNow one of the two inputs has to be selected to be loaded into X, selecting one input among many to \nplace in the output. This function is performed by a Multiplexer here we need a 2x1 MUX. Hence A is \nthe correct Answer."
+}

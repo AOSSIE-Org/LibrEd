@@ -1,0 +1,11 @@
+{
+  "id": "34",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-M",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 34 \n \nThe number of spanning trees in a complete graph of 4 vertices labelled A, B,C, and D is_________.\n[Discrete Mathematics \u2013 Graph Theory] \n \nAns. \n(16 to 16) \nSol.\n \nNo. of spanning tree for complete connected graph,\n2\nn\nn\n \n\uf02d\n\uf03d\n4 2\n2\n4\n4\n16\n\uf02d\n\uf03d\n\uf03d\n\uf03d\n\nHence, the correct answer is 16.",
+  "answer_text": "",
+  "explanation_text": ""
+}

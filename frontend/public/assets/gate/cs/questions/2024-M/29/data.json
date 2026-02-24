@@ -1,0 +1,11 @@
+{
+  "id": "29",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-M",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "(A, D)",
+  "question_text": "Question 29 \n \n  \n[Computer Network (Transport Layer)]\nTCP client \nP \nsuccessfully establishes a connection to TCP server \nQ\n. Let \nP\nN\n  denote the sequence number\nin the SYN sent from \nP\n  to \nQ\n. Let \nQ\nN\n  denote the acknowledge number in the SYN ACK from \nQ\n  to \nP\n.\nWhich of the following statements is/are CORRECT ?\n(A) The sequence number \nP\nN\n  is chosen randomly by P\n(B) The sequence number \nP\nN\n  is always 0 for a new connection.\n(C) The acknowledge number \nQ\nN\n  is equal to \nP\nN\n(D) The acknowledge number \nQ\nN\n  is equal to \n1\nP\nN\n \uf02b",
+  "answer_text": "(A, D)",
+  "explanation_text": "Sol.\n \n \n1\nq\np\nN\nN\n\uf03d\n\uf02b\nWhere, \np\nN\n  is chosen randomly to prevent some kind of attacks.\nHence, the correct option (A) and (D)."
+}

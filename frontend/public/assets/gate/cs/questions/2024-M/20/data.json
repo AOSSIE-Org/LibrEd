@@ -1,0 +1,11 @@
+{
+  "id": "20",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-M",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 20 \n \n  \n \n \n[Database (ER Model)]\n \n \nLet \nS\n be the specification: \u201cInstructors teach courses.  Students register for courses.  Courses are allocated \nclassrooms.  Instructors guide students.\u201d  Which one of the following ER diagrams CORRECTLY \nrepresents \nS\n ? \n \n(i)\nRegistration\nInstructor\nTeaches\nCourse\nClassroom\nAlloca\ntion\nStudent\nGuides\n(ii)\nInstructor\nTeaches\nCourse\nClassroom\nAlloca\nRegistration\ntion\nGuides\nProjects\n(iii)\n(iv)\n\nPAGE\n18\n\n(A) (i) \n(B) (ii) \n \n(C) (iii) \n(D) (iv) \nAns. \n(D)",
+  "answer_text": "",
+  "explanation_text": "Sol.\nInstructor\nTeaches\nCourse\nClassroom\nAlloca\nRegistration\ntion\nGuides\nStudent\n\nHence, the correct option is (D)."
+}

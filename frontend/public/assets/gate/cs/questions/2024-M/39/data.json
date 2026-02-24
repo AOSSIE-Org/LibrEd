@@ -1,0 +1,11 @@
+{
+  "id": "39",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-M",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 39 \n  \n[Complier Design (Code Generation and Optimization)]\n \n \nConsider the following pseudo-code. \n \n \n1:\n1\n1\nL\nt\n \uf03d\uf02d\n2:\n2\n0\nL\nt\n \uf03d\n3:\n3\n0\nL\nt\n \uf03d\n4:\n4\n4\n3\nL\nt\nt\n\uf03d\uf02a\n5:\n5\n4\n2\nL\nt\nt\n\uf03d\uf02a\n6:\n6\n5\nL\nt\nt\nM\n\uf03d\n\uf02a\n7:\n7\n4\n6\nL\nt\nt\nt\n\uf03d\n\uf02b\n8:\n8\n[ 7]\nL\nt\na t\n\uf03d\n9:\nif 8\nmaxgoto 11\nL\nt\nL\n\uf03c\uf03d\n10:\n1\n8\nL\nt\nt\n\uf03d\n11:\n3\n3 1\nL\nt\nt\n\uf03d\n\uf02b\n12:\nif 3\ngoto\n4\nL\nt\nM\nL\n\uf03c\n13:\n2\n2 1\nL\nt\nt\n\uf03d\n\uf02b\n14:\nif 2\ngoto\n3\nL\nt\nN\nL\n\uf03c\n15:\nmax\n1\nL\nt\n\uf03d\nWhich one of the following options CORRECTLY specifies the number of basic blocks and the number \nof instructions in the largest basic block, respectively ? \n \n(A) 6 and 6 \n(B) 6 and 7 \n \n(C) 7 and 7 \n(D) 7 and 6 \nAns. \n(D)",
+  "answer_text": "",
+  "explanation_text": "Sol.\n \nHere; \n1\n3\n4\n10\n11\n13\n,\n,\n,\n,\n,\nL L L L\nL\nL\n  and \n15\nL\n  are leader.\n\nPAGE\n30\n\nB\n1\n L\n1\nL\n2\nB\n2\nL\n3\nB\n3\nL\n4\nL\n5\nL\n6\nL\n7\nL\n8\nL\n9\nL\n10\nB\n4\nB\n5\n \nL\n11\nL\n12\nB\n6\n L\n13\nL\n14\nB\n7\n L\n15\n\nSo, total 7 basic blocks and B\n3\n is the largest basic block containing 6 statements.\nHence, the correct option is (D)."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "29",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-N",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "(B, D)",
+  "question_text": "Question 29  \n[Complier Design (Syntax Directed Translation)]\nWhich of the following statements is/are FALSE?\n(A) An attribute grammar is a syntax-directed definition (SDD) in which the functions in the semantic\nrules have no side effects\n(B) The attributes in a L-attributed definition cannot always be evaluated in a depth- first order\n(C) Synthesized attributes can be evaluated by a bottom-up parser as the input is parsed\n\nPAGE\n20\n\n(D) All L-attributed definitions based on LR(1) grammar can be evaluated using a bottom-up parsing\nstrategy",
+  "answer_text": "(B, D)",
+  "explanation_text": "Sol.\n \n(B) There is no fixed procedure of evaluating\n L\n \u2013 attribute in depth \u2013 First order\n(D) There is a fixed procedure which all \nL\n-attributed which al\n L\n-attributed definitional based on LR (1)\nusing bottom-up parsing.\nHence, the correct option is (B) and (D)."
+}

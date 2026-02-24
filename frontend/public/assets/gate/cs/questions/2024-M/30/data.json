@@ -1,0 +1,11 @@
+{
+  "id": "30",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-M",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 30                                     \n[Computer Organization & Architecture (Instruction Pipelining)]\n \n \nConsider a 5-stage pipelined processor with Instruction Fetch (IF). Instruction Decode (ID). Execute (EX). \n \nMemory Access (MEM), and Register Writeback (WB) stages. Which of the following statements about \n \nforwarding is are CORRECT ? \n \n(A) In a pipelined execution, forwarding means the result from a source stage of an earlier instruction is \n \n \npassed on to the destination stage of a later instruction. \n \n(B) In forwarding, data from the output of the MEM stage can be passed on to the input of the EX stage \n \n \nof the next instruction.  \n \n(C) Forwarding cannot prevent all pipeline stalls  \n \n(D) Forwarding does not require any extra hardware to retrieve the data from the pipeline stages.  \nAns.  (A, B, C)",
+  "answer_text": "",
+  "explanation_text": "Sol.\n \n\u2022 \nFor the load instructions memory data is forwarded to execute state with stall.\n\nPAGE\n23\n\n\u2022 \nForwarding can\u2019t prevent all the pipelines stalls.\n\u2022 \nBuffer is used to hold the intermediate results to performed the data.\nHence, the correct option is (A), (B) and (C)."
+}

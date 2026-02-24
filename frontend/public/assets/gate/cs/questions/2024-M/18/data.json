@@ -1,0 +1,11 @@
+{
+  "id": "18",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-M",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 18 \n \n  \n \n \n \n[C-Programming]\n \n \nConsider the following C program : \n \n# include <stdio.h> \n \nint main () { \n \n \nint \na \n= 6; \n \n \nint \nb\n = 0;  \n \n \nwhile (\na\n < 10) { \n \n \n \na\n = \na\n/12 + 1; \n \n \n \na\n + = \nb\n; } \n \n \nprintf (\u201c%\nd\n\u201d, \na\n);  \n \n \nreturn 0;} \n \nWhich one of the following statements is CORRECT ? \n \n(A) The program prints 9 as output  \n \n(B) The program prints 10 as output \n \n(C) The program gets stuck in an infinite loop \n \n(D) The program prints 6 as output \nAns. \n(C)",
+  "answer_text": "",
+  "explanation_text": "Sol. \nThe program gets stuck in an infinite loop\n6\na\n1\n0\nb\nLoop :\nWhile \n(\n10) (\n10)\na\na\n\uf03c\n\uf03c\n\uf0ae\n True\n6\n1\n(0 1)\n1\n12\na\n \uf03d\n\uf02b\uf03d\n\uf02b\n\uf03d\n1 0\n1\na\na\nb\n\uf03d\n\uf02b\n\uf03d\uf02b\n\uf03d\nWhile (a < 10)  [1 < 10] \n\uf0ae\n true\n\nPAGE\n16\n\n1\n1\n(0 1)\n1\n12\na\n \uf03d\n\uf02b\uf03d\n\uf02b\n\uf03d\n1 0\n1\na\n \uf03d\uf02b\n\uf03d\nSo, Every time a = 1 will come and while loop will Execute infinitely.\nHence, the correct option is (C)."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "29",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-M",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "A\n \nQuestion 30 \n \n \n \n \n \n \n \nMSQ (1M) \n \n \n \n \n \n \n \nQuestion ID : 823251543 \n \nSuppose a database system crashes again while recovering from a previous crash.\n\nGATE 2021\n [Forenoon Session]\nComputer Science Engineering\nPAGE\n23\n\nAssume check-pointing is not done by the database either during the transactions or during recovery.\n \nWhich of the following statements is/are correct?\n \n \n(A) The same undo and redo list will be used while recovering again. \n \n(B) The system cannot recover any further. \n \n(C) The database will become inconsistent \n \n(D) All the transactions that are already undone and redone will not be recovered again. \n \nA",
+  "question_text": "Question 29 \n \n \n \n \n \n \n \nMCQ (2M) \n \n \n \n \n \n \n \nQuestion ID : 823251560 \n \nConsider the following recurrence relation\n( / 2)\n(2 / 5)\n7\nif \n0\n( )\n1\nif \n0\nT n\nT\nn\nn\nn\nT n\nn\n+\n+\n>\n\uf0ec\n=\n \uf0ed\n=\n\uf0ee\nWhich one of the following options is correct?\n(A) \n( )\n( )\nT n\nn\n= \u03b8\n  \n(B) \n5/2\n( )\n((log )\n)\nT n\nn\n= \u03b8\n  (C) \n( )\n( log )\nT n\nn\nn\n= \u03b8\n \n(D) \n5/2\n( )\n(\n)\nT n\nn\n= \u03b8",
+  "answer_text": "A\n \nQuestion 30 \n \n \n \n \n \n \n \nMSQ (1M) \n \n \n \n \n \n \n \nQuestion ID : 823251543 \n \nSuppose a database system crashes again while recovering from a previous crash.\n\nGATE 2021\n [Forenoon Session]\nComputer Science Engineering\nPAGE\n23\n\nAssume check-pointing is not done by the database either during the transactions or during recovery.\n \nWhich of the following statements is/are correct?\n \n \n(A) The same undo and redo list will be used while recovering again. \n \n(B) The system cannot recover any further. \n \n(C) The database will become inconsistent \n \n(D) All the transactions that are already undone and redone will not be recovered again. \n \nA",
+  "explanation_text": "Sol.\n \nWe know that in a log file all the operations are idempotent (result will be same on preforming same \noperation multiple times) and are recorded periodically. Therefore, even on multiple crashes the same \nundo and redo list will be used while recovering the system."
+}

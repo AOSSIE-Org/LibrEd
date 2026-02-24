@@ -1,0 +1,11 @@
+{
+  "id": "41",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "(C)",
+  "question_text": "Question 41. \n \n \n \n  \n \n \n \n \nMCQ (1M)\nQuestion ID : 8232513103\nConsider the following ANSI C program:\n\nPAGE\n29\n\nint main  ( ) {\nInteger x;\nReturn 0;\n}\nwhich one of the following phases in a 7- phase C compiler will throw an error?\n(A) Lexical analyzer  \n \n \n(B) Semantic analyzer\n(C) Machine dependent optimizer  \n(D) Syntax analyzer",
+  "answer_text": "(C)",
+  "explanation_text": "Sol. \nIt is syntax error. As per ANSI C integer is not keyword for declaration of integer.\nWe have int."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "19",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "(B)",
+  "question_text": "Question 19. \n \n \n \n  \n \n \n \n \nMCQ (1M)\nQuestion ID : 8232513101\n\nPAGE\n14\n\nLet G be a connected undirected weighted graph consider the following to statements.\nS\n1\n. There exists a minimum edge weight in G which is present in every MST of G.\nS\n2\n. If every edge in G has distinct weights, then G has a unique MST.\nWhich of the following is true?\n(A)\n S\n1 \nis true and S\n2\n is false  \n(B)\n S\n1 \nis false and S\n2\n is true\n(C)\n Both S\n1 \nand II are true \n \n(D)\n Both S\n1 \nand II are false",
+  "answer_text": "(B)",
+  "explanation_text": "Sol. \nGiven:\n G is a connected undirected weighted graph\nBy using Kruskal\u2019s algorithm to find MST, we sort the edges based on their weight and start \nselective edges from the smallest weight (w_small for example). \nProblem with S1:  If we have multiple copies of w_small, then a specific w_small weighted edge is \nnot guaranteed to be selected by Kruskal. \nS2 is Correct: If the sorted order of the edges contains only distinct values, the Kruskal algorithm \nwill always select a unique set of edges resulting in an unique minimum spanning tree."
+}

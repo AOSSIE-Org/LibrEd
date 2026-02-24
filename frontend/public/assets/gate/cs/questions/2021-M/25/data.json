@@ -1,0 +1,11 @@
+{
+  "id": "25",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-M",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "A",
+  "question_text": "Question 25 \n \n \n \n \n \n \n \nMCQ (2M) \n \n \n \n \n \n \n \nQuestion ID : 823251563 \n \nConsider the relation \n( ,\n, , ,\n, ,\n,\n)\nR P Q S T X Y Z W\n  with the following functional dependencies.\n;\n;\n;\nPQ\nX P\nYX Q\nY\nY\nZW\n\u2192\n\u2192\n\u2192\n\u2192\nConsider the decomposition of the relation R into the constituent relations according to the following \ntwo decomposition schemes.\n(\n)\n (\n)\n (\n)\n (\n)\n1\n \n:\n,\n, ,\n;\n, ,\n;\n,\n;\n, ,\nD\nR\nP Q S T\nP T X\nQ Y\nY Z W\n\uf0e9\n\uf0f9\n=\n \uf0eb\n\uf0fb\n(\n)\n (\n)\n (\n)\n (\n)\n2\n \n:\n,\n,\n;\n,\n;\n,\n;\n, ,\nD\nR\nP Q S\nT X\nQ Y\nY Z W\n\uf0e9\n\uf0f9\n=\n \uf0eb\n\uf0fb\nWhich one of the following opt ions is correct?\n(A) \n1\nD\n  is a lossless decomposition, but \n2\nD\n  is a lossy decomposition.\n(B) Both \n1\nD\n  and \n2\nD\n  are lossy decompositions.\n(C) Both \n1\nD\n  and \n2\nD\n  are lossless decompositions.\n(D) \n1\nD\n  is a lossy decomposition, but \n2\nD\n  is a lossless decomposition.",
+  "answer_text": "A",
+  "explanation_text": "Sol.\n \nFor decomposition D1 :\n\nGATE 2021\n [Forenoon Session]\nComputer Science Engineering\nPAGE\n21\n\nR1(PQST)\nR2(PTX)\nR3(QY)\nR4(YZW)\nSince all the relations have a common attribute and either of them have a common attribute as the \nprimary key, therefore, the given relation is lossless.\nFor decomposition D2 :\nR1(PQS)\nR2(TX)\nR3(QY)\nR4(YZW)\nSince, neither of them have a common attribute as the primary key, therefore, the given decomposition \nis not a lossless decomposition."
+}

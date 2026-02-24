@@ -1,0 +1,11 @@
+{
+  "id": "43",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-N",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "(A)",
+  "question_text": "Question 43\nConsider the following expression: \n\uf028\n\uf029\n[ ]\n*\n[ ]\n/\nx i\np\nr\ns i\nu w\n\uf03d\n\uf02b\n\uf02d\n\uf02b\n.  The following sequence shows the list of\ntriples representing the given expression, with entries missing for triples (1), (3), and (6).\n[Data Structure, 2 Stack Queue]\n \n(0)\n \n+ \np \nR\n(1)\n(2) \numinus \n(1)\n(3)\n(4) \n/ \nu \nw\n(5) \n+ \n(3) \n(4)\n(6)\n(7) \n= \n(6) \n(5) \n \n \nWhich one of the following options fills in the missing entries CORRECTLY ?\n(A) \n\uf028\uf029\n\uf05b\uf05d\n\uf028\uf029\uf028\uf029\uf028\uf029\n\uf028\uf029\n\uf05b\uf05d\n1\n3 * 0\n2\n6\ns i\nxi\n\uf03d\n\uf03d\n(B) \n\uf028\uf029\n\uf05b\uf05d\n\uf028\uf029\uf028\uf029\uf028\uf029\n\uf028\uf029\n\uf05b\uf05d\n\uf028\uf029\n1\n3\n0\n2\n6\n5\ns i\nx\n\uf03d\n\uf02d\n\uf03d\n(C) \n\uf028\uf029\n\uf05b\uf05d\n\uf028\uf029\uf028\uf029\uf028\uf029\n\uf028\uf029\n\uf05b\uf05d\n\uf028\uf029\n1\n3 * 0\n2\n6\n5\ns i\nx\n\uf03d\n\uf03d\n(D) \n\uf028\uf029\n\uf05b\uf05d\n\uf028\uf029\uf028\uf029\uf028\uf029\n\uf028\uf029\n\uf05b\uf05d\n1\n3\n0\n2\n6\ns i\nxi\n\uf03d\n\uf02d\n\uf03d",
+  "answer_text": "(A)",
+  "explanation_text": "Sol.\n \nGoing from left to right we resolve the bracket first. (\nP\n + \nr\n) is already given now we solve \ns\n[\ni\n]. Then \ncomes unary minus as per operator preference then we solve * which acts (0 and 2) and\n /,+\nsubsequently \nthen \nx\n[\ni\n] address is calculated (step - 6) where the final results (obtain in step 5) is stored in the last step \n(7). The assignment operator has lowest preference so it is done at last.\nHence, the correct option is (A)."
+}

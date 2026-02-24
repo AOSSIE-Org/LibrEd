@@ -1,0 +1,11 @@
+{
+  "id": "29",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "MSQ",
+  "key": "(A), (B), (D)",
+  "question_text": "Question 29. \n \n \n \n  \n \n \n \n \nMSQ (1M)\nQuestion ID : 8232513114\nWhich of the following statements is/are correct in the context of CPU scheduling?\n\nPAGE\n21\n\n(A) Round Robin policy can be used even when the CPU time required by each of the processes is \nnot known in apriori.\n(B) Implementing preemptive scheduling needs hardware support.\n(C) The goal is to only maximize CPU utilization and minimize throughput.\n(D) Turnaround time includes waiting time.",
+  "answer_text": "(A), (B), (D)",
+  "explanation_text": "Sol.\n \nOption A: Round Robin policy can be used even when the CPU time required by each of the \nprocesses is not known in apriori. This is True because Round Robin policy depends on time \nquantum.\nOption B: Implementing preemptive scheduling needs hardware support. This is True because \npreemption needs interrupt to occur.\nOption C: The goal is to only maximize CPU utilization and minimize throughput, this is False\nOption D: True, because turn around time = WT+BT"
+}

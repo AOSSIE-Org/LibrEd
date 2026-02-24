@@ -1,0 +1,11 @@
+{
+  "id": "50",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "MSQ",
+  "key": "(B), (C)",
+  "question_text": "Question 50. \n \n \n \n  \n \n \n \n \nMSQ (2M)\nQuestion ID : 8232513145\nConsider a computer network using the distance vector routing algorithm in its network layer.\nThe partial topology of the network is as shown below.\n\nPAGE\n35\n\nThe objective is to find the shortest-cost path from the router R to routers P and Q. Assume that R \ndoes not initially know the shortest routes to P and Q. Assume that R has three neighbouring routers \ndenoted as X, Y. and Z. During one iteration, R measures its distance to its neighbours X, Y, and Z \nas 3, 2, and 5, respectively. Router R gets routing vectors from its neighbours that indicate that the \ndistance to router P from routers X, Y, and Z are 7, 6, and 5, respectively. The routing vector also \nindicates that the distance to router Q from routers X. Y, and Z are 4, 6, and 8 respectively. Which of \nthe following statement(s) is/are correct with respect to the new routing table of R, after updation \nduring this iteration?\n(A) The distance from R to P will be stored as 10\n(B) The next hop router for a packet from R to P is Y\n(C) The distance from R to Q will be stored as 7\n(D) The next hop router for a packet from R to Q is Z",
+  "answer_text": "(B), (C)",
+  "explanation_text": "Sol. \nFrame size \n( )\n1000 bits\nL\n =\nData rate \n( )\n1 Mbps\nR\n =\n3\nL\nt\nR\n=\n=\n=\n6\n10  bits\n1 ms\n10  bits/sec\nf\n\nTotal no. of frames transmitted per sec = 1000\n1 ms\nf\nt\n =\n\nSo \n1\nG\n =\nThroughput\nG\nG\ne\n\u2212\n=\n\uf0b4\n1\ne\n\u2212\n=\n0.367\n=\nNote : \nG\n =\nno. of frames transmitted per frames to transmission time."
+}

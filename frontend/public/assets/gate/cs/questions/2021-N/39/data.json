@@ -1,0 +1,11 @@
+{
+  "id": "39",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "(C)",
+  "question_text": "Question 39. \n \n \n \n \n \n \n \n \nMCQ (2M)\nQuestion ID : 8232513138\nFor a statement S in a program, in the context of liveness analysis, the following sets are defined:\nUSE(S): the set of variables used in S\nIN (S): the set of variables that are live at the entry of S\nOUT(S): the set of variables that are live at the exit of S\nConsider a basic block that consists of two statements. S\n1\n followed by S\n2\n.\nWhich one of the following statements is correct?\nS1\nOut (51)\nIn (52)\nS2\nWhich of the following is true?\n(A) Out (S1) = In (S2) U Use (S2)\n(B) Out (S1) = In (S2) n Use (S2)\n(C) Out (S1) = In (S2)\n(D) Out(S1)= ln(S1)U Use(S1)",
+  "answer_text": "(C)",
+  "explanation_text": "Sol. \nFormula for in and out are\n1\nS\n2\nS\n\n\nPAGE\n28\n\nFor basic block B other than exit,\nIN[ ]\nuse\n[out( )]\nB\nB\nB\n=\n\uf0c8\ndef ( )\nB\n\u2212\nOut [B] = \nS\nU\n  successor of B IN [B]\nOut \n( 1)\nIN( 2)\nS\nS\n="
+}

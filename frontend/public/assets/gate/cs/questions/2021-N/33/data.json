@@ -1,0 +1,11 @@
+{
+  "id": "33",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 33. \n \n \n \n  \n \n \n \n \nMCQ (2M)\nQuestion ID : 8232513136\nConsider the following two statements about regular languages:  \n \nS\n1\n: For every infinite regular language there exists a subset of language which is undecidable.  \n \nS\n2\n: Every finite language is regular.  \n \nWhich of the following choices is correct? \n \n(A) Both S\n1\n and S\n2 \nare true \n \n \n(B)Only S\n1\n is true \n \n(C) Only S\n2\n is true  \n \n(D) Neither S\n1\n nor S\n2 \nis true \nAns. (A) \nSol. \nS1:\nEvery infinite regular language contains an undecidable language as subset.\nTrue\nIf we consider infinite regular language set as L. As per definition L has infinite many strings.\n\nPAGE\n24\n\nWe know, \n|\n| |\n( ) |\nL\nP L\n\uf03c\n, here \n( )\nP L\n  denote power set of language set, L by cantor theorem we \nknow if L is infinite countable or infinite uncountable \n( )\nP L\n  power set of L is uncountable \n(Infinite) It\u2019s power set consist of decidable and some undecidable language both.\nS2:\nEvery finite language is regular as we have finite number of strings for example \n1\n2\n{\n,\n,........\n}\nn\nS S\nS\n, where \nn\nN\n\uf0ce\n.\nWe can have regular expression always\n1\n2\n......\nn\nR\nS\nS\nS\n=\n+\n+\n+\nTrue",
+  "answer_text": "",
+  "explanation_text": ""
+}

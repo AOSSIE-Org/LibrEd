@@ -1,0 +1,11 @@
+{
+  "id": "49",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "(B)",
+  "question_text": "Question 49. \n \n \n \n  \n \n \n \n \nMCQ (2M)\nQuestion ID : 8232513131\nThe relation scheme given below is used to store information about the employees of a company, \nwhere empId is the key and deptId indicates the department to which the employee is assigned. Each \nemployee is assigned to exactly one department.\nemp(empId, name, gender, salary, deptId)\nConsider the following SQL Query: \n \nselect deptId, count (*) \n \nfrom emp \n \nwhere gender = \"female\" and salary > (select avg (salary) from emp)\ngroup by deptId;\nThe above query gives, for each department in the company, the number of female employees whose \nsalary is greater than the average salary of\n(A)\n \nEmployees in the department \n(B)\n \nFemale employees in the department \n(C)\n \nEmployees in the company \n(D)\n \nFemale employees in the company",
+  "answer_text": "(B)",
+  "explanation_text": "Sol.\n \nThe given query will return the department id and the count of female employees in each department\nwhose salary is greater than the average salary of any employee.\nHere, the inner query will return the average salary of the employees. The group by clause will group \nthe tuples based on dept id, count (*) will give us the count of tuples in each department where \ngender = female and the salary > average salary of any employee.\n"
+}

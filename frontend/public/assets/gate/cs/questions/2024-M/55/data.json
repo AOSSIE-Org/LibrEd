@@ -1,0 +1,11 @@
+{
+  "id": "55",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-M",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 55 \n[Computer Organization & Architecture (Memory Organization)]\n \n \nThe baseline execution time of a program on a 2 GHz single core machine is 100 nanoseconds \n(\n)\nns\n .  The\ncode corresponding to 90% of the execution time can be fully parallelized.  The overhead for using an \nadditional core is \n10\nns\n when running on a multicore system.  Assume that all cores in the multicore system\nrun their share of the parallelized for an equal amount of time. \n \nThe number of cores that minimize the execution time of the program is _______. \nAns. \n(3 to 3)",
+  "answer_text": "",
+  "explanation_text": "Sol.\n \nExecution time [For \nn\n core] \nParallelized time\nFixed time+ (overhead time (n 1))\nn\n\uf03d\n\uf02b\n\uf0b4\n\uf02d\n90\n(n)\n10 10 (n 1)\nt\nn\n\uf03d\n\uf02b\n\uf02b\n\uf0b4\n\uf02d\n90\n(n)\n10 10n 10\nt\nn\n\uf03d\n\uf02b\n\uf02b\n\uf02d\n90\n( )\n10\nt n\nn\nn\n\uf03d\n\uf02b\nTo minimise \nT\n(\nn\n), derivative of \n( )\nT n\n .\n2\n90\n10\n0\nn\n\uf02d\n\uf02b\n\uf03d\n2\n90\n10\nn\n \n\uf03d\n2\n9\nn\n \uf03d\n3\nn\n \uf03d\uf0b1\n \n3\nn\n \uf03d\nHence, the correct answer is 3."
+}

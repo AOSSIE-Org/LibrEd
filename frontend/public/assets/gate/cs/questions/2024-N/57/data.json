@@ -1,0 +1,11 @@
+{
+  "id": "57",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-N",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 57\n \n \nA processor with 16 general purpose registers uses a 32-bit instruction format.  The instruction format \nconsists of an opcode field, an addressing mode field, two register operand fields, and a 16-bit scalar field.  \nIf 8 addressing modes are to be supported, the maximum number of unique opcodes possible for every \naddressing mode is __________. \n \n[Computer Organization & Architecture, 1 Machine Instruction & Addressing Format] \nAns. \n(32 to 32) \nSol.\nInstructions\n32 bit\nOpcode\nAdd mode\nRegister 2\nRegister 1\nScaler\n8\n2\nlog\n3\n\uf03d\n4bits\n16\n2\nlog\n4\n\uf03d\n16 bits\n32\n(3\n2 4 16)\n\uf02d\n\uf02b\uf0b4\uf02b\n32\n27\n5bit\n\uf03d\n\uf02d\n\uf03d\n\nSo, maximum no. of unique opcode possible \n5\n2\n32\n\uf03d\n\uf03d\nHence, the correct answer is 32.",
+  "answer_text": "",
+  "explanation_text": ""
+}

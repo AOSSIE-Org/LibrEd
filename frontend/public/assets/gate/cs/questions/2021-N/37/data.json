@@ -1,0 +1,11 @@
+{
+  "id": "37",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "MSQ",
+  "key": "(A), (C), (D)",
+  "question_text": "Question 37. \n \n \n \n  \n \n \n \n \nMSQ (1M)\nQuestion ID : 8232513112\nLet \n1\nL\n be a regular language and \n2\nL\n  be a context-free language. Which of the following languages\nis/are context-free?\n\nPAGE\n26\n\n(A) \n(\n)\n1\n2\n1\n2\n(\n)\nL\nL\nL\nL\n\n(B) \n1\n2\nL\nL\n\n(C) \n1\n2\nL\nL\n\n(D) \n1\n2\n2\n(\n)\nL\nL\nL\n",
+  "answer_text": "(A), (C), (D)",
+  "explanation_text": "Sol. \n1\nL\n  regular language\n2\nL\n  context free language\n(A) \n1\n2\n1\n2\n(\n)\n(\n)\nL\nL\nL\nL\n\uf0c7\n\uf0c8\n\uf0c7\nRegular is closed under complementation.\nAny CFL union with regular is CFL.\nAny CFL intersection with regular is CFL.\nA.  \n1\n2\n1\n2\n(\n)\n(\n)\nL\nL\nL\nL\n\uf0c7\n\uf0c8\n\uf0c7\n(Regular \n(\n)\nFL\nL\n\uf0c7\n\uf0c8\n \nRegular\n(\n)\nFL\n\uf0c7\nCFL\nB. \n1\n2\nL\nL\n\uf0c7\nRegular\nCFL\n\uf0c7\nCFL\n  may not be CFL\nC.  \n1\n2\nL\nL\n\uf0c8\n1\n2\nL\nL\n\uf0c7\n1\n2\nL\nL\n\uf0c7\nRegular\n\uf0c7\nCFL = CFL\nD.  \n1\n2\n2\n(\n)\nL\nL\nL\n\uf0c8\n\uf0c8\n*\n2\n2\nL\nL\n\uf0c8\n= \uf053\n*\n*\n1\nL\n \uf0c8\uf053= \uf053\nRegular hence CFL"
+}

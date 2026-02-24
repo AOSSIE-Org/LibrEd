@@ -1,0 +1,11 @@
+{
+  "id": "57",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-M",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 57 \n \n \n[Operating System (Process Management-II)]\n \n \nConsider the following code snippet using the fork () and wait () system calls.  Assume that the code \ncompiles and runs correctly, and that the system calls run successfully without any errors. \n \nint\n3;\nx\n \uf03d\nwhile (\n0) {\nx\n \uf03e\nfork();\nprintf(\"hello\");\nwait(NULL);\n  \n \n \n;\nx\n \uf02d\uf02d\n}\nThe total number of times the printf statement is executed is ________. \nAns. \n(14 to 14)\n  \nSol.\n \nEach iteration doubles the number of processes. Initially, one process print \u201chello\u201d. The loop iterates \nthree times, resulting \n3\n2\n8\n\uf03d\n processes. Additionally, two processes from the previous iteration wait for \neach other before proceeding. Thus, the total count is \n8\n4\n2\n14\n\uf02b\n\uf02b\n\uf03d\n\u201dhello\u201d messages printed before the \nloop terminates.\n\n\nPAGE\n44\n\n1\nP\n3\nx\n \uf03d\n2\nx\n \uf03d\n2\nx\n \uf03d\nHello\nHello\n1\nP\n1\nC\nHello\nHello\nHello\nHello\n1\nP\n1\nC\n2\nC\n3\nC\n1\nx\n \uf03d\n1\nx\n \uf03d\n1\nx\n \uf03d\n1\nx\n \uf03d\nHello\nHello Hello\nHello\nHello\nHello\nHello\nHello\n1\nP\n4\nC\n2\nC\n5\nC\n1\nC\n6\nC\n3\nC\n7\nC\n0\nx\n \uf03d\n0\nx\n \uf03d\n0\nx\n \uf03d\n0\nx\n \uf03d\n0\nx\n \uf03d\n0\nx\n \uf03d\n0\nx\n \uf03d\n0\nx\n \uf03d\n\nTotal number of times print (Hello) statement is executed\n2\n4\n8\n14\n\uf02b\n\uf02b\n\uf03d\nHence, the correct answer is 14.",
+  "answer_text": "",
+  "explanation_text": ""
+}

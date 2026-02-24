@@ -1,0 +1,11 @@
+{
+  "id": "2",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "(A)",
+  "question_text": "Question 2. \n \n \n \n  \n \n \n \n \nMCQ (1M)\nQuestion ID : 8232513093\nIf \n\uf071\n is the angle, in degree, between the longest diagonal of the cube and any one of the edges of the\ncube, then \ncos\n\uf071\n=\n(A)  \n1\n(B) \n1\n(C) \n1\n2\n \n (D) \n3\n2\n3\n2",
+  "answer_text": "(A)",
+  "explanation_text": "Sol.\n\uf071\n\nAdjacent side\ncos\nHyp\n\uf071=\n\nDiagonal of a cube \n3\na\n=\n\nAdjacent side = Each side = \na\n\uf05c\n \n1\ncos\n3\n3\na\na\n\uf071=\n="
+}

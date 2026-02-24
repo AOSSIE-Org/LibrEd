@@ -1,0 +1,11 @@
+{
+  "id": "32",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-N",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 32 \n[Computer Network (Concepts of Layering and LAN Technologies)]\n \n \nWhich of the following fields of an IP header is/are always modified by any router before it forwards the \nIP packet ? \n \n(A) Source IP Address \n(B) Protocol  \n \n(C) Time to Live (TTL) \n(D) Header Checksum \nAns. \n(C, D)",
+  "answer_text": "",
+  "explanation_text": "Sol.\n \n(A) Source IP remains unchanged\n(B) Protocol indicates type of data carried [TCP, UDP] and is not altered by routers.\n(C) TTL value is decremented by l by each router that forward packet.\n(D) As TTL value of IP header is changed by every router, corresponding header checksum is\nrecalculated based on the new value of TTL.\nHence, the correct option is (C) and (D)."
+}

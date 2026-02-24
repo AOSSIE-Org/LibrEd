@@ -1,0 +1,11 @@
+{
+  "id": "20",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-N",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "(A)",
+  "question_text": "Question 20 \n \n \n[Database (ER Model)]\nIn the context of owner and weak entity sets in the ER (Entity - Relationship) data model, which one of \nthe following statements is TRUE ?\n(A) The weak entity set MUST have total participation in the identifying relationship\n\nPAGE\n15\n\n(B) The owner entity set MUST have total participation in the identifying relationship\n(C) Both weak and owner entity sets MUST have total participation in the identifying relationship\n(D) Neither weak entity set nor owner entity set MUST have total participation in the identifying  \n \n \nrelationship",
+  "answer_text": "(A)",
+  "explanation_text": "Sol.\n \nThe weak entity set must participate totally in the identify weak relationship usually, there exist one to \n \nmany relationship between strong entity and weak entity thus total participation from weak entity set.\nM\nI\nStrong entity set\nWeak entity set\nR\nWeek \nRelationship\nTotal  \nParticipation\n\nHence, the correct option is (A)."
+}

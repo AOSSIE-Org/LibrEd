@@ -1,0 +1,11 @@
+{
+  "id": "12",
+  "stream": "computer-science-information-technology",
+  "packet": "2022",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "1.42\nExecution timeusing\nExecution timeusing\nx\nx",
+  "question_text": "Question 12\nConsider processor \n1\nx\n  with 5 stage standard RISC pipeline with 2 GHz clock frequency. It requires one\nclock cycle without any pipeline dependency A program consist of 30% branch instruction, control \nhazards results in 2 clock cycles. Another pipeline \n2\nx\n  with same clock cycle frequency uses branch \nprediction unit with 80 % efficiency. If prediction is correct then no stall is created and if prediction is \nwrong then no effect in number of stalls. There is no data hazard or structure hazard in the pipeline what \nis the speed up achieved using \n2\nx\n  and \n1\nx\n .",
+  "answer_text": "1.42\nExecution timeusing\nExecution timeusing\nx\nx",
+  "explanation_text": "Sol.\n \nSpeed Up \n2\nx\n  over \n1\nx\n =\n1\n2\n\uf0b4\n\uf03d\n\uf0b4\n(AvgCPI)\nCycletime\nx\n\n\n1\n(AvgCPI)\nCycletime\nx\n2\n\uf02b\n\uf0b4\n\uf0b4\n\uf03d\n\uf02b\n\uf0b4\n\uf0b4\uf02b\n\uf0b4\n\uf0b4\n(1 0.3 2)\nt\np\n\uf028\n\uf029\n\n1 0.3 (0.8 0\n0.2 2)\nt\np\n1.6\n1.42\n1.12\n\uf03d\n\uf03d"
+}

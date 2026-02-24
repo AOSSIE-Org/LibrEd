@@ -1,0 +1,11 @@
+{
+  "id": "18",
+  "stream": "computer-science-information-technology",
+  "packet": "2022",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "C",
+  "question_text": "Question 18\nb\na\nb\na\na\nb\n(A) \n(\n* )*\n* (\n* )*\n*\nab b\nab\nba a\nba\n\uf02b\n \n(B) \n*\n*\n*\n*\nab bab\nba aba\n\uf02b\n(C) \n(\n*\n* )*(\n*\n*)\nba a\nab b\nab\nba\n\uf02b\n\uf02b\n \n(D) \n(\n*\n* )*( *\n*)\nab b\nba a\na\nb\n\uf02b\n\uf02b",
+  "answer_text": "C",
+  "explanation_text": "Sol.\nb\na\na b\n*\nba a\n*\n(\n*\n* )(\n*\n*)\nab b\nba a ab\nba\n\uf0de\n\uf02b\n\uf02b\nb\na"
+}

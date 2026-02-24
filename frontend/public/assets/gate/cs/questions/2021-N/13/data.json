@@ -1,0 +1,11 @@
+{
+  "id": "13",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "NAT",
+  "key": "",
+  "question_text": "Question 13. \n \n \n \n  \n \n \n \n \nNAT (1M)\nQuestion ID : 8232513116\n\nPAGE\n10\n\nConsider a complete binary tree with 7 nodes. Let A denote the set of first 3 elements obtained by \nperforming BFS starting from root. Let B denote the set of 3 elements obtained by performing DFS \nstate starting from root. The value of \nA\nB\n\u2212\n is_____\nAns \n1",
+  "answer_text": "",
+  "explanation_text": "Sol.\n \n consider the following complete binary tree\na\nb\nc\nd\ne\nf\ng\nA = set of first 3 elements obtained by BFS\nA = {a, b, c}\nB = set of first 3 elements obtained by DFS\nB = {a, b, d}\nA \u2212B\n = {c}\n|\n A \u2212B| = 1"
+}

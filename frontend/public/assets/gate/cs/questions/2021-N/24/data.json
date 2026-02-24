@@ -1,0 +1,11 @@
+{
+  "id": "24",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "(C)",
+  "question_text": "Question 24. \n \n \n \n  \n \n \n \n \nMCQ (1M)\nQuestion ID : 8232513104\n\nPAGE\n17\n\nThe format of the single-precision floating-point representation of a real number as per the IEEE 754 \nstandard is as follows:\n\nsign\nexponent\nmantissa\n\nWhich one of \nthe following choices is correct with respect to \nthe smallest normalized \npositive number represented using the standard?\n(A) exponent = 00000000 and mantissa = 00000000000000000000000\n(B) exponent = 00000001 and mantissa = 00000000000000000000001\n(C) exponent = 00000001 and mantissa = 00000000000000000000000\n(D) exponent = 00000000 and mantissa = 00000000000000000000001",
+  "answer_text": "(C)",
+  "explanation_text": "Sol.\n \nFor smallest positives number, the value of sign bit, exponent, and mantissa will be\nSign bit \n0\nS\n =\nExponent \n1 0000001\nE\n = =\nMantissa \n0\n0.00\nM\n =\n=\nTherefore, the number will be \n1.0\n+\n to\n1 27\n126\n2\n2\n\u2212\n\u2212\n="
+}

@@ -1,0 +1,11 @@
+{
+  "id": "61",
+  "stream": "computer-science-information-technology",
+  "packet": "2022",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "A",
+  "question_text": "Question 61\nA box contains five balls of same size and shape. Three of them are green coloured balls and two of them \nare orange coloured balls. Balls are drawn from the box one at a time. If a green ball is drawn it is not \nreplaced. If an orange ball is drawn it is replaced with another orange ball. First ball is drawn. What is the \nprobability of getting an orange ball in the next drawn ?\n25\n \n \n(D) \n1\n(A) \n23\n50\n \n \n(B) \n19\n50\n \n \n(C) \n8\n2",
+  "answer_text": "A",
+  "explanation_text": "Sol.\nIn this we have two different cases\nCase 1: 1 green and 1 orange ball\n3\n2\n6\n( )\n5\n4\n20\nP E\n \uf03d\n\uf0b4\n\uf03d\n\nGATE 2022 \n [Forenoon Session]\nComputer Science Engineering\nPAGE\n43\n\nAs we can\u2019t replace ball after getting green ball, so when we are drawing orange ball at that time we are \nleft with only 4 balls in a box\nCase 2: 1 orange and 1 orange ball\n2\n2\n4\n( )\n5\n5\n25\nP E\n \uf03d\n\uf0b4\n\uf03d\nAs with orange ball we can replace, so when we are drawing second orange ball at that time we have 5 \nballs in of box\nP (getting an orange ball in the next drawn) = P (case 1 + case 2)\n6\n4\n23\n20\n25\n50\n\uf03d\n\uf02b\n\uf03d"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "49",
+  "stream": "computer-science-information-technology",
+  "packet": "2022",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 49\nWhich of the following give overflow. There are 4-bit register \n1\nR\n  and \n2\nR\n  and 2\u2019s compliment number \nsystem is used and Arithmetic addition \n1\n2.\nR\nR\n\uf02b\n(A) \n1001\n1111\n(B) \n1100\n1010\n(C) \n1011\n1110\n(D) \n0011\n0100\nAnswer: B\n\nGATE 2022 \n [Forenoon Session]\nComputer Science Engineering\nPAGE\n35\n",
+  "answer_text": "",
+  "explanation_text": "Sol.\nWe know that the range of 2\"s complement numbers representable with 4 bits are -8 to +7.\nA. \nR1 = -1*2\n^\n3 + 0*2\n^\n2 + 0*2\n^\n1 + 1*2\n^\n0 = -7\nR2 = -1*2\n^\n3 +1*2\n^\n2 +1*2\n^\n1 + 1*2\n^\n0 = -1\nR1 + R2 = -8 (no overflow)\nB  \nR1 = -1*2\n^\n3 + 1*2\n^\n2 + 0*2\n^\n1 + 0*2\n^\n0 = -4\nR2 = -1*2\n^\n3 + 0*2\n^\n2 + 1*2\n^\n1 + 0*2\n^\n0 = -6\nR1 + R2 = -10 (overflow)\nC. \nR1 = -1*2\n^\n3 + 0*2\n^\n2 + 1*2\n^\n1 + 1*2\n^\n0 = -5\nR2 = -1*2\n^\n3 + 1*2\n^\n2 + 1*2\nA\n1 + 0*2\n^\n0 = -2\nR1 + R2 = -7 ( no overflow)\nD  \nR1 = 0*2\n^\n3 + 0*2\n^\n2 + 1*2\n^\n1 + 1*2\n^\n0 = 3\nR2 = 0*2\n^\n3 + 1*2\n^\n2 + 0*2\n^\n1 + 0*2\n^\n0 = 4\nR1 + R2 = 7 (no overflow)"
+}

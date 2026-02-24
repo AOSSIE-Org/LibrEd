@@ -1,0 +1,11 @@
+{
+  "id": "65",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-N",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 65\nConsider the following augmented grammar, which is to be parsed with a SLR parser. The set of terminals \nis \n{ , , , ,#,@}\na b c d\n'\nS\nS\n\uf0ae\n'\nS\nSS Aa bAc Bc bBa\n\uf0ae\n#\nA\nd\n\uf0ae\n@\nB\n \uf0ae\nLet \n0\nCLOSURE({ '\n})\nI\nS\nS\n\uf03d\n\uf0ae\uf0b7\n. The number of items in the set GOTO \n0\n( , )\nI S\n  is _________.\n[Complier Design, 2 Parsing technique]\n \nAns. \n(9 to 9) \nSol.\n.\nS\nS\n\uf0ae\n \nS\nS S\n\uf0ae\n\uf0d7\n \nS\nSS\n\uf0ae\uf0d7\n \nS\nAa\n\uf0ae\uf0d7\n \nS\nbAC\n\uf0ae\uf0d7\n \nS\nBc\n\uf0ae\uf0d7\n \nS\nbAb\n\uf0ae\uf0d7\n \n#\nS\nd\n\uf0ae\uf0d7\n \n@\nB\n \uf0ae\uf0d7\nS\nS\n\uf0ae\uf0d7\n \nS\nSS\n\uf0ae\uf0d7\n \n \nS\nAa\n\uf0ae\uf0d7\n \nS\nbAC\n\uf0ae\uf0d7\n \nS\nBc\n\uf0ae\uf0d7\n \nS\nbAb\n\uf0ae\uf0d7\n \n#\nA\nd\n\uf0ae\uf0d7\n \n@\nB\n \uf0ae\uf0d7\nS\n\uf0be\uf0be\uf0ae\nFrom above DFA we can see that Goto (closure (\n0\nI\n ), s) contain 9 items.\nHence, the correct answer is 9.\n\uf076\uf076\uf076\uf076\n",
+  "answer_text": "",
+  "explanation_text": ""
+}

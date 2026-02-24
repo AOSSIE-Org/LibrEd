@@ -1,0 +1,11 @@
+{
+  "id": "63",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-N",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "(4 to 4) \nSol.\n \nExplanation :\nWe will solve this question via the brute force approach, as it will help in understand this problem easily \n:\nConsider \n2\n3\n4\n{(0,0,0),(0,1,0),(0,2,0),(1,0,0),(1,1,0)......(1,1,3),(1,2,3)}\nZ\nZ\nZ\n\uf02a\n\uf02a\n\uf03d\nThere are a total 24 cases possible.\nWe have to check each and every element in the form whether they are satisfying \n2\n(0,0,0)\nx\n \uf03d\n or not.\nExample\n \n:\n \n2\n3\n4\n(0,0,0)\n(0,0,0)\n(0\n0,0\n0,0\n0)\n(0,0,0)\n\uf0c5\n\uf03d\n\uf0c5\n\uf0c5\n\uf0c5\n\uf03d\n.  Hence, it is valid and it is also an\nidentity.\nUpon doing on all 24 elements, you will get these sets satisfy the condition: \n(0,0,0),(1,0,0),(0,0,2)\n and\n(1,0,2)\n .\nTherefore, the total number of possible cases are 4.\nHence, the correct answer is 4.",
+  "question_text": "Question 63\nLet \nn\nZ\n be the group of integers \n{0,1,2,.....,\n1}\nn\n\uf02d\nwith addition modulo n as the group operation. The\nnumber of elements in the group \n2\n3\n4\nZ\nZ\nZ\n\uf0b4\n\uf0b4\nthat are their own inverses is _______.\n\nPAGE\n43\n\n[Discrete Mathematics, 3 Combinatories]",
+  "answer_text": "(4 to 4) \nSol.\n \nExplanation :\nWe will solve this question via the brute force approach, as it will help in understand this problem easily \n:\nConsider \n2\n3\n4\n{(0,0,0),(0,1,0),(0,2,0),(1,0,0),(1,1,0)......(1,1,3),(1,2,3)}\nZ\nZ\nZ\n\uf02a\n\uf02a\n\uf03d\nThere are a total 24 cases possible.\nWe have to check each and every element in the form whether they are satisfying \n2\n(0,0,0)\nx\n \uf03d\n or not.\nExample\n \n:\n \n2\n3\n4\n(0,0,0)\n(0,0,0)\n(0\n0,0\n0,0\n0)\n(0,0,0)\n\uf0c5\n\uf03d\n\uf0c5\n\uf0c5\n\uf0c5\n\uf03d\n.  Hence, it is valid and it is also an\nidentity.\nUpon doing on all 24 elements, you will get these sets satisfy the condition: \n(0,0,0),(1,0,0),(0,0,2)\n and\n(1,0,2)\n .\nTherefore, the total number of possible cases are 4.\nHence, the correct answer is 4.",
+  "explanation_text": ""
+}

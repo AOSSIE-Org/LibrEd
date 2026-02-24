@@ -1,0 +1,11 @@
+{
+  "id": "44",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-M",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "(B,C,D) \nSol. \n(B) Decomposition rule of functional dependent\n(C) Apply augmentation rule with X on \nw\ny\n\uf0ae\nThen apply transitivity rule to get X, \nw\nz\n\uf0ae\n(D) Definition of Transitivity rule for function dependencies.\nHence, the correct option is (B), (C) and (D).",
+  "question_text": "Question 44 \n \n        \n[Database (Database Design Functional)]\n \n \nThe symbol \n\uf0ae\n indicates functional dependency in the context of a relational database.  Which of the \nfollowing options is/are TRUE ?\n(A) \n\uf028\n\uf029\n(\n, )\n( ,\n)implies\n,\nX Y\nZ W\nX\nZ W\n\uf0ae\n\uf0ae\n(B) \n(\n, )\n( ,\n)implies (\n, )\nX Y\nZ W\nX Y\nZ\n\uf0ae\n\uf0ae\n(C) \n\uf028\n\uf029\n(\n, )\nand\nimplies (\n,\n)\nX Y\nZ\nW\nY\nX W\nZ\n\uf0ae\n\uf0ae\n\uf0ae\n(D) \n\uf028\n\uf029\nand\nimplies\nX\nY\nY\nZ\nX\nZ\n\uf0ae\n\uf0ae\n\uf0ae",
+  "answer_text": "(B,C,D) \nSol. \n(B) Decomposition rule of functional dependent\n(C) Apply augmentation rule with X on \nw\ny\n\uf0ae\nThen apply transitivity rule to get X, \nw\nz\n\uf0ae\n(D) Definition of Transitivity rule for function dependencies.\nHence, the correct option is (B), (C) and (D).",
+  "explanation_text": ""
+}

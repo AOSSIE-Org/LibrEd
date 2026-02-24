@@ -1,0 +1,11 @@
+{
+  "id": "47",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-M",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "(A,B) \nSol.\nyz\nyz\nx\n00\n01\n11\n10\n0\n1\n2\n3\n4\n5\n7\n6\n0\n0\n0\n1\n0\n1\n0\n1\n1\n1\nxz\nxy\n\n( , , )\n(0,1,2,4)\nF x y z\n \uf03d\uf070\n\uf0de\n \n( , , )\nF x y z\nxy\nxz\nyz\n\uf03d\n\uf02b\n\uf02b\nSo,  \n( , , )\nF x y z\n  is dependent on both \nX\n and \nY \nand \nZ\nHence, the correct option is (A) and (B).",
+  "question_text": "Question 47 \n \n  \n \n[Digital Logic (Boolean Algebra)]\nConsider a Boolean expression given by \n\uf028\n\uf029\n, ,\n(3,5,6,7)\nF X Y Z\n \uf03d\uf0e5\n.\nWhich of the following statements is/are CORRECT ?\n(A) \n\uf028\n\uf029\n\uf028\n\uf029\n, ,\n0,1,2,4\nF X Y Z\n \uf03d\uf050\n(B) \n\uf028\n\uf029\n, ,\nF X Y Z\nXY\nYZ\nXZ\n\uf03d\n\uf02b\n\uf02b\n(C) \n\uf028\n\uf029\n, ,\nF X Y Z\n  is independent of input \nY\n(D) \n\uf028\n\uf029\n, ,\nF X Y Z\n  is independent of input \nX\n \u2019",
+  "answer_text": "(A,B) \nSol.\nyz\nyz\nx\n00\n01\n11\n10\n0\n1\n2\n3\n4\n5\n7\n6\n0\n0\n0\n1\n0\n1\n0\n1\n1\n1\nxz\nxy\n\n( , , )\n(0,1,2,4)\nF x y z\n \uf03d\uf070\n\uf0de\n \n( , , )\nF x y z\nxy\nxz\nyz\n\uf03d\n\uf02b\n\uf02b\nSo,  \n( , , )\nF x y z\n  is dependent on both \nX\n and \nY \nand \nZ\nHence, the correct option is (A) and (B).",
+  "explanation_text": ""
+}

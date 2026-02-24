@@ -1,0 +1,11 @@
+{
+  "id": "34",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-M",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 34 \n \n \n \n \n \n \n \nMCQ (1M) \n \n \n \n \n \n \n \nQuestion ID : 823251539 \n \nConsider the following array\n \n \n \n23 \n32 \n45 \n69 \n72 \n73 \n89 \n97 \n \nWhich algorithm out of the following option uses the least number of comparisons (among the array \nelements) to sort the above array in ascending order ? \n \n(A) Mergesort \n \n \n(B) Quick sort using last element ass pivot \n \n \n(C) Selection sort  \n \n \n(D) Insertion sort \nAns. \nD \nSol.\n \nGiven array is already sorted hence\nInsertion sort will uses the least number of comparison.",
+  "answer_text": "",
+  "explanation_text": ""
+}

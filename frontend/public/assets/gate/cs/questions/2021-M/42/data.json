@@ -1,0 +1,11 @@
+{
+  "id": "42",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-M",
+  "year": "2021",
+  "type": "NAT",
+  "key": "",
+  "question_text": "Question 42 \n \n \n \n \n \n \n \nNAT (2M) \n \n \n \n \n \n \n \nQuestion ID : 823251581\nIn a pushdown automaton \n0\n( , , ,\n,\n)\nP\nQ\nq F\n=\n\u03a3 \u0393\n a transition of the form,\np\nq\n,\na X\nY\n\u2192\nWhere, \n,\n,\n{ }\np q\nQ a\n\u2208\n\u2208\u03a3 \u222a\u2208\n, and \nt\nn\n>\n,represents \n( , )\n( , ,\n)\nq Y\np a X\n\u2208\u03b4\nConsider the following pushdown automaton over the input alphabet \n{ , }\na b\n\u03a3 =\nand stack alphabet\n{#, }.\nA\n\u0393 =\n,\na\nA\n\u2208\u2192\n,\nb A\n \u2192\u2208\n,\n\u2208\u2208\u2192\u2208\n,\n#\n\u2208\u2208\u2192\nStart\n0\nq\n1\nq\n,\n A\nA\n\u2208\n\u2192\n2\nq\n3\nq\nThe number of strings of length 100 accepted by the above pushdown automaton is _________. \nAns. \n50 \nQuestion 43 \n \n \n \n \n \n \n \nNAT (1M) \n \n \n \n \n \n \n \nQuestion ID : 823251546 \n \nIn an undirected connected planar graph G, there are eight vertices and five faces.The number of edges \nin G is_______. \nAns. \n11 \nSol.\n \nNumber of Faces/Region(F) = 5 \nNumber of vertices(V) = 8\nNumber of Edges(E)?\nFormula used:  F = E-N+2\n\uf0e8\nE = F+N-2\n= 5+8-2 = 11",
+  "answer_text": "",
+  "explanation_text": ""
+}

@@ -1,0 +1,11 @@
+{
+  "id": "16",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "(B)",
+  "question_text": "Question 16. \n \n \n \n \n \n \n \n \nMCQ (1M)\nQuestion ID : 8232513110\nConsider the following ANSI C program:\nint main( )\n\nPAGE\n12\n\n{ int a[4][5];\nint i, j;\nfor (i = 0; i < 4; i++)\nfor (J = 0; j < 5; j++)\na[i][j] = 10 * i + j;\nprintf (\"%d\",*(a[1] + 9));}\nFind the output of the above problem\n(A)\n 20        \n(B)\n 24        \n(C) \n30        \n(D)\n 14",
+  "answer_text": "(B)",
+  "explanation_text": "Sol. \nAfter the execution of program the content of the array will be\n[0] [1] [2] [3] [4]\n[0] 0 \n1 \n2 \n3 \n4\n[1] 10 \n11 \n12 \n13 \n14\n[2] 20 \n21 \n22 \n23 \n24\n[3] 30 \n31 \n32 \n33 \n34\n*(a[1] + 9) = a[2][4] = 24"
+}

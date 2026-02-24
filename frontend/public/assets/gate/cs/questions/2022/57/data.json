@@ -1,0 +1,11 @@
+{
+  "id": "57",
+  "stream": "computer-science-information-technology",
+  "packet": "2022",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "A",
+  "question_text": "Question 57\n\nGATE 2022 \n [Forenoon Session]\nComputer Science Engineering\nPAGE\n40\n\nA palindrome is a word that reads the same forwards and backwards. In a game of words, a player has the \nfollowing two plates painters with letters\nA\nD\nFrom the additional plates gives in the options, which one of the combinations of additional plates would \nallow the players to construct in five letter palindrome. The players should use all five plates exactly once. \nThe plates can be rotated in their plane.\n(A) \n  \n \n(B)\n(C) \n  \n \n(D)",
+  "answer_text": "A",
+  "explanation_text": "Sol. \nAs we know, palindrome is word that mads the same forwards and backwards\nRADAR is the only word. We have to rotate \nA\n and \nR\n \n0\n180\n anticlockwise/clockwise."
+}

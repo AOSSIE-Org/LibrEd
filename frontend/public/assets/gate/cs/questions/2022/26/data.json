@@ -1,0 +1,11 @@
+{
+  "id": "26",
+  "stream": "computer-science-information-technology",
+  "packet": "2022",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "B",
+  "question_text": "Question 26\nConsider simple undirected graph with atleast 3 vertices, if A is adjacency matrix of graph then the number \nof 3-cycle is given by trace of\n3\n3\nA\n(A)\n3\n6\nA\n(B)\n(C) \n3\nA\n3\n2\nA\n(D)",
+  "answer_text": "B",
+  "explanation_text": "Sol.\nDiagonal element of \n3\nA\n  gives number of paths of length 3, from any vertex to itself (cycle of 3).\nFor each participating vertex, each cycle will be counted thrice. As given below (ABCA, BCAB and \nCABC).\nA\nC\nB\nFurthermore, since the graph is undirected, every cycle will be counted twice. So overall every cycle of \nlength 3 in \n3\nA\n  will be counted 6 times, so we divide by 6 also. Therefore, the number of Cycle is trace  of \n(\nA\n3\n) / 6.\n\nGATE 2022 \n [Forenoon Session]\nComputer Science Engineering\nPAGE\n18\n"
+}

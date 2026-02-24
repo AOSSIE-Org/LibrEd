@@ -1,0 +1,11 @@
+{
+  "id": "30",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-N",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 30 \n \n \n[Digital Logic (Boolean Algebra)]\n \n \n \nFor a Boolean variable \nx\n, which of the following statements is/are FALSE ? \n \n(A) \n.1\nx\nx\n\uf03d\n \n(B) \n1\nx\nx\n\uf02b\uf03d\n \n \n(C) \n.\nx x\nx\n\uf03d\n \n(D) \n1\nx\nx\n\uf02b\n\uf03d\n \nAns. \n(B, C)",
+  "answer_text": "",
+  "explanation_text": "Sol.\n \n(1) \n.1\nx\nx\n\uf03d\n\uf0ae\nidentity law (\nT\n)\n(2) \n1\n1 1\nx\nx\nx\n\uf02b\uf03d\n\uf0ae\n\uf02b\uf03d\n(3) \n.\n0\n.\nx x\nx x\nx\n\uf03d\n\uf0ae\n\uf03d\n   [Idempotent law]\n(4) \n1\nx\nx\n\uf02b\n\uf03d\uf0ae\ncompliment law (\nT\n)\nHence, the correct option (B) and (C)."
+}

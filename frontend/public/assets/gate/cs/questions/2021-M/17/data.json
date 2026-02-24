@@ -1,0 +1,11 @@
+{
+  "id": "17",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-M",
+  "year": "2021",
+  "type": "MSQ",
+  "key": "A, B, C \nSol. \nGiven :\n(\n)(\n)(\n)\nF\nx\ny\nz x\ny y\nz\n=\n+\n+\n+\n+\n(0,2,4,5,6)\nF\nm\n= \u03c0\n(1,3,7)\nF\nm\n= \u03c0\n(0,2,4,5,6)\nF\nm\n=\n \uf0e5\n(A) \nxy\nyz\nxyz\n+\n+\n(0,2,4,5,6)\nm\n\uf0e5\n\nGATE 2021\n [Forenoon Session]\nComputer Science Engineering\nPAGE\n16\n\nIt is correct\n(B) \n(\n)(\n)\nx\nz\ny\nz\n+\n+\n(1,3,7)\nm\n\u03c0\nIt is correct\n(C) \nxy\nz\n+\n(0,2,4,5,6)\nm\n\uf0e5\nIt is correct\n(D) \n(\n)(\n)(\n)\nx\ny\nz x\ny\ny\nz\n+\n+\n+\n+\n(1,3,2)\nm\n\u03c0\nIt is incorrect",
+  "question_text": "Question 17 \n \n \n \n \n \n \n \nMSQ (2M) \n \n \n \n \n \n \n \nQuestion ID : 823251572 \n \nConsider the following Boolean expression.\n(\n)\n(\n)(\n)\nF\nX\nY\nZ\nX\nY\nY\nZ\n=\n+\n+\n+\n+\nWhich of the following Boolean expressions is/are equivalent to \nF\n  (complement of \nF\n)?\n(A) \nXY\nYZ\nXYZ\n+\n+\n  \n \n(B) \n(\n)(\n)\nX\nZ\nY\nZ\n+\n+\n(C) \nXY\nZ\n+\n  \n \n \n(D) \n(\n)(\n)(\n)\nX\nY\nZ\nX\nY\nY\nZ\n+\n+\n+\n+",
+  "answer_text": "A, B, C \nSol. \nGiven :\n(\n)(\n)(\n)\nF\nx\ny\nz x\ny y\nz\n=\n+\n+\n+\n+\n(0,2,4,5,6)\nF\nm\n= \u03c0\n(1,3,7)\nF\nm\n= \u03c0\n(0,2,4,5,6)\nF\nm\n=\n \uf0e5\n(A) \nxy\nyz\nxyz\n+\n+\n(0,2,4,5,6)\nm\n\uf0e5\n\nGATE 2021\n [Forenoon Session]\nComputer Science Engineering\nPAGE\n16\n\nIt is correct\n(B) \n(\n)(\n)\nx\nz\ny\nz\n+\n+\n(1,3,7)\nm\n\u03c0\nIt is correct\n(C) \nxy\nz\n+\n(0,2,4,5,6)\nm\n\uf0e5\nIt is correct\n(D) \n(\n)(\n)(\n)\nx\ny\nz x\ny\ny\nz\n+\n+\n+\n+\n(1,3,2)\nm\n\u03c0\nIt is incorrect",
+  "explanation_text": ""
+}

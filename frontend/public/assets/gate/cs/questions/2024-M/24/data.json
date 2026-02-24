@@ -1,0 +1,11 @@
+{
+  "id": "24",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-M",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 24\n  \n \n \n[Operating System (Process Management-II)]\n \n \nWhich of the following statements about threads is/are TRUE ? \n \n(A) Threads can only be implemented in kernel space \n \n \n(B) Each thread has its own file descriptor table for open files \n \n(C) All the threads belonging to a process share a common stack \n \n(D) Threads belonging to a process are by default not protected from each other \nAns. \n(D)",
+  "answer_text": "",
+  "explanation_text": "Sol.\n \nThreads belonging to a process are by default not protected to each other. \n \nHence, the correct option is (D). \nQuestion 25 \n \n \n[Operating System (Process Management-I)]\n\nPAGE\n20\n\nWhich of the following process state transitions is are NOT possible ? \n(A) Running to Ready \n(B) Waiting to Running \n(C) Ready to Waiting \n(D) Running to Terminated \nAns. \n(B, C)\nSol.\nNew\nReady\nRun\nTerminate\nWait\n\nSo, ready to waiting and waiting to running is not a valid transition.\nHence, the correct option (B) and (C)."
+}

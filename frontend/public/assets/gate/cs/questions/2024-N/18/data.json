@@ -1,0 +1,11 @@
+{
+  "id": "18",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-N",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "(B) \nSol.\n \nGiven :\n Six unbiased dice are rolled simultaneously.\n6\n(6)\n\uf03d\nTotal case of six dice\nNumber of favorable out comes \n6!\n\uf03d\nTherefore, the probability of such events\n6\n6!\n6 5 4 3 2 1\n(6)\n(46656)\n\uf0b4\uf0b4\uf0b4\uf0b4\uf0b4\n\uf03d\n\uf03d\n5\n324\n\uf03d\nHence the correct option is (B). \nQuestion 19 \n \n \n[Database (ER Model)]\n \n \nOnce the DBMS informs the user that a transaction has been successfully completed, its effect should\npersist even if the system crashes before all its changes are reflected on disk. This property is called\n(A) Durability \n(B) Atomicity\n(C) Consistency \n(D) Isolation\n \n(A)",
+  "question_text": "Question 18\nWhen six unbiased dice are rolled simultaneously, the probability of getting all distinct numbers (i.e., 1, \n2, 3, 4, 5, and 6) is \n \n \n[Engineering Mathematics, Probability]\n(1 Mark)\n(A) \n1\n324\n \n \n(B) \n5\n324\n(C) \n7\n324\n \n \n(D) \n11\n324",
+  "answer_text": "(B) \nSol.\n \nGiven :\n Six unbiased dice are rolled simultaneously.\n6\n(6)\n\uf03d\nTotal case of six dice\nNumber of favorable out comes \n6!\n\uf03d\nTherefore, the probability of such events\n6\n6!\n6 5 4 3 2 1\n(6)\n(46656)\n\uf0b4\uf0b4\uf0b4\uf0b4\uf0b4\n\uf03d\n\uf03d\n5\n324\n\uf03d\nHence the correct option is (B). \nQuestion 19 \n \n \n[Database (ER Model)]\n \n \nOnce the DBMS informs the user that a transaction has been successfully completed, its effect should\npersist even if the system crashes before all its changes are reflected on disk. This property is called\n(A) Durability \n(B) Atomicity\n(C) Consistency \n(D) Isolation\n \n(A)",
+  "explanation_text": "Sol.\n \nACID property\nChanges to database made by committed transaction must persist in spite of any failure.\nResponsibility of durability = Recovery management system\nHence, the correct option is (A)."
+}

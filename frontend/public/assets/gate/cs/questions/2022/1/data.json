@@ -1,0 +1,11 @@
+{
+  "id": "1",
+  "stream": "computer-science-information-technology",
+  "packet": "2022",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "0.5",
+  "question_text": "Question 1\nConsider network with three routers P, Q, and R. All links have cost of unit, the routers exchange distance \nvector routing information & converge on routing tables. After some time link Q-R fails, assume P & Q \nsend out routing update at random time, each at same average rate. The probability of routing loop form \n(Rounded off to one decimal place) between P & Q leading to count to infinity problem is_____.\nP\nQ\nR",
+  "answer_text": "0.5",
+  "explanation_text": "Sol.\nQ\n1\n-\nP\n-\n1\n\n\uf0a5\nR\n2\nQ\nR\n-\n\nThe link between the Q - R is broken, so the probability after the convergence depends on the sharing of \ninformation between nodes P and Q, if the node Q share the information first then there will be no looping, \nif node P shares the information then there will be chance of looping so the probability will be 0.5\nSo,  \n1\n0.5\n2\nP\n \uf03d\n\uf03d"
+}

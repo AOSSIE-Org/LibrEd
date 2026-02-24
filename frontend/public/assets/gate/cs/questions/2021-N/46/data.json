@@ -1,0 +1,11 @@
+{
+  "id": "46",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "NAT",
+  "key": "698 Blocks",
+  "question_text": "Question 46. \n \n \n \n  \n \n \n \n \nNAT (1M)\nQuestion ID : 8232513121\nA data file consisting of 1,50,000 students\u2019 records is stored on a hard disk with block size of 4096 \nbytes. The data file is sorted on the primary key RollNo. The size of a record pointer for this disk is 7 \nbytes. Each student-record has a candidate key attribute called ANum of size 12 bytes. Suppose an \nindex file with records consisting of two fields. ANum value and the record pointer to the \ncorresponding student record, is built and stored on the same disk. Assume that the records of data \nfile and index file are not split across disk blocks. The number of blocks in the index file is_____",
+  "answer_text": "698 Blocks",
+  "explanation_text": "Sol.\n \nGiven the total records = 1,50,000\nBlock size \n4096bytes\n=\nKey size = 12 bytes\nRecord pointer size = 7 bytes\nFor a dense index, the number of indexes per block = floor (4096/(12+7)) = 215\nTherefore, the total number of blocks = cell (1,50,000/215) = 698 blocks"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "16",
+  "stream": "computer-science-information-technology",
+  "packet": "2022",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "B,C,D",
+  "question_text": "Question 16\n\uf07b\n\uf07d\n*\n1\n|\n( , )\nL\nww w\na b\n\uf03d\n\uf0ce\n2\n{\n,\n0}\nn\nn\nm\nL\na b c m n\n\uf03d\n\uf0b3\n3\n{\n,\n0}\nm\nn\nn\nL\na b c m n\n\uf03d\n\uf0b3\nWhich of the following statements are false?\n(A) \n1\nL\n  is not CFL but \n2\nL\n  and \n3\nL\n  are DCFL.  (B) \n2\n3\n,\nL L\n  and \n2\n3\nL\nL\n\uf0c7\n all are CFL.\n(C) Neither \n1\nL\n  nor \n2\nL\n  is CFL.  \n(D) Neither \n1\nL\n  nor its complement is CFL.",
+  "answer_text": "B,C,D",
+  "explanation_text": "Sol.\n*\n1\n{\n{ , } }\nL\nww w\na b\n\uf03d\n\uf0ce\n this language is not CFL but complement of \n1\nL\n  is CFL.\n2\n{\n0}\nn\nn\nm\nL\na b c nm\n\uf03d\n\uf0b3\n is CFL\n3\n{\n,\n0}\nn\nm\nm\nL\na b c n m\n\uf03d\n\uf0b3\n is CFL\n2\n3\nL\nL\n\uf0c7\n is not CFL.\n(B), (C) and (D) are false"
+}

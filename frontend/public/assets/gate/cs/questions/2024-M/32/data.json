@@ -1,0 +1,11 @@
+{
+  "id": "32",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-M",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 32 \n \nLet \nA\n and \nB\n be non-empty finite sets such that there exist one-to-one and onto functions (i) from \nA\n to \nB \n \nand (ii) from \nA\nA\n\uf0b4\n  to \nA\nB\n\uf0c8\n. The number of possible values of \nA\n  is __________.\n[Discrete Mathematics - Set theory & Algebra] \nAns. \n(2 to 2)",
+  "answer_text": "",
+  "explanation_text": "Sol.\n \nAs \n:\nf\nA\nB\n\uf0ae\nis one-one and onto.\nA\nB\nn\n\uf03d\n\uf03d\nA\nA\nA\nB\n\uf0b4\n\uf0ae\n\uf0c8\n\uf0af\nn\n(If  = )\nA\nB\n2\nn\n(If\n,\n)\nA\nB A\nB\n\uf0b9\n\uf0c7\n\uf03d\uf066\n2 ,\nn\n\nAlso,\nf is one to one\nA\nB\nA\nB\n\uf0b4\n\uf03d\n\uf0c8\nn\nn\n\uf03d\nn\nn\n\uf03d\n2\n2\n2\n\uf0af\n \n \n          or\n\uf0af\n\n{0,1}\n{0,2}\nSo, possible values of \n2.{1or 2}\nA\n \uf03d\nHence, the correct answer is 2.\n\nPAGE\n24\n"
+}

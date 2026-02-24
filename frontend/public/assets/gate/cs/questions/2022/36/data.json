@@ -1,0 +1,11 @@
+{
+  "id": "36",
+  "stream": "computer-science-information-technology",
+  "packet": "2022",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "1   2    3\n10  11  12\n19  20  21",
+  "question_text": "Question 36\nWhat is printed by ANSI C programme\n#include<stdio.h>\nint main (int arge, char * argc [])\n{\nint a [3][3][3]= {{1, 2, 3, 4, 5, 6, 7, 8, 9}{10, 11, 12, 13, 14, 15, 16, 17, 18} {19, 20, 21, 22, 23, 24, \n25, 26, 27}};\nint i= 0, j= 0, k=0;\nfor (i = 0; i< 3; i++) {\nfor(k = 0; k<3; k++)\n\nGATE 2022 \n [Forenoon Session]\nComputer Science Engineering\nPAGE\n26\n\nprintf(\u201c%d\u201d, a [i][j][k]); printf(\u201c\\n\u201d);}\nreturn 0;\n}",
+  "answer_text": "1   2    3\n10  11  12\n19  20  21",
+  "explanation_text": "Sol. \n \n0\nj\nk\ni\n\uf03d\n\uf03d\uf03d\n[3][3][3]\n{{1, 2, 3,......9},\n[0]\na\na\n\uf03d\n\uf0ae\n (\nFirst 2\u2013D array)\n{10, 11,......18},\n[1]\na\n\uf0ae\n \n(Second 2\u2013D array)\n{19,.....27}}\n[2]\na\n\uf0ae\n (Third 2\u2013D array)\nIn short, there are total third 2\u2013D arrays, and in the code we need to find first row of each 2D array i.e.\n1, 2, 3 \n \nFirst row of first 2-D array\n10, 11, 12  \nFirst row of second 2-D array\n19, 20, 21  \nFirst row of third 2-D array"
+}

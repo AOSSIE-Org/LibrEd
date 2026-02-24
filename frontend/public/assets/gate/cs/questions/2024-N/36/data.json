@@ -1,0 +1,11 @@
+{
+  "id": "36",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-N",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 36 \n \nWhat is the output of the following \nC\n  program ? \n \n \n#include  <stdio.h> \n \n \nInt main () { \n \n \n   double a[2] = {20.0, 25.0}, *p, *q; \n \n \n   p = a; \n \n            q = p + 1; \n \n            printf (\u201c%d, %d\u201d, (int) (q \u2013 p), (int) (*q \u2013 *p)); \n \n \n   return 0; } \n \n  \n \n \n \n[C program] \n \n(A) 4,8 \n(B) 1, 5 \n \n(C) 8, 5 \n(D) 1, 8 \nAns. \n(B) \nSol.\na[0]\na[1]\na\n20.0\n25.0\n1000\n1008\n*q\n*p\n1000\n1008\n\n2008\n2000\n2008\n2000\n8\nint(q p)\n1\n8\n8\n\uf02d\n\uf02d\n\uf03d\n\uf03d\n\uf03d\nint(*q *p)\nint(25.0\n20.0)\n\uf02d\n\uf03d\n\uf02d\n= 5\nHence, the correct option is (B).",
+  "answer_text": "",
+  "explanation_text": ""
+}

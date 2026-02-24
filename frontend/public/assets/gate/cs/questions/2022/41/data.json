@@ -1,0 +1,11 @@
+{
+  "id": "41",
+  "stream": "computer-science-information-technology",
+  "packet": "2022",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "6",
+  "question_text": "Question 41\nConsider two queue\u2019s \n1\nQ\n  and \n2\nQ\n such that initially \n1\nQ\n contains 4 element {1, 2, 3, 4} and \n2\nQ\n  is empty.\nWhat is the min number of enqueue operations needed on \n1\nQ\n  to \n2\nQ\n  in reverse order?\n1\nQ\n  \n1 \n2 \n3 \n4\n\n2\nQ\n  \n4 \n3 \n2 \n1",
+  "answer_text": "6",
+  "explanation_text": "Sol.\nThis can be obtained by the following set of instructions\nDequeue ( 1)\nx\nQ\n\uf03d\nEnqueue ( 1)\nQ\nDequeue ( 1)\nx\nQ\n\uf03d\nEnqueue ( 1, )\nQ\nx\nDequeue ( 1)\nx\nQ\n\uf03d\nEnqueue (\n2, )\nQ\nx\nDequeue ( 1)\nx\nQ\n\uf03d\nEnqueue ( 1, )\nQ\nx\nDequeue ( 1)\nx\nQ\n\uf03d\nEnqueue ( 1, )\nQ\nx\n\nGATE 2022 \n [Forenoon Session]\nComputer Science Engineering\nPAGE\n29\n\nDequeue ( 1)\nx\nQ\n\uf03d\nEnqueue (\n2, )\nQ\nx\nDequeue ( 1)\nx\nQ\n\uf03d\nEnqueue ( 1, )\nQ\nx\nDequeue ( 1)\nx\nQ\n\uf03d\nEnqueue (\n2, )\nQ\nx\nThe number of enqueue operations on \nQ\n1 is \n3\n2 1\n6.\n\uf02b\n\uf02b\uf03d\nOperating System"
+}

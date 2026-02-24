@@ -1,0 +1,11 @@
+{
+  "id": "50",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-M",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "(B,C) \nSol.\n \nMinimized DFA\n0\n1\n2\n1\n1\n1\n0\n0\n4\n\nFrom minimized DFA we can conclude B and C are False.\nHence, the correct option is (B) and (C).",
+  "question_text": "Question 50 \n \n     \n[Theory of Computation (Finite Automata)]\nConsider the 5-state DFA \nM\n  accepting the language \n\uf028\n\uf029\n\uf028\n\uf029\n*\n0 1\nL M\n \uf0cc\n\uf02b\n shown below.  For any string\n\uf028\n\uf029\n*\n0\n1\nw\n\uf0ce\n\uf02b\n let \n0\n( )\nn w\n  be the number of \n0'\ns\n in \nw\n and \n1\n( )\nn w\n  be the number of \n1'\ns\n  in \nw\n.\nWhich of the following statements is/are FALSE ? \n \n(A) States 2 and 4 are distinguishable in \nM\n  \n \n \n(B) States 3 and 4 are distinguishable in \nM\n\nPAGE\n40\n\n(C) States 2 and 5 are distinguishable in \nM\n(D) Any string \nw\n with \n0\n1\n( )\n( )\nn w\nn w\n\uf03d\n is in \n\uf028\n\uf029\nL M",
+  "answer_text": "(B,C) \nSol.\n \nMinimized DFA\n0\n1\n2\n1\n1\n1\n0\n0\n4\n\nFrom minimized DFA we can conclude B and C are False.\nHence, the correct option is (B) and (C).",
+  "explanation_text": ""
+}

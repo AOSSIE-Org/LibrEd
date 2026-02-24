@@ -1,0 +1,11 @@
+{
+  "id": "52",
+  "stream": "computer-science-information-technology",
+  "packet": "2022",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "8",
+  "question_text": "Question 52\nRelation R\n \n(A, B, C, D, E) has 3 functional dependency: \n \n \n,\n,\nAB\nC BC\nD C\nE\n\uf0ae\n\uf0ae\n\uf0ae\nFind number of super keys?",
+  "answer_text": "8",
+  "explanation_text": "Sol. \nR (A, B, C, D, E)\n{\nAB\nC\n\uf0ae\nBC\nD\n\uf0ae\nC\nE\n\uf0ae\n}\nCandidate key = AB\nNumber of super keys\n5 2\n3\n2\n2\n8\n\uf02d\n\uf03d\n\uf03d\n\uf03d\n super keys"
+}

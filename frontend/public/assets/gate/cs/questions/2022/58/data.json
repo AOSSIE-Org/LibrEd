@@ -1,0 +1,11 @@
+{
+  "id": "58",
+  "stream": "computer-science-information-technology",
+  "packet": "2022",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "C",
+  "question_text": "Question 58\nLet \nr\n  be a root of the expression \n2\n2\n6\n0\nx\nx\n\uf02b\n\uf02b\n\uf03d\nThen the value of the expression \n(\n2)(\n3)(\n4)(\n5)\nr\nr\nr\nr\n\uf02b\n\uf02b\n\uf02b\n\uf02b\n is\n(A) \u2013 51 \n(B) 126 \n(C) \u2013 126 \n(D) 51",
+  "answer_text": "C",
+  "explanation_text": "Sol. \n \n \n2\n2\n6\n0\nx\nx\n\uf02b\n\uf02b\n\uf03d\nIf \nr\n is root, then\n2\n2\n6\n0\nr\nr\n\uf02b\n\uf02b\n\uf03d\n2\n2\n6\nr\nr\n\uf02b\n\uf03d\uf02d\n  \n \n \n \n \n \n \n\u2026 (i)\nNow,  \n(\n2)(\n3)(\n4)(\n5)\nr\nr\nr\nr\n\uf02b\n\uf02b\n\uf02b\n\uf02b\n\uf0de\n  \n{(\n2)(\n4)}{(\n3)(\n5)}\nr\nr\nr\nr\n\uf02b\n\uf02b\n\uf02b\n\uf02b\n\uf0de\n  \n2\n2\n(\n6\n8)(\n8\n15)\nr\nr\nr\nr\n\uf02b\n\uf02b\n\uf02b\n\uf02b\n\uf0de\n  \n2\n2\n(\n2\n4\n8)(\n2\n6\n15)\nr\nr\nr\nr\nr\nr\n\uf02b\n\uf02b\n\uf02b\n\uf02b\n\uf02b\n\uf02b\nFrom (i), \n2\n2\n6\nr\nr\n\uf02b\n\uf03d\uf02d\n\uf0de\n  \n(4\n2)(6\n9)\nr\nr\n\uf02b\n\uf02b\n\uf0de\n  \n2(2\n1)3(2\n3)\nr\nr\n\uf02b\n\uf02b\n\uf0de\n  \n6(2\n1)(2\n3)\nr\nr\n\uf02b\n\uf02b\n\uf0de\n  \n2\n6(4\n8\n3)\nr\nr\n\uf02b\n\uf02b\nFrom equation (i),\n2\n2\n6\nr\nr\n\uf02b\n\uf03d\uf02d\n\nGATE 2022 \n [Forenoon Session]\nComputer Science Engineering\nPAGE\n41\n\n2\n4(\n2 )\n24\nr\nr\n\uf02b\n\uf03d\uf02d\n\uf0de\n  \n6( 24\n3)\n\uf02d\n\uf02b\n\uf0de\n  \n6( 21)\n\uf02d\n\uf0de\n  \n126\n\uf02d"
+}

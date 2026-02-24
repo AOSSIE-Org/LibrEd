@@ -1,0 +1,11 @@
+{
+  "id": "65",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-M",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 65 \n \n  \n[Computer Network (Network Layer)]\n \n \nConsider sending an IP datagram of size 1420 bytes (including 20 bytes of IP header) from a sender to a \nreceiver over a path of two links with a router between them.  The first link (sender to router) has an MTU \n(Maximum Transmission Unit) size of 542 bytes, while the second link (router to receiver) has an MTU \nsize of 360 bytes.  The number of fragments that would be delivered at the receiver is _________. \nAns. \n(6 to 6)\n  \nSol.\n\nPAGE\n51\n\nIP datagram\n20\n1400\n1420 bytes\n\n\nA\nB\nMTU = 360 bytes\nMTU = 542 bytes\nRouter\n\n\nmaxdata\n360\n20\n340B\n\uf02d\n\uf03d\nHeader\nmaxdata\n542\n20\n522 B\n\uf02d\n\uf03d\nSince data must be multiple of 8 \n \n \nSince data must be multiple of 8\n\uf05c\n 520 Byte = \n(8 65)\n\uf0b4\n \n \n \n\uf05c\n Max. data \n336Byte=(8 42)\n\uf03d\n\uf0b4\nFragmentation of 1400 B of data will be,\n1\n1\n2\n20\n336\n20\n520\n1\nP\n \uf03d\n2\nP\n \uf03d\n20\n520\n20\n520\n2\n20\n184\n3\n3\nP\n \uf03d\n20\n360\n\n3\n20\n336\n20\n520\n4\n20\n184\n5\n20\n336\n20\n360\n6\n20\n24\n\nB\nR\nMTU = 340 Byte\n\nThus, we will have total 6 fragments.\nHence, the correct option is (B).\n\n\nPAGE\n52\n\n\uf076\uf076\uf076\uf076\n",
+  "answer_text": "",
+  "explanation_text": ""
+}

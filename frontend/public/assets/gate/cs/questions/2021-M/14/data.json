@@ -1,0 +1,11 @@
+{
+  "id": "14",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-M",
+  "year": "2021",
+  "type": "NAT",
+  "key": "",
+  "question_text": "Question 14 \n \n \n \n \n \n \n \nNAT (2M) \n \n \n \n \n \n \n \n \nQuestion ID : 823251585 \nConsider a computer system consisting of registers R1, R2, R3 and MEMORY[X] denotes the content at \nthe memory location of X. Assume memory is byte addressable\nInstruction \nSemantics \nInstruction size (bytes)\nMOV R1 (5000) \nR1\n\u2190\n M[5000] \n4\nMOV R2 (R3) \nR2\n\u2190\n M[R3] \n4\nADD R2,R1 \nR2\n\u2190\nR1+R2 \n2\nMOV(R3) \nM[R3]\n\u2190\n R2 \n4\nINC R3 \nR3\n\u2190\n R3+1 \n2\nDEC R1 \nR1\n\u2190\n R1-1\n \n2\nBNEZ 1004 \nBranch if non zero to \nthe absolute address \n2\nHALT \nStop \n1\nAssume that the content of the memory location 5000 is 10 and the content of the register R3 is 3000. \nThe content of each of the memory locations from 3000 to 3010 is 50. The instruction sequence starts \nfrom the memory location 1000. All the numbers arc in decimal format. Assume that the memory is byte \naddressable. \nAfter the execution of the program, the content of memory location 3010 is _______. \nAns. \n50\n \nQuestion 15 \n \n \n \n \n \n \n \nMCQ (1M) \n \n \n \n \n \n \n \nQuestion ID : 823251536 \n \nLet the representation of a number in base 3 be 210. What is the hexadecimal representation of the \nnumber? \n \n(A) D2 \n(B) 528 \n(C) 21 \n(D) 15 \nAns. \nD\n\nGATE 2021\n [Forenoon Session]\nComputer Science Engineering\nPAGE\n14\n",
+  "answer_text": "",
+  "explanation_text": "Sol.\n \nCorrect the given number representation \ndecimal\n  representation\n3\n10\n(210)\n(?)\n\u2192\n2\n1\n0\n2 3\n1 3\n0 3\n\u00d7\n+ \u00d7\n+ \u00d7\n10\n18 3\n(21)\n+ =\nNow convert decimal representation into hexadecimal representation\n10\n16\n(21)\n(?)\n\u2192\n16\n21\n1\n5\n\n16\n(15)\nHence, the correct option is (D)"
+}

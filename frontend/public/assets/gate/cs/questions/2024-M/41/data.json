@@ -1,0 +1,11 @@
+{
+  "id": "41",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-M",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 41 \n \n  \n \n \n \n[Data Structure (Array)]\nAn array \n\uf05b\n\uf05d\n82,101,90,11,111,75,33,131,44,93\n  is heapified.  Which one of the following options represents\nthe first three elements in the heapified array ? \n \n(A) 82, 90, 101 \n(B) 82, 11, 93 \n \n(C) 131, 111, 90 \n(D) 131, 111, 90 \nAns. \n(D) \nSol.\n131\n82\n82\n131\n101\n90\n111\n101\n93\n82\n131\n111\n11\n75\n33\n11\n82\n131\n44\n93\n\nFinal array [131, 111, 90, 101, 93, 75, 33, 11, 44, 82]\n\nPAGE\n34\n\nHence, the correct option is (D).",
+  "answer_text": "",
+  "explanation_text": ""
+}

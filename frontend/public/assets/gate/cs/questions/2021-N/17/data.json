@@ -1,0 +1,11 @@
+{
+  "id": "17",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 17. \n \n \n \n  \n \n \n \n \nMCQ (2M)\nQuestion ID : 8232513126\nConsider string aabbccddeee . Each letter of a string must be assigned a binary code satisfying the \nfollowing properties.\n1.  \nFor any two letters the code to one letter must be a prefix of code assigned to another \nletter.\n2. \n For any two letters of the same frequency , the letter which occurs earlier in the \ndictionary order is assigned a code whose length is at most the length of code assigned \nto another letter.\nAmong a set of all binary code assignments which satisfy above two properties. What is the length of \nthe encoded string?\n(A) 25  \n \n \n \n(B) 23\n(C) 21 \n \n \n \n(D) 30\nAns  (B)",
+  "answer_text": "",
+  "explanation_text": "Sol.\n  \nUsing Huffman Coding-\n\nPAGE\n13\n\n10\n1\n0\n4\n6\n1\n0\n0\n1\nc(2)\nd(2)\n3\ne(3)\n1\n0\na(1)\nb(2)\nCharacter Frequency Encoding\na \n1 \n100\nb \n2 \n101\nc \n2 \n00\nd \n2 \n01\ne \n3 \n11\nHence length of encode string is = 1*3+2*3+2*2+2*2+3*2 = 3+6+4+4+6 = 23"
+}

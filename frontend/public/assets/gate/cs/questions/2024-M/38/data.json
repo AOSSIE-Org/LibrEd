@@ -1,0 +1,11 @@
+{
+  "id": "38",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-M",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "(A)\n\nPAGE\n29",
+  "question_text": "Question 38 \n \n  \n[Complier Design (Parsing Techniques)]\n \n \nConsider the following grammar \nG\n , with \nS\n  as the start symbol.  The grammar \nG\n has three incomplete \nproductions denoted by (1), (2), and (3).\n| (1)\nS\ndaT\n\uf0ae\n|\n| (2)\nT\naS bT\n\uf0ae\n(3) |\nR\n \uf0ae\n\uf0ce\nThe set of terminals is \n\uf07b\n\uf07d\n, , , ,\na b c d f\n.  The FIRST and FOLLOW sets of the different non-terminals are as\nfollows.\n\uf07b\n\uf07d\n\uf07b\n\uf07d\n\uf07b\n\uf07d\nFIRST( )\n, ,\n,FIRST( )\n, ,\n,FIRST( )\n,\nS\nc d f\nT\na b\nR\nc\n\uf03d\n\uf03d\n\uf0ce\n\uf03d\n\uf0ce\n\uf07b\n\uf07d\n\uf07b\uf07d\nFOLLOW( )\nFOLLOW( )\n,\n,$ ,FOLLOW( )\nS\nT\nc f\nR\nf\n\uf03d\n\uf03d\n\uf03d\nWhich one of the following options CORRECTLY fills in the incomplete productions ?\n(A) \n\uf028\uf029\n\uf028\uf029\n1\n2\n(3)\nS\nRf\nT\nR\ncTR\n\uf0ae\n\uf0ae\uf0ce\n\uf0ae\n(B) \n\uf028\uf029\n\uf028\uf029\n1\n2\n(3)\nS\nfR\nT\nR\ncTR\n\uf0ae\n\uf0ae\uf0ce\n\uf0ae\n(C) \n\uf028\uf029\n\uf028\uf029\n1\n2\n(3)\nS\nfR\nT\ncT\nR\ncR\n\uf0ae\n\uf0ae\n\uf0ae\n(D) \n\uf028\uf029\n\uf028\uf029\n1\n2\n(3)\nS\nRf\nT\ncT\nR\ncR\n\uf0ae\n\uf0ae\n\uf0ae",
+  "answer_text": "(A)\n\nPAGE\n29",
+  "explanation_text": "Sol.\n \n/\nS\ndaT Rf\n\uf0ae\n/\n/\nT\naS bT\n\uf0ae\n\uf0ce\n/\nR\ncTR\n\uf0ae\n\uf0ce\n( )\n{ , , }\nfirst S\nd c f\n\uf03d\n( )\n{ , , }\nfirst T\na b\n\uf03d\n\uf0ce\n( )\n{ , }\nfirst R\nc\n\uf03d\n\uf0ce\nHence, the correct option is (A)."
+}

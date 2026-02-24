@@ -1,0 +1,11 @@
+{
+  "id": "38",
+  "stream": "computer-science-information-technology",
+  "packet": "2022",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "509",
+  "question_text": "Question 38\nSuppose binary search tree with 1000 distinct elements is also complete binary tree. The tree in sorted \nusing array representation of Binary Heap Tree, Assuming that the array indices start with 0, the 3\nrd\n largest \nelement of tree in sorted at index _____?",
+  "answer_text": "509",
+  "explanation_text": "Sol.\nThe largest element in the BST is the right most element with index \n9\n510(2\n2\n\uf02d\n as the indexing of the \narray is starting with 0) its parent is the second-largest element and its left child is the third-largest \nelement which is of the index \n510 1\n509.\n\uf02d\uf03d"
+}

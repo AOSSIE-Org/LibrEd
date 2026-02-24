@@ -1,0 +1,11 @@
+{
+  "id": "45",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "(D)",
+  "question_text": "Question 45. \n \n \n \n  \n \n \n \n \nMCQ (1M)\nQuestion ID : 8232513106\nConsider the following statements S1 and S2 about the relational data model:\nS\n1\n: A relation cannot have more than one foreign key.\nS\n2\n: A foreign key in a relation scheme R cannot be used to refer the tuples of R.\nWhich one of the following choices is/are true?\n(A) S\n1\n is true S\n2\n is false       (B) S\n2\n is true S\n1\n is true\n(C) Both S\n1\n and S\n2\n are true  (D) Both S\n1\n and S\n2\n are false",
+  "answer_text": "(D)",
+  "explanation_text": "Sol.\n \nA relation may have multiple foreign keys, and each foreign key can have a different parent table.\nTherefore, the statement I is incorrect. This statement is also incorrect because a self-referential \nrelationship refers to its own attributes."
+}

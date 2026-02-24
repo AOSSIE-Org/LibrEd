@@ -1,0 +1,11 @@
+{
+  "id": "46",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-M",
+  "year": "2021",
+  "type": "MSQ",
+  "key": "",
+  "question_text": "Question 46 \n \n \n \n \n \n \n \nMSQ (2M) \n \n \n \n \n \n \n \nQuestion ID : 823251574 \n \nA TCP server application is programmed to listen on port number P on host S. ATCP client is connected \nto the TCP server over the network. \nConsider that while the TCP connection was active, the server machine S crashed and rebooted. Assume \nthat the client does not use the TCP keepalive timer. \nWhich of the following behaviors is/are possible? \n(A)\n \nThe TCP server application on S can listen on P after reboot. \n(B)\n \nIf the client was waiting to receive a packet, it may wait indefinitely. \n(C)\n \nIf the client sends a packet after the server reboot, it will receive a FIN segment. \n(D)\n \nIf the client sends a packet after the server reboot, it will receive a RST segment. \nAns. \nA, B, D",
+  "answer_text": "",
+  "explanation_text": ""
+}

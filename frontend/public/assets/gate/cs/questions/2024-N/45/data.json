@@ -1,0 +1,11 @@
+{
+  "id": "45",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-N",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "(B)",
+  "question_text": "Question 45\nThe relation schema. Person (pid, city), describes the city of residence for  every person uniquely identified \n \nby pid. The following relational algebra operators are available: selection, projection, cross product, and \n \nrename.\nTo find the list of cities where at least 3 persons reside, using the above operators, the minimum number \n \nof cross product operations that must be used is \n[Database, 3 relational Model Relational Algebra]\n(A) 1 \n(B) 2\n(C) 3 \n(D) 4",
+  "answer_text": "(B)",
+  "explanation_text": "Sol. \n \n1\n(\n)\nR\nR S\n\uf0ac\uf073\n\uf0b4\nR\n.city = \nS\n. city \n\uf0d9\n \nR\n.pid \n\uf0b9\nS\n.pid\n2\n1\n(\n)\nR\nR\nP\n\uf0ac\uf073\n\uf0b4\n1\n.city\nR\n = \nP\n. city \n\uf0d9\n \nR\n1\n.pid \n\uf0b9\nP\n.pid\n3\nR\n \uf0ac\uf070\n2\n(\n)\nR\ncity\nHence, we need 3 table and 2 cross product\nHence, the correct option is (B)."
+}

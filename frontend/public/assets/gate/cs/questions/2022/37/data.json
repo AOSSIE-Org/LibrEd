@@ -1,0 +1,11 @@
+{
+  "id": "37",
+  "stream": "computer-science-information-technology",
+  "packet": "2022",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "z, K, S\n\nGATE 2022 \n [Forenoon Session]\nComputer Science Engineering\nPAGE\n27",
+  "question_text": "Question 37\nWhat is the output of given code?\nchar \n'\n';\na\nP\n\uf03d\nchar \n'x';\nb\n \uf03d\nchar \n( & )\n'*';\nc\na\nb\n\uf03d\n\uf02b\nchar \n( | )\n' ';\nd\na b\n\uf03d\n\uf02d\uf02d\nchar \n( ^ )\n' ';\ne\na b\n\uf03d\n\uf02b\uf02b\n\uf028\n\uf029\nprint\n\"% %c%c\",c,d,e ;\nf\nc\nA \nB \nC \n\u2026 \nZ \n65 \n66 \n67 \n\u2026 \n90 \na \nb \nc \n\u2026 \nz \n97 \n98 \n99 \n\u2026 \n122\n* \n+ \n\u2013\n42 \n43 \n45",
+  "answer_text": "z, K, S\n\nGATE 2022 \n [Forenoon Session]\nComputer Science Engineering\nPAGE\n27",
+  "explanation_text": "Sol.\nASCII value of P =  80 and \n120\nx\n \uf03d\n\uf0af\n\uf0af\n\uf03d\n\uf02b\nc\na\nb\n&\n'*'\n\n\n\uf0ae\n\uf0de\n80\n42\n122\nz\n\n\uf0af\n\uf0af\n\uf03d\n\uf02d\n\uf02d\nd\na b\n|\n' '\n\n\n\uf0ae\n\uf0de\n120\n45\n75\nK\n\uf0d9\n\uf0af\n\uf0af\n\uf03d\n\uf02b\n\uf02b\ne\na b\n' '\n\n\n\uf0ae\n\uf0de\n40\n43\n83\nS\n\nData Structure"
+}

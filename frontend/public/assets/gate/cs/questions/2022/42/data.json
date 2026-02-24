@@ -1,0 +1,11 @@
+{
+  "id": "42",
+  "stream": "computer-science-information-technology",
+  "packet": "2022",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "1,0,0",
+  "question_text": "Question 42\nIn the given table\nProcess P1 \nProcess P2 \nProcess P3\nWhile (true) \nWhile (true) \nWhile\n{ \n{ \n{\nwait\n3\n(\n)\nS\n; \nwait\n1\n(\n)\nS\n; \nwait\n2\n(\n)\nS\n;\nprint \u201cC\u201d \nprint \u201cB\u201d \nprint \u201cA\u201d\nSignal \n2\n(\n)\nS\n; \nSignal \n3\n(\n)\nS\n; \nSignal \n1\n(\n)\nS\n;\n} \n} \n}\nTo get the output string of \u201cBCABCABCA\u201d the initial values of \n1\n2\n,\nS S\n  and \n3\nS\n are ?",
+  "answer_text": "1,0,0",
+  "explanation_text": "Sol.\nInitially if \n1\n2\n3\n1,\n0,\n0,\nS\nS\nS\n\uf03d\n\uf03d\n\uf03d\nProcess \n2\nP\n   can successfully execute wait\n1\n(\n)\nS\n; while \n1\n3\nand \nP\nP\n  remain stuck at wait\n3\n(\n)\nS\n; and wait\n2\n(\n)\nS\n;\nrespectively.\nAfter process \n2\nP\n  prints B it executes signal\n3\n(\n)\nS\n; and gets stuck at wait\n1\n(\n)\nS\n;\nHere B gets printed in this process.\nAfter this Process \n1\nP\n  can successfully execute wait\n3\n(\n)\nS\n; and then it executes print(\"C\");, after which it\nexecutes signal \n2\n(\n)\nS\n; and then gets stuck at wait\n3\n(\n)\nS\n;\nHere C gets printed in this process.\nAfter this Process \n3\nP\n  can successfully execute wait\n2\n(\n)\nS\n: and then it executes print (\"A\");, after which it\nexecutes signal\n1\n(\n)\nS\n: and then gets stuck at wait\n2\n(\n)\nS\n;\nHere A gets printed in this process.\n\nGATE 2022 \n [Forenoon Session]\nComputer Science Engineering\nPAGE\n30\n\nAfter this Process\n2\nP\n  can execute wait\n1\n(\n)\nS\n; successfully.\nThe process thus keeps repeating and the pattern printed is BCABCABCA\u2026"
+}

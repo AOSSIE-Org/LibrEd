@@ -1,0 +1,11 @@
+{
+  "id": "27",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-N",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 27 \n[Database (Transactions and Concurrency Control)]\n  \n \nWhich of the following statements about the Two Phase Locking (2PL) protocol is/are TRUE ? \n \n(A) 2PL permits only serializable schedules\n\nPAGE\n19\n\n(B) With 2PL, a transaction always locks the data item being read or written just before every operation\nand always releases the lock just after the operation   \n \n(C) With 2PL, once a lock is released on any data item inside a transaction, no more locks on any data\nitem can be obtained inside that transaction \n \n(D) A deadlock is possible with 2PL \nAns. \n(A, C, D)",
+  "answer_text": "",
+  "explanation_text": "Sol. \n(A) 2PL permits serial schedule\n(C) No lock can be taken an the shrinking phase of transaction once a lock has been released\n(D) 2 or more transaction can wait for each other to release locks. This concludes that deadlock can\noccur.\nHence, the correct option is (A), (C) and (D)."
+}

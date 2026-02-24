@@ -1,0 +1,11 @@
+{
+  "id": "7",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-M",
+  "year": "2021",
+  "type": "MSQ",
+  "key": "",
+  "question_text": "Question 7 \n \n \n \n \n \n \n \nMSQ (2M) \n \n \n \n \n \n \n \nQuestion ID : 823251577 \n \nConsider a dynamic hashing approach for 4 big integer keys. \n1.  The main hash table size is 4. \n2.  The 2 least significant bits of a key is used to index into the main hash table \n3.  Initially, the mean hash table entries are empty \n4.  Thereafter, when more keys are hashed into it to resolve collisions, the set of all keys corresponding \nto a main hash table entry is organized as a binary tree that grows on demand. \n5.  First the 3\nrd\n least significant bit is used to divide the keys into left and right subtrees. \n6.  To resolve more collisions, each node of the binary tree is further sub-divided into left and right \nsubtrees based on the 4\nth\n least significant bit. \n7.  A split is done only if it is needed i.e. only when there is a collision. \nConsider the following state of the hash table.\n00\n01\n10\n11\n0\n1\nEmpty \n0\n1\n0\n1\nWhich of the following sequence of key insertions can cause the above state of the hash table (assume \nthe key are in decimal notation)  \n(A) 9, 5, 10, 6, 7, 1 \n \n \n(B) 10, 9, 6, 7, 5, 13 \n(C) 9, 5, 13, 6, 10, 14  \n \n(D) 5, 9, 4, 13, 10, 7 \nAns. \nB \nSol.\n \nFrom given state of hash table.\n00\n01\n10\n11\n0\n1\n0\n1\nEmpty\n0\n1\n\nFollowing numbers are possible\n\nGATE 2021\n [Forenoon Session]\nComputer Science Engineering\nPAGE\n10\n\n0001-1\n0010-2\nX010\nX001\n1001-9\n1010-10\n0110-6\n0101\n5\nX110\n1110-14\n1101\n13\nXX11\n0011\n0111\n1011\n1111\n\n3\n7\n11\n15\nAmong above possible values only one in each class should be present.\nOnly option matches is (B).",
+  "answer_text": "",
+  "explanation_text": ""
+}

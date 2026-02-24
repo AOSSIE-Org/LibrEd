@@ -1,0 +1,11 @@
+{
+  "id": "36",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "NAT",
+  "key": "256",
+  "question_text": "Question 36. \n \n \n \n  \n \n \n \n \nNAT (1M)\nQuestion ID : 8232513117\nConsider the following DFA deterministic finite automaton\nThe number of strings of length 8 accepted by the above automation is _______.",
+  "answer_text": "256",
+  "explanation_text": "Sol. \nGiven:\n0\n0\n0,1\n1\n0,1\n0\n0,1\n1\n1\nOn observing clearly, it is accepting every string of length 8.\n8\n2\n256\n=\n string\n"
+}

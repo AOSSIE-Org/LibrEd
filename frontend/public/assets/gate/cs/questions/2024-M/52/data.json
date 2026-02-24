@@ -1,0 +1,11 @@
+{
+  "id": "52",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-M",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 52 \n \n  \n \n[Digital Logic (Boolean Algebra)]\n \n \nConsider the operators \n\uf0e0\n and\ndefined by \n2 ,\na b\na\nb a b\nab\n\uf0e0\uf03d\n\uf02b\n\uf03d\n, for positive integers.  Which one of\nthe following statements is/are TRUE ? \n \n(A) Operator \n\uf0e0\n obeys the associative law  \n \n(B) Operator\nobeys the associative law\n\nPAGE\n41\n\n(C) Operator \n\uf0e0\n over the operator\nobeys the distributive law \n \n(D) Operator\nover the operator \n\uf0e0\n obeys the distributive law \nAns. \n(B,D)",
+  "answer_text": "",
+  "explanation_text": "Sol.\n \n \n(\n)\n(\n)\na b\nc\nab\nc\nabc\n\uf03d\n\uf03d\n\n(\n)\n(\n)\na\nb c\na\nbc\nabc\n\uf03d\n\uf03d\n\nSo, both are same\n(\n)\n(\n2 )\n(\n2 )\n2\na\nb c\na\nb\nc\na b\nc\nab\nac\n\uf0e0\n\uf03d\n\uf02b\n\uf03d\n\uf02b\n\uf03d\n\uf02b\n\n(\n) (\n)\n(\n) (\n)\n2\na b\na c\nab\nac\nab\nac\n\uf0e0\n\uf03d\n\uf0e0\n\uf03d\n\uf02b\n\nSo, both are same\nHence, the correct option is (B) and (D)."
+}

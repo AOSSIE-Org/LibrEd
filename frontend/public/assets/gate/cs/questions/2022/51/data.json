@@ -1,0 +1,11 @@
+{
+  "id": "51",
+  "stream": "computer-science-information-technology",
+  "packet": "2022",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "A",
+  "question_text": "Question 51\nIn relational data model which is true.\n(A) A relation with only two attribute is always BCNF\n(B) BCNF decomposition preserve functional dependencies\n(C) Every relation has at least one non prime attribute\n(D) If all attributes of a relation are prince attributes, then relation is in BCNF.",
+  "answer_text": "A",
+  "explanation_text": "Sol. \nA relation with two attributes is always in BCNF."
+}

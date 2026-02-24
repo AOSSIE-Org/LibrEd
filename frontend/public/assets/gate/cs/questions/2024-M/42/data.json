@@ -1,0 +1,11 @@
+{
+  "id": "42",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-M",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "(A)",
+  "question_text": "Question 42 \n \n  \n \n[Algorithm (Complexity Analysis)]\n \n \nConsider the following recurrence relation :\n\uf028\n\uf029\nfor\n1,\n( )\n\uf0ec\n\uf02b\n\uf0b3\n\uf0ef\n\uf03d\uf0ed\nnT\nn\nn\nn\nT n\n\n\uf03d\n\uf0ef\uf0ee\n1\nfor\n1\nn\nWhich one of the following options is CORRECT ?\n(A) \n\uf028\uf029\n\uf028\n\uf029\nloglog\nT n\nn\nn\n\uf03d\uf051\n \n(B) \n\uf028\uf029\n\uf028\n\uf029\nlog\nT n\nn\nn\n\uf03d\uf051\n(C) \n\uf028\uf029\n\uf028\n\uf029\n2\n log\nT n\nn\nn\n\uf03d\uf051\n \n(D) \n\uf028\uf029\n\uf028\n\uf029\n2\n loglog\nT n\nn\nn\n\uf03d\uf051",
+  "answer_text": "(A)",
+  "explanation_text": "Sol. \n \n( )\n(\n)\nT n\nnT\nn\nn\n\uf03d\n\uf02b\n2\nm\nn\n\uf03d\nm\nm\nm\nm\nT\nT\n\uf03d\n\uf02b\n2\n2\n(2 )\n2 . (2 )\n2\nm\nm\nm\nm\nm\nm\nT\nT\nT\nS m\nT\n\uf03d\n\uf03d\n(2 )\n(2 )\n(2 )\n= Let\n( )\n2\n2\n(2 )\n2\n\n2\n( )\n(\n) 1\n2\nm\nS m\nS\n\uf03d\n\uf02b\n(2 )\n2 log\nm\nm\nT\nm\n\uf03d\n( )\nloglog\nT n\nn\nn\n\uf03d\nHence, the correct option is (A)."
+}

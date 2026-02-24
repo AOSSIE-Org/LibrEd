@@ -1,0 +1,11 @@
+{
+  "id": "23",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-M",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "(C,D)",
+  "question_text": "Question 23\n  \n[Theory of Computation (Properties of Languages)]\nLet \n1\n2\n,\nL L\n  be two regular languages and \n3\nL\n  a language which is not regular.  Which of the following\nstatements is/are always TRUE ?\n(A) \n1\n2\nL\nL\n\uf03d\n if and only if \n1\n2\nL\nL\n \uf03d\uf066\n(B) \n1\n3\nL\nL\nis not regular\n(C) \n3\nL\n  is not regular \n(D) \n1\n2\nL\nL\nis regular",
+  "answer_text": "(C,D)",
+  "explanation_text": "Sol.\n \n1\n2\nReg\nReg\nReg\nL\nL\n\uf0c8\n\uf03d\n\uf0c8\n\uf03d\n3\nNon-Reg\nNon-regular\nL\n \uf03d\n\uf03d\nHence, the correct option is (C) and (D)."
+}

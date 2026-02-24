@@ -1,0 +1,11 @@
+{
+  "id": "7",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "(C)",
+  "question_text": "Question 7. \n \n \n \n \n \n \n \n \nMCQ (2M)\nQuestion ID : 8232513100\nSix students \n,\n, , ,\nP Q R S T\n  and \nU\n  with distance height, compare their heights and make the following \nobservations.\nObservation I: S is taller than \nR\nObservation II: \nQ\n  is shorter of all\nObservation III: \nU\n  is taller than only 1 student\nObservation IV: \nT\n  is taller than \nS\n  but is not tallest\nThe number of students that are taller than \nR\n  is the same as number of student shorter than______.\n(A)\n \nT \n(B) R  \n     (C) S \n(D) P",
+  "answer_text": "(C)",
+  "explanation_text": "Sol.  \nGiven:\nS is taller than \nR\n     S > R\nQ\n  is shorter of all   > > Q\nU\n  is taller than only 1 student  U >\nT\n  is taller than \nS\n  but is not tallest       > T > S\nCombining all drafted information & make possible case.\n1-\n \nP \n2-\n \nT \n3-\n \nS \n4-\n \nR\n\nPAGE\n5\n\n5-\n \nU \n \n6-\n \nQ\nHence it is clear that the numbers of students taller then R is the same as the numbers of students \nshorter than S."
+}

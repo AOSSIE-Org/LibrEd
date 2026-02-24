@@ -1,0 +1,11 @@
+{
+  "id": "63",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-M",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question\n 63 \n \nA bag contains 10 red balls and 15 blue balls.  Two balls are drawn randomly without replacement.  Given \nthat the first ball drawn is red, the probability (rounded off to 3 decimal places) that both balls drawn are \nred is ___________. \n \n[Engineering Mathematics, Probability]\n(2 Marks)\n \nAns. \n0.370 to 0.380 \nSol.\n \nGiven : \nA bag contains 10 red balls and 15 blue balls. Two balls are drawn randomly without replacement.\nBy using Tree diagram :\n2\nR\n9\n24\n1\nR\n10\n25\n15\n10R\n24\n2\nB\n\uf02b\n2\nR\n15B\n10\n15\n25\n24\n1\nB\n14\n24\n2\nB\nNOTE : \nIn case of Independent events, condition has no significance. we can directly find the probability\n9\n9\n3\n24\n8\nC\nC\n\uf03d\n\uf03d\n\uf03d\nP \n(Red Ball in 2\nnd\n drawn)\n1\n24\n1\nP \n(Red Ball in 2\nnd\n drawn) \n0.375\n\uf03d\nHence, the probability that both balls are red given first ball is red is 0.375.\n\nPAGE\n49\n\nMethod 2 :\n2  Red\n9\n( )\n24\nP E\n\uf0e6\n\uf0f6\n\uf03d\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\nBall Drawn\nnd\nst\n1  Red\n10 R\n15 B\n10\n(\n)\n25\nP E\n\uf0e6\n\uf0f6\n\uf03d\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\nBall Drawn\n2  Blue\nnd\nBall Drawn\n15\n( )\n24\nP E\n\uf0e6\n\uf0f6\n\uf03d\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n\n\uf0e6\n\uf0f6\n\uf0b4\n\uf0e7\n\uf0f7\n\uf03d\uf0e7\n\uf0f7\n\uf0e7\n\uf0f7\n\uf0b4\n\uf02b\n\uf0b4\n\uf0e8\n\uf0f8\n10\n9\n25\n24\n(Both Red)\n10\n9\n10\n15\n25\n24\n25\n24\n\n\nP\n90\n9\n(Both Red)\n90 150\n24\nP\n\uf0e6\n\uf0f6\n\uf03d\n\uf03d\n\uf0e7\n\uf0f7\n\uf02b\n\uf0e8\n\uf0f8\n\n(BothRed)\n0.375\nP\n\uf03d\nHence, the correct answer is 0.375.",
+  "answer_text": "",
+  "explanation_text": ""
+}

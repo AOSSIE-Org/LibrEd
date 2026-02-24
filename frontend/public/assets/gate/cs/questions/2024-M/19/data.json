@@ -1,0 +1,11 @@
+{
+  "id": "19",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-M",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 19 \n \n  \n \n \n \n[C-Programming]\n \n \nConsider the following \nC\n program : \n \n#include <stdio.h> \n \nvoid \nfx\n ( ); \n \nint main () { \n \n \nfx\n( ); \n \n \n return 0; } \n \nvoid \nfx\n ( ) { \n \nchar a; \n \nif ((\na\n = getchar ( )) ! = \u2019\\n\u2019) \n \n  \nfx \n( ); \n \nif (\na\n! = \u2018\\\nn\n\u2019) \n \n putchar (\na\n);} \n \nAssume that the input to the program from the command line is 1234 followed by a newline character. \nWhich one of the following statements is CORRECT ? \n \n(A) The program will not terminate  \n(B) The program will terminate with no input.  \n \n(C) The program will terminate with 4321 as output \n \n(D) The program will terminate with 1234 as output \nAns. \n(C)",
+  "answer_text": "",
+  "explanation_text": "Sol.\n \nThe program will terminate with 4321 as output\n4\nth\nfX\n \uf0ae\n4\n3\nrd\nfX\n \uf0ae\n3\n2\nnd\nfX\n \uf0ae\n2\n1\nst\nfX\n \uf0ae\n1\n\nAfter 4 \u2018ln\u2019 is inserted then put char (a) is called and a will have 4.\nSo, it will be printed in reverse order 4321\nHence, the correct option is (C).\n\nPAGE\n17\n"
+}

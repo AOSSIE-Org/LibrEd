@@ -1,0 +1,11 @@
+{
+  "id": "26",
+  "stream": "computer-science-information-technology",
+  "packet": "2024-M",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 26 \n \n  \n[Complier Design (Parsing Techniques)] \n \nWhich of the following is/are Bottom-Up Parser(s) ?.  \n(A)\n \nShift - reduce Parser   \n(B) Predictive Parser \n(C) LL(1) Parser \n(D) LR Parser \nAns.  (A, D)",
+  "answer_text": "",
+  "explanation_text": "Sol.\n \nLR parser and shift-reduce parsers are bottom up parsers.\nHence, the correct option is (A) and (D)."
+}

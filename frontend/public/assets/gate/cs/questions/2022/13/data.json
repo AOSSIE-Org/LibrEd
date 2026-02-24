@@ -1,0 +1,11 @@
+{
+  "id": "13",
+  "stream": "computer-science-information-technology",
+  "packet": "2022",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "D\nQ.14 \nLet WB and WT be 2 set associative cache organizations that use LRU algorithm for cache block\nreplacement. WB is Write Back cache and WT is Write through cache. Winch of the following statements \nare false?\n1 Mark MSQ\n(A)  Every write hit in WB leads to a data transfer from cache to main memory\n(B)  Eviction of a block from WT will not lead to data transfer from cache to main memory\n(C)  A read miss in WB will never lead to eviction of a dirty block from WB\n(D)  Each cache block in WB and WT has a dirty bit\n \nA and C",
+  "question_text": "Question 13\n\nGATE 2022 \n [Forenoon Session]\nComputer Science Engineering\nPAGE\n8\n\nWhich facilitates transfer of bulk data from HDD to main memory with highest throughout?\n(A) Programmed I/O transfer\n(B) Interrupt driven I/O transfer\n(C) Polling based I/O transfer\n(D) DMA based I/O transfer.",
+  "answer_text": "D\nQ.14 \nLet WB and WT be 2 set associative cache organizations that use LRU algorithm for cache block\nreplacement. WB is Write Back cache and WT is Write through cache. Winch of the following statements \nare false?\n1 Mark MSQ\n(A)  Every write hit in WB leads to a data transfer from cache to main memory\n(B)  Eviction of a block from WT will not lead to data transfer from cache to main memory\n(C)  A read miss in WB will never lead to eviction of a dirty block from WB\n(D)  Each cache block in WB and WT has a dirty bit\n \nA and C",
+  "explanation_text": "Sol.\n \nA.  Every write hit in WB leads to a data transfer from cache to main memory. False, for the hit operation\nno need to fetch the data from the main memory.\nB.  Eviction of a block from WT will not lead to data transfer from cache to main memory\nFalse.\nC.  A read miss in WB will never lead to eviction of a dirty block from WB\nD.  Each cache block in WB and WT has a dirty bit\nTheory of Computation\n\n"
+}

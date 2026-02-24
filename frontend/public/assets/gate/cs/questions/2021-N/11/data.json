@@ -1,0 +1,11 @@
+{
+  "id": "11",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "NAT",
+  "key": "15",
+  "question_text": "Question 11. \n \n \n \n  \n \n \n \n \nNAT (1M)\nQuestion ID : 8232513123\n\nPAGE\n8\n\nConsider the following ANSI C function:\nint SomeFunction (int x, int y)\n{\nif \n(\n1) || (\n1))\nx\ny\n==\n==\n return 1;\nif \n(\n)\nx\ny\n==\n return x;\nif \n(\n)\nx\ny\n\uf03e\n return SomeFunction\n(\n, )\nx\ny y\n\u2212\n;\nif \n(\n)\ny\nx\n\uf03e\n return SomeFunction\n( ,\n)\nx y\nx\n\u2212\n;\n}\nThe value returned by SomeFunction(15, 255) is ______",
+  "answer_text": "15",
+  "explanation_text": "Sol.  \n Given:\nint SomeFunction (int x, int y)\n{\nif \n(\n1) || (\n1))\nx\ny\n==\n==\n return 1; \n\u2026(1)\nif \n(\n)\nx\ny\n==\n return x;  \n \n\u2026(2)\nif \n(\n)\nx\ny\n\uf03e\n return SomeFunction\n(\n, )\nx\ny y\n\u2212\n; \n\u2026(3)\nif \n(\n)\ny\nx\n\uf03e\n return SomeFunction\n( ,\n)\nx y\nx\n\u2212\n;  \n\u2026(4)\n}\nNow, after calling\nSomeFunction(15, 255)\n{255 > 15} Therefore line (3) will execute.\nSomeFunction(15, 240)\n{240 > 15} Therefore line (3) will execute.\nSomeFunction(15, 225)\n{225 > 15} Therefore line (3) will execute.\nSomeFunction(15, 210)\n{210 > 15} Therefore line (3) will execute.\n\u205d\nSomeFunction(15, 15)\n{15 == 15} Therefore line (2) will execute.\nHence the function call will return 15"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "18",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-M",
+  "year": "2021",
+  "type": "NAT",
+  "key": "",
+  "question_text": "Question 18  \n \n \n \n \n \n \n \nNAT (1M) \n \n \n \n \n \n \n \n \nQuestion ID : 823251550 \n \nConsider the following expression\n3\n2\n22\n4\nlim\n3\nx\nx\nx\n\u2192\u2212\n+\n\u2212\n+\n\nThe value of above expression (rounded to 2 decimal places) is ______.  \nAns.  0.25 \nSol.\n \nGiven :\nlim\n2x\n22\n4\nx\n3\nx\n3\n+\n\u2212\n=\n\u2192\u2212\n+\n4\n22\n4\n3\n3\n\u2212+\n\u2212\n=\n\u2212+\n4\n4\n3\n3\n0\n0\n\u2212\n= \u2212+\n=\nApplying \u201cL\u2019 Hospital Rule:\n2\n1 2\nlim\nlim\n1\n2x\n22\nx\n3\nx\n3\n1 0\n2x\n22\n\u00d7\n+\n=\n=\n\u2192\u2212\n\u2192\u2212\n+\n+\n\nGATE 2021\n [Forenoon Session]\nComputer Science Engineering\nPAGE\n17\n\n1\n6\n22\n1\n16\n1\n0.25\n4\n=\n\u2212+\n\n=\n=\n=\nHence that correct Ans is 0.25",
+  "answer_text": "",
+  "explanation_text": ""
+}

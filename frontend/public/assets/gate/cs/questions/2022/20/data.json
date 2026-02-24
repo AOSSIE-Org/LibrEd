@@ -1,0 +1,11 @@
+{
+  "id": "20",
+  "stream": "computer-science-information-technology",
+  "packet": "2022",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "\u2013 0.5",
+  "question_text": "Question 20\nThe value of the given limit is ____\nx\ne\n\uf0ae\uf02b\n\uf02d\n2\n0\nlim\n\n1\nx\nx",
+  "answer_text": "\u2013 0.5",
+  "explanation_text": "Sol.\nx\nPut\nx\ny\n\uf03d\n2\n0\nlim\ne\n\uf0ae\uf02b\n\uf02d\n1\nx\nx\nWhen\n0\nx\n\uf02b\n\uf0ae\n \n0\ny\n \uf0ae\n\uf02d\n\uf0e6\n\uf0f6\uf0de\n\uf03d\n\uf0e7\n\uf0f7\n\uf02d\n\uf02d\n\uf0e8\n\uf0f8\n1\n1\nlim\nlim\n1\n0\n(2)\n2\ny\ny\ny\ny\ny\n2\n2\n0\n0\n\ne\ne\n\uf02b\n\uf0ae\n\uf0ae"
+}

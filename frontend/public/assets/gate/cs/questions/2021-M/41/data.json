@@ -1,0 +1,11 @@
+{
+  "id": "41",
+  "stream": "computer-science-information-technology",
+  "packet": "2021-M",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 41 \n \n \n \n \n \n \n \nMCQ (1M) \n \n \n \n \n \n \n \nQuestion ID : 823251533 \n \nConsider the following three function :\nlog\n1\n2\n3\n10 ,\n,\nn\nn\nn\nf\nf\nn\nf\nn\n=\n=\n=\n\nGATE 2021\n [Forenoon Session]\nComputer Science Engineering\nPAGE\n28\n\nWhich one of the following options arranges the functions in the increasing order \nof asymptotic growth rate?\n(A) \n1 2 3\nf f f\n  \n(B) \n2 3 1\nf f f\n  \n(C) \n3 2 1\nf f f\n  \n(D) \n2 1 3\nf f f\n  \nAns. \nB",
+  "answer_text": "",
+  "explanation_text": "Sol.  \nTaking log for all the functions\nlog(f\n1\n) = nlog10, log(f\n2\n) = (logn)\n2 \n \nlog(f\n3\n) = \u221anlogn\nhence f\n2\n < f\n3\n < f\n1"
+}
