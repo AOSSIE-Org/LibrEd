@@ -16,7 +16,7 @@ Live: https://dontcompete.vercel.app
 * Improve performance on CPU.
 * Platform is currently exam-specific; could be generalized.
 * Shift to asynchronous operations where viable.
-* Shift to better sources for PYQs and answer-keys, generate explaination with LLM.
+* Shift to better sources for PYQs and answer-keys, generate explaination with LLM. (Currently the project rely on GateAcademy)
 * Re-evalute the decision of shifting away from LFS, it'll likely be needed.
 
 ---
