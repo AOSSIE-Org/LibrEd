@@ -1,9 +1,25 @@
-> [!IMPORTANT]
-> Readme is needed to be updated. To get an overview of the project and ideas to work on go through [arch.md](./arch.md).
+# LibrEd
 
-# Dont Compete
+LibrEd is a local, containerized, agent-driven platform for GATE (Graduate Aptitude Test in Engineering) preparation. It transforms raw syllabus PDFs into structured study materials using OCR, classification pipelines, and local LLM-based theory generation.
 
-**Dont Compete** is a purely local, containerized, and agent-driven platform for GATE (Graduate Aptitude Test in Engineering) preparation. It combines a modern React frontend with an autonomous backend pipeline that scrapes, classifies, and generates study materials from raw syllabus PDFs and local LLMs.
+The system combines a modern React frontend with an automated backend pipeline that processes, classifies, and generates educational assets.
+## High-Level Architecture
+
+The project follows a structured data pipeline:
+
+Syllabus PDF  
+↓  
+OCR + Parsing  
+↓  
+DuckDB Sync  
+↓  
+Classification  
+↓  
+Theory Generation (Ollama)  
+↓  
+Static Asset Generation  
+↓  
+React Frontend
 
 ## Core Philosophy & Features
 
@@ -29,17 +45,19 @@ The system is split into two autonomous components that communicate via shared f
 
 ## Getting Started
 
-### Prerequisites
+## Prerequisites
 *   [Docker Desktop](https://docs.docker.com/get-docker/) or Docker Engine + Compose.
 *   [Git](https://git-scm.com/).
 <!-- *   [Git LFS](https://git-lfs.github.com/). -->
 
-### Quick Start
+## Quick Start
 1.  **Clone the repository**:
-    ```bash
-    git clone https://github.com/imxade/dont-compete.git
-    cd dont-compete
-    ```
+   1. 1. **Clone the repository**:
+
+```bash
+git clone https://github.com/AOSSIE-Org/LibrEd.git
+cd LibrEd
+```
 
 2.  **Launch the System**:
     ```bash
@@ -54,7 +72,7 @@ The system is split into two autonomous components that communicate via shared f
     docker compose logs -f generator
     ```
 
-### Configuration
+## Configuration
 Central configuration is managed in `generator/src/config.py`. You can customize:
 *   `TARGET_STREAMS`: Which exam streams to process (e.g., CS, DA).
 *   `OLLAMA_MODEL`: The local LLM to use (default: `llama3.1`).
@@ -63,7 +81,7 @@ Central configuration is managed in `generator/src/config.py`. You can customize
 
 We are building a free, high-quality platform for everyone, and we need your help to achieve that!
 
-### Non-Coding Contributions
+## Non-Coding Contributions
 AI is a powerful accelerator, but it's not perfect. We rely on the community to ensure quality and depth.
 
 *   **Improve Theories**: AI-generated explanations can be generic or miss nuance. If you have a better explanation, analogy, or diagram for a concept, please submit a PR!
@@ -73,7 +91,7 @@ AI is a powerful accelerator, but it's not perfect. We rely on the community to 
 *   **Community Questions**: Identify gaps in our question bank and add commonly asked questions or "gotchas" for specific topics.
 *   **Expand Scope**: PRs adding support for **other competitive exams** are highly welcome! Let's build a universal free platform together.
 
-### Testing
+## Testing
 The project includes a comprehensive test suite that runs in Docker.
 
 **1. Generator Tests (Backend)**
@@ -92,6 +110,13 @@ docker run --rm --network gatebuster_app_network \
   /bin/sh -c "npm install && npx playwright test"
 ```
 *Note: Ensure the frontend service is running (`docker compose up`) before starting Playwright tests.*
+## Project Structure
+
+- `generator/` → Python backend pipeline
+- `frontend/` → React-based UI
+- `docker-compose.yml` → Service orchestration
+- `arch.md` → Detailed architecture documentation
+- `CONTRIBUTING.md` → Contribution guidelines
 
 ## License
 Apache 2.0 License - see `LICENSE` for details.
