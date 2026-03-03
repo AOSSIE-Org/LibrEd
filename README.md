@@ -3,6 +3,7 @@
 
 # Dont Compete
 
+
 **Dont Compete** is a purely local, containerized, and agent-driven platform for GATE (Graduate Aptitude Test in Engineering) preparation. It combines a modern React frontend with an autonomous backend pipeline that scrapes, classifies, and generates study materials from raw syllabus PDFs and local LLMs.
 
 ## Core Philosophy & Features
