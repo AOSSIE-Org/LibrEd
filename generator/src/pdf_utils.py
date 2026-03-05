@@ -30,7 +30,7 @@ def process_syllabus(stream_code, filepath, con=None):
     We will keep the heuristic logic here as a fallback or pre-processor if needed, 
     but modern flow uses LLM.
     """
-    logger.info(f"Processing Syllabus: {filepath}")
+    logger.info(f"Processing syllabus PDF: {filepath}")
     doc = fitz.open(filepath)
     text = ""
     for page in doc:
@@ -86,14 +86,14 @@ def process_stream(stream_code):
 
 def process_pdf(stream, filepath):
     fname = os.path.basename(filepath)
-    packet_id = os.path.splitext(fname)[0] # e.g. "2021-M"
-    
+    packet_id = os.path.splitext(fname)[0]
+
     year = "Unknown"
     match_year = re.search(r'(\d{4})', packet_id)
     if match_year:
         year = match_year.group(1)
-        
-    logger.info(f"Processing PDF {packet_id} (Year: {year})")
+
+    logger.info(f"Processing PDF packet {packet_id} for year {year}")
     
     doc = fitz.open(filepath)
     
@@ -235,7 +235,7 @@ def save_question_data(stream, packet_id, year, q_data, doc):
             
     except Exception as e:
         logger.error(f"Failed to write data json for {q_id_str}: {e}")
-    logger.info(f"Saved Question {q_id_str}")
+    logger.info(f"Saved question {q_id_str}")
 
 def create_stitched_image(doc, rects_info, output_path):
     if not rects_info: return
