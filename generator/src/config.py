@@ -1,3 +1,18 @@
+"""
+config.py
+
+Central configuration file for the LibrEd asset generator.
+
+This module defines environment variables and default configuration
+values used across the generator pipeline, including:
+
+- Ollama model configuration
+- Local LLM server settings
+- Asset directories and processing parameters
+
+The configuration is designed to support the project's
+100% local and containerized architecture.
+"""
 import os
 
 # Environment Configuration
