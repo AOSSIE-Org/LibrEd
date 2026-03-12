@@ -37,8 +37,8 @@ The system is split into two autonomous components that communicate via shared f
 ### Quick Start
 1.  **Clone the repository**:
     ```bash
-    git clone https://github.com/imxade/dont-compete.git
-    cd dont-compete
+   git clone https://github.com/AOSSIE-Org/LibrEd.git
+cd LibrEd
     ```
 
 2.  **Launch the System**:
@@ -51,7 +51,7 @@ The system is split into two autonomous components that communicate via shared f
 
 3.  **Monitor Pipeline**:
     ```bash
-    docker compose logs -f generator
+    asset-generator
     ```
 
 ### Configuration
@@ -90,6 +90,16 @@ docker run --rm --network gatebuster_app_network \
   -w /app \
   mcr.microsoft.com/playwright:v1.58.0-jammy \
   /bin/sh -c "npm install && npx playwright test"
+```
+On Windows PowerShell, use:
+
+```powershell
+docker run --rm --network gatebuster_app_network `
+-e BASE_URL=http://frontend:3000 `
+-v ${PWD}/frontend:/app `
+-w /app `
+mcr.microsoft.com/playwright:v1.58.0-jammy `
+sh -c "npm install && npx playwright test"
 ```
 *Note: Ensure the frontend service is running (`docker compose up`) before starting Playwright tests.*
 
