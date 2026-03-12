@@ -51,7 +51,7 @@ cd LibrEd
 
 3.  **Monitor Pipeline**:
     ```bash
-    asset-generator
+    docker compose logs -f generator
     ```
 
 ### Configuration
