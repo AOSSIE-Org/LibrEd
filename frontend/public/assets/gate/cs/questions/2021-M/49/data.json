@@ -1,11 +1,3 @@
-{
-  "id": "49",
-  "stream": "computer-science-information-technology",
-  "packet": "2021-M",
-  "year": "2021",
-  "type": "NAT",
-  "key": "",
-  "question_text": "Question 49 \n \n \n \n \n \n \n \nNAT (1M) \n \n \n \n \n \n \n \n \nQuestion ID : 823251548 \n \n The lifetime of a component of a certain type is a random variable whose probability density function is \nexponentially distributed with parameter 2. For a randomly picked component of this type, the \nprobability that its lifetime exceeds the expected lifetime (rounded to 2 decimal places) is ______. \nAns. \n0.35 to 0.39",
-  "answer_text": "",
-  "explanation_text": ""
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b28e83143ea979994b34644628f86b282f5d82a5235ca0c3c4e33f5c902bcd7f
+size 636

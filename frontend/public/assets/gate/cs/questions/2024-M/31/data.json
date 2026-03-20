@@ -1,11 +1,3 @@
-{
-  "id": "31",
-  "stream": "computer-science-information-technology",
-  "packet": "2024-M",
-  "year": "2024",
-  "type": "NAT",
-  "key": "",
-  "question_text": "Question 31                                \n[Computer Network (Concepts of Layering and LAN Technologies)]\n \n \nWhich of the following fields is are modified in the IP header of a packet going out of a network address \n \ntranslation (NAT) device from an internal network to an external network ? \n(A)\n \nSource IP \n(B) Destination IP \n \n(C) Header checksum \n(D) Total length  \nAns.  (A, C)",
-  "answer_text": "",
-  "explanation_text": "Sol. \nSource I/P and header checksum\nHence, the correct option (A) and (C)."
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2c40d63fd328b1d56e323a6fcb77e22b38beb0c41ab53f615e399e1df874aec5
+size 677

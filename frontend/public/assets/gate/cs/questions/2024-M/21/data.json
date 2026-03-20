@@ -1,11 +1,3 @@
-{
-  "id": "21",
-  "stream": "computer-science-information-technology",
-  "packet": "2024-M",
-  "year": "2024",
-  "type": "MCQ",
-  "key": "",
-  "question_text": "Question 21 \n \n  \n \n \n[Data Structure (Tree)] \n \nIn a B+ tree, the requirement of at least half-full (50%) node occupancy is relaxed for which one of the \n \nfollowing cases ? \n \n(A) Only the root node \n(B) All leaf nodes \n \n(C) All internal nodes \n(D) Only the leftmost leaf node \nAns. \n(A)",
-  "answer_text": "",
-  "explanation_text": "Sol.\n \nIn a \nB\n \n\uf02b\n tree at least half full (50%) node occupancy is relaxed only for the root node.\nHence, the correct option is (A)."
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:45880c474582f273c4e64020d8be825234dc8c5545f109286be09bbb3f7f81f6
+size 643

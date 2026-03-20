@@ -14,45 +14,68 @@ logger = logging.getLogger("knowledge_utils")
 RESPONSE_DIR = os.path.join(DATA_DIR, "responses")
 os.makedirs(RESPONSE_DIR, exist_ok=True)
 
+import asyncio
+
+# 🔥 async wrapper
+async def async_generate_text(prompt):
+    loop = asyncio.get_event_loop()
+    return await loop.run_in_executor(None, generate_text, prompt)
+
+
 async def process_classification_prompts(limit=None):
-    """Processes classification prompts and saves responses as text files."""
+    """Async + Batch processing (FAST version)"""
+
     prompt_dir = os.path.join(DATA_DIR, "prompts")
-    
     file_pattern = os.path.join(prompt_dir, "classify_*.txt")
     files = sorted(glob.glob(file_pattern))
-    logger.info(f"Found {len(files)} classification prompt files.")
-    
-    processed_count = 0
-    response_files = []
-    
-    for filepath in files:
-        if limit and processed_count >= limit:
-            logger.info(f"Reached execution limit of {limit} files.")
-            break
-            
-        logger.info(f"Processing: {filepath}")
-        processed_count += 1
-        
-        with open(filepath, 'r') as f:
-            prompt = f.read()
 
-        try:
-            # Use functional LLM call
-            response = generate_text(prompt)
-            
-            # Save response to file as JSON
-            base_name = os.path.basename(filepath).replace('.txt', '')
-            response_file = os.path.join(RESPONSE_DIR, f"{base_name}_response.json")
-            
-            with open(response_file, 'w') as f:
-                f.write(response)
-            
-            response_files.append(response_file)
-            logger.info(f"Saved response to: {response_file}")
-                        
-        except Exception as e:
-            logger.error(f"Failed to process {filepath}: {e}")
-    
+    logger.info(f"Found {len(files)} classification prompt files.")
+
+    if limit:
+        files = files[:limit]
+
+    batch_size = CLASSIFICATION_BATCH_SIZE or 3
+    response_files = []
+
+    # 🔥 batching
+    batches = [files[i:i + batch_size] for i in range(0, len(files), batch_size)]
+
+    for batch in batches:
+        batch_start = asyncio.get_event_loop().time()
+
+        tasks = []
+        batch_files = []
+
+        for filepath in batch:
+            with open(filepath, 'r') as f:
+                prompt = f.read()
+
+            tasks.append(async_generate_text(prompt))
+            batch_files.append(filepath)
+
+        # 🔥 parallel execution
+        results = await asyncio.gather(*tasks, return_exceptions=True)
+
+        for filepath, response in zip(batch_files, results):
+            try:
+                if isinstance(response, Exception):
+                    raise response
+
+                base_name = os.path.basename(filepath).replace('.txt', '')
+                response_file = os.path.join(RESPONSE_DIR, f"{base_name}_response.json")
+
+                with open(response_file, 'w') as f:
+                    f.write(response)
+
+                response_files.append(response_file)
+                logger.info(f"Saved response to: {response_file}")
+
+            except Exception as e:
+                logger.error(f"Failed to process {filepath}: {e}")
+
+        batch_time = asyncio.get_event_loop().time() - batch_start
+        logger.info(f"⚡ Batch processed in {batch_time:.2f}s")
+
     return response_files
 
 def _extract_json(text):
