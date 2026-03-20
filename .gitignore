@@ -149,3 +149,5 @@ playwright-report/
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 venv/
+__pycache__/
+*.pyc
