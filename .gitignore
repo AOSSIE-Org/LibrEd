@@ -148,6 +148,15 @@ playwright-report/
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+# Python
 venv/
 __pycache__/
 *.pyc
+
+# Generated assets
+frontend/public/assets/
+assets_export.zip
+*.db
+
+# Jupyter
+*.ipynb_checkpoints
