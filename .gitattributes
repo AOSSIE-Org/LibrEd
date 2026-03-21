@@ -1,1 +1,0 @@
-frontend/public/assets/*/*/questions/** filter=lfs diff=lfs merge=lfs -text
