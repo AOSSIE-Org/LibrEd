@@ -24,7 +24,8 @@ Live: https://dontcompete.vercel.app
 - [ ] Duplicate handling in topic classification is a bit too strict.
 - [ ] Consider shifting knowledge generation fully to TypeScript?
 - [ ] Note that one of the current challenges is that the LLM is slow since there's so much to process, so we don't want to wait for one response to ask for another. We currently rely on stateless prompt and it should be the way it is.
-- [ ] Evaluate other llm runtimes than ollama like ONNX
+- [ ] Evaluate other llm runtimes than ollama like ONNX for size
+- [ ] Allow user to choose and download model using GUI
 - [ ] Expand to exams other than GATE.
 - [ ] Shift to asynchronous operations where viable.
 - [ ] Shift to better official sources for PYQs and answer-keys, generate explanation with LLM. (Currently the project relies on GateAcademy's explainations which we dont want to rely on)
