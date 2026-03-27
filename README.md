@@ -19,12 +19,12 @@ Live: https://dontcompete.vercel.app
 
 ## Possible Improvements and prototype ideas (during GSoC)
 
+- [ ] Note that one of the current challenges is that the LLM is slow since there's so much to process, so we don't want to wait for one response to ask for another. We currently rely on stateless prompt and it should be the way it is.
+- [ ] Evaluate other llm runtimes than ollama like ONNX for size
 - [ ] OCR doesn't work well on different colors and some scenarios.
 - [ ] LLaMA 3.1 isn't accurate enough, evaluate more models
 - [ ] Duplicate handling in topic classification is a bit too strict.
 - [ ] Consider shifting knowledge generation fully to TypeScript?
-- [ ] Note that one of the current challenges is that the LLM is slow since there's so much to process, so we don't want to wait for one response to ask for another. We currently rely on stateless prompt and it should be the way it is.
-- [ ] Evaluate other llm runtimes than ollama like ONNX for size
 - [ ] Allow user to choose and download model using GUI
 - [ ] Expand to exams other than GATE.
 - [ ] Shift to asynchronous operations where viable.
