@@ -18,18 +18,17 @@ Live: https://dontcompete.vercel.app
     *   **Dynamic Navigation**: URI-based breadcrumbs and stateful dashboard expansion.
 
 ## Possible Improvements and prototype ideas (during GSoC)
-
+- [ ] Shift to better official sources for PYQs and answer-keys, generate explanation with LLM. (Currently the project relies on GateAcademy's explainations which we dont want to rely on)
 - [ ] Note that one of the current challenges is that the LLM is slow since there's so much to process, so we don't want to wait for one response to ask for another. We currently rely on stateless prompt and it should be the way it is.
+- [ ] A system to generate a study plan based on previous year question patterns. (For example, based on previous year question patterns and topic frequency, generate a list of topics to study in order)
+- [ ] Allow user to choose and download model using GUI
 - [ ] Evaluate other llm runtimes than ollama like ONNX for size
 - [ ] OCR doesn't work well on different colors and some scenarios.
 - [ ] LLaMA 3.1 isn't accurate enough, evaluate more models
 - [ ] Duplicate handling in topic classification is a bit too strict.
 - [ ] Consider shifting knowledge generation fully to TypeScript?
-- [ ] Allow user to choose and download model using GUI
 - [ ] Expand to exams other than GATE.
 - [ ] Shift to asynchronous operations where viable.
-- [ ] Shift to better official sources for PYQs and answer-keys, generate explanation with LLM. (Currently the project relies on GateAcademy's explainations which we dont want to rely on)
-- [ ] A system to generate a study plan based on previous year question patterns. (For example, based on previous year question patterns and topic frequency, generate a list of topics to study in order)
 - [ ] Re-evaluate the decision of shifting away from LFS, it'll likely be needed for assets.
 
 ---
