@@ -1,10 +1,11 @@
-import fitz  # PyMuPDF
 import os
 import logging
 import re
+import json
+import fitz  # REQUIRED for PDF processing
 from PIL import Image
 from generator.src.config import (
-    GATE_ASSETS_DIR, 
+    GATE_ASSETS_DIR,
     STREAM_ALIASES,
     IMAGE_FORMAT,
     IMAGE_QUALITY,
@@ -24,43 +25,63 @@ RE_PAGE_ARTIFACT = re.compile(r'^\s*PAGE\s*\d+', re.IGNORECASE)
 def process_syllabus(stream_code, filepath, con=None):
     """
     Process syllabus PDF.
-    If con is provided, it can insert structure directly, but generally 
-    syllabus structure is built via LLM in knowledge_utils. 
-    The original PDFProcessor.process_syllabus was heuristic/dummy.
-    We will keep the heuristic logic here as a fallback or pre-processor if needed, 
-    but modern flow uses LLM.
+
+    - Extracts text from syllabus PDFs
+    - Applies simple heuristic parsing to identify subtopics
+    - Returns structured subtopic list
+
+    Note:
+    Modern LibreED flow uses LLM-based structure generation,
+    this acts as a fallback / preprocessing step.
     """
-    logger.info(f"Processing Syllabus: {filepath}")
-    doc = fitz.open(filepath)
+
+    logger.info(f"📄 Processing syllabus PDF: {filepath}")
+
+    try:
+        doc = fitz.open(filepath)
+    except Exception as e:
+        logger.error(f"❌ Failed to open PDF: {filepath} | Error: {e}")
+        return []
+
     text = ""
+
+    # ✅ Extract text safely
     for page in doc:
-        text += page.get_text()
-    
-    # Heuristic parsing logic preserved from OOP version
+        try:
+            text += page.get_text()
+        except Exception as e:
+            logger.warning(f"⚠️ Failed to read page: {e}")
+
     lines = text.split('\n')
+
     subtopics = []
     current_subject = "General"
-    
+
     for line in lines:
         line = line.strip()
-        if not line: continue
-        
-        if "Section" in line or "Subject" in line:
+
+        if not line:
+            continue
+
+        # 🔥 Detect subject headers
+        if "section" in line.lower() or "subject" in line.lower():
             current_subject = line
             continue
-            
-        if len(line) > 5 and len(line) < 100:
-            subtopic_id = f"{stream_code}_{len(subtopics)}"
+
+        # ✅ Basic filtering
+        if 5 < len(line) < 100:
+            subtopic_id = f"{stream_code}_{len(subtopics) + 1}"
+
             subtopics.append({
                 "id": subtopic_id,
                 "name": line,
                 "subject": current_subject,
                 "stream": stream_code,
-                "order_index": len(subtopics)
+                "order_index": len(subtopics) + 1
             })
-    
-    # Note: DB insertion was commented out in original code too, 
-    # focusing on returning or just logging.
+
+    logger.info(f"✅ Extracted {len(subtopics)} syllabus subtopics")
+
     return subtopics
 
 def process_stream(stream_code):
@@ -86,14 +107,14 @@ def process_stream(stream_code):
 
 def process_pdf(stream, filepath):
     fname = os.path.basename(filepath)
-    packet_id = os.path.splitext(fname)[0] # e.g. "2021-M"
-    
+    packet_id = os.path.splitext(fname)[0]
+
     year = "Unknown"
     match_year = re.search(r'(\d{4})', packet_id)
     if match_year:
         year = match_year.group(1)
-        
-    logger.info(f"Processing PDF {packet_id} (Year: {year})")
+
+    logger.info(f"Processing PDF packet {packet_id} for year {year}")
     
     doc = fitz.open(filepath)
     
@@ -235,7 +256,7 @@ def save_question_data(stream, packet_id, year, q_data, doc):
             
     except Exception as e:
         logger.error(f"Failed to write data json for {q_id_str}: {e}")
-    logger.info(f"Saved Question {q_id_str}")
+    logger.info(f"Saved question {q_id_str}")
 
 def create_stitched_image(doc, rects_info, output_path):
     if not rects_info: return
