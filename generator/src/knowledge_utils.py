@@ -55,6 +55,46 @@ async def process_classification_prompts(limit=None):
     
     return response_files
 
+def _remove_trailing_commas(json_str):
+    """Remove trailing commas without modifying JSON string values."""
+    result = []
+    in_string = False
+    escaped = False
+    i = 0
+
+    while i < len(json_str):
+        char = json_str[i]
+
+        if in_string:
+            result.append(char)
+            if escaped:
+                escaped = False
+            elif char == '\\':
+                escaped = True
+            elif char == '"':
+                in_string = False
+            i += 1
+            continue
+
+        if char == '"':
+            in_string = True
+            result.append(char)
+            i += 1
+            continue
+
+        if char == ',':
+            next_index = i + 1
+            while next_index < len(json_str) and json_str[next_index].isspace():
+                next_index += 1
+            if next_index < len(json_str) and json_str[next_index] in '}]':
+                i += 1
+                continue
+
+        result.append(char)
+        i += 1
+
+    return ''.join(result)
+
 def _extract_json(text):
     """Helper to extract JSON from text."""
     try:
@@ -62,12 +102,10 @@ def _extract_json(text):
         end = text.rfind('}') + 1
         if start != -1 and end != -1:
             json_str = text[start:end]
-            # Fix trailing commas
-            json_str = re.sub(r',\s*}', '}', json_str)
-            json_str = re.sub(r',\s*]', ']', json_str)
-            return json_str
+            # Fix trailing commas outside JSON string values.
+            return _remove_trailing_commas(json_str)
         return text
-    except:
+    except Exception:
         return text
 
 def parse_classification_responses(con):
