@@ -69,6 +69,24 @@ class TestJsonExtraction:
         assert data["obj"]["inner"] == "val"
         assert len(data["arr"]) == 1
 
+    def test_trailing_comma_sequence_inside_string(self):
+        """Test that cleanup does not alter comma-brace text inside strings."""
+        input_text = '{"message": "literal comma,}"}'
+        cleaned = _extract_json(input_text)
+        assert json.loads(cleaned) == {"message": "literal comma,}"}
+
+    def test_trailing_comma_array_sequence_inside_string(self):
+        """Test that cleanup does not alter comma-bracket text inside strings."""
+        input_text = '{"message": "literal comma,]"}'
+        cleaned = _extract_json(input_text)
+        assert json.loads(cleaned) == {"message": "literal comma,]"}
+
+    def test_escaped_quote_before_trailing_comma_sequence(self):
+        """Test string-state tracking across escaped quotes."""
+        input_text = '{"message": "escaped \\\"quote\\\",}"}'
+        cleaned = _extract_json(input_text)
+        assert json.loads(cleaned) == {"message": 'escaped "quote",}'}
+
     def test_markdown_no_lang(self):
         """Test markdown block without language specifier."""
         input_text = """
